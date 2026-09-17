@@ -57,6 +57,15 @@
 
 # Buttons
 
+- id: pub_paper
+  translation: rad
+
+- id: pub_cite
+  translation: citiraj
+
+- id: pub_empty
+  translation: Još nema navedenih publikacija.
+
 - id: btn_preprint
   translation: Preprint
 

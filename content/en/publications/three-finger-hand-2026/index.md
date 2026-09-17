@@ -23,4 +23,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1115/1.4072408
+image:
+  filename: publications/three-finger-hand-2026.png
+  preview_only: true
 ---

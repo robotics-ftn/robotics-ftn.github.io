@@ -22,4 +22,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.2298/TSCI151214034B
+image:
+  filename: publications/online-biped-primitives-2016.png
+  preview_only: true
 ---

@@ -14,7 +14,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | --- | --- |
 | `/` or `/sr/` | Cinematic hero, research pillars, featured publications |
 | `…/research/` | Themes + GitHub project cards |
-| `…/publications/` | Year-grouped papers with DOI + BibTeX |
+| `…/publications/` | Compact year-grouped list (Intent Lab style) with related image/GIF per paper, DOI, and BibTeX |
 | `…/people/` | Faculty & staff from public FTN sources |
 | `…/teaching/` | H308, H829, Mechatronics labs |
 | `…/lab/` | MARKO, FTN hand, industrial cells |

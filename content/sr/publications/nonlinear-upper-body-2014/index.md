@@ -16,4 +16,7 @@ tags:
   - year-2014
   - Control systems
 featured: false
+image:
+  filename: publications/nonlinear-upper-body-2014.png
+  preview_only: true
 ---

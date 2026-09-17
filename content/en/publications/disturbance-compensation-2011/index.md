@@ -23,4 +23,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1142/S0219843611002551
+image:
+  filename: publications/disturbance-compensation-2011.png
+  preview_only: true
 ---

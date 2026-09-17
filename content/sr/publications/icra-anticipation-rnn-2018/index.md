@@ -22,4 +22,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1109/ICRA.2018.8460924
+image:
+  filename: publications/icra-anticipation-rnn-2018.png
+  preview_only: true
 ---

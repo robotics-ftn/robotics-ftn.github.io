@@ -24,4 +24,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.3389/fnbot.2019.00036
+image:
+  filename: publications/human-inspired-path-planning-2019.png
+  preview_only: true
 ---

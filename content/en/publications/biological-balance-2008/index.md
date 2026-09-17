@@ -27,4 +27,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1142/S0219843608001601
+image:
+  filename: publications/biological-balance-2008.png
+  preview_only: true
 ---

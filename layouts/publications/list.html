@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $pages := .RegularPages.ByDate.Reverse }}
+
+<div class="rl-pubs">
+  <h1 class="sr-only">{{ .Title }}</h1>
+
+  {{ range $pages.GroupByDate "2006" }}
+  <section class="rl-pubs-year-group" aria-labelledby="pub-year-{{ .Key }}">
+    <h2 class="rl-pubs-year" id="pub-year-{{ .Key }}">{{ .Key }}</h2>
+    <div class="rl-pubs-list">
+      {{ range .Pages }}
+        {{ partial "views/pub-media-row.html" . }}
+      {{ end }}
+    </div>
+  </section>
+  {{ else }}
+  <p class="rl-pubs-empty">{{ i18n "pub_empty" | default "No publications listed yet." }}</p>
+  {{ end }}
+</div>
+{{ end }}

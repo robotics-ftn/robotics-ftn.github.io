@@ -1,0 +1,76 @@
+{{- $item := . -}}
+{{- $year := $item.Date.Format "2006" -}}
+{{- $pub := partial "functions/resolve_publication.html" $item -}}
+{{- $image_params := partial "functions/get_page_image_params.html" $item -}}
+{{- $filename := $image_params.filename | default "" -}}
+{{- $media := false -}}
+{{- $media_kind := "image" -}}
+{{- if $filename -}}
+  {{- $media = resources.Get (path.Join "media" $filename) -}}
+  {{- $ext := path.Ext $filename | lower -}}
+  {{- if in (slice ".mp4" ".webm" ".ogg") $ext -}}
+    {{- $media_kind = "video" -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $media -}}
+  {{- $media = partial "functions/get_featured_image.html" $item -}}
+{{- end -}}
+{{- $paper_url := "" -}}
+{{- with $item.Params.hugoblox -}}
+  {{- with .ids -}}
+    {{- with .doi -}}
+      {{- $paper_url = printf "https://doi.org/%s" . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $paper_url -}}
+  {{- range $item.Params.links -}}
+    {{- if and (eq .type "pdf") .url -}}{{ $paper_url = .url }}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $cite := $item.Resources.GetMatch "cite.bib" -}}
+{{- $video_url := "" -}}
+{{- $code_url := "" -}}
+{{- $site_url := "" -}}
+{{- range $item.Params.links -}}
+  {{- if and (eq .type "video") .url }}{{ $video_url = .url }}{{ end -}}
+  {{- if and (eq .type "code") .url }}{{ $code_url = .url }}{{ end -}}
+  {{- if and (in (slice "site" "project") .type) .url }}{{ $site_url = .url }}{{ end -}}
+{{- end -}}
+<article class="rl-pub-row">
+  <a class="rl-pub-media" href="{{ $item.RelPermalink }}" aria-hidden="true" tabindex="-1">
+    {{- if and $media (eq $media_kind "video") }}
+      <video src="{{ $media.RelPermalink }}" autoplay muted loop playsinline preload="metadata"></video>
+    {{- else if $media }}
+      <img src="{{ $media.RelPermalink }}" alt="" width="480" height="360">
+    {{- else }}
+      <span class="rl-pub-media-fallback">{{ substr $item.Title 0 1 }}</span>
+    {{- end }}
+  </a>
+  <div class="rl-pub-body">
+    <h3 class="rl-pub-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h3>
+    <p class="rl-pub-authors">{{ partial "page_metadata_authors" $item }}</p>
+    <p class="rl-pub-venue">{{ with $pub.name }}{{ . }}{{ end }}{{ if $pub.name }}, {{ end }}{{ $year }}</p>
+    <p class="rl-pub-links">
+      {{- if $paper_url -}}
+        <a href="{{ $paper_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "pub_paper" | default "paper" }}</a>
+      {{- end -}}
+      {{- if $cite -}}
+        {{- if $paper_url }}<span class="rl-pub-sep" aria-hidden="true"></span>{{ end -}}
+        <button class="js-cite-clipboard" type="button" data-filename="{{ $cite.RelPermalink }}">{{ i18n "pub_cite" | default "cite" }}</button>
+      {{- end -}}
+      {{- if $video_url -}}
+        <span class="rl-pub-sep" aria-hidden="true"></span>
+        <a href="{{ $video_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "btn_video" | default "video" }}</a>
+      {{- end -}}
+      {{- if $site_url -}}
+        <span class="rl-pub-sep" aria-hidden="true"></span>
+        <a href="{{ $site_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "btn_site" | default "website" }}</a>
+      {{- end -}}
+      {{- if $code_url -}}
+        <span class="rl-pub-sep" aria-hidden="true"></span>
+        <a href="{{ $code_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "btn_code" | default "code" }}</a>
+      {{- end -}}
+    </p>
+  </div>
+</article>

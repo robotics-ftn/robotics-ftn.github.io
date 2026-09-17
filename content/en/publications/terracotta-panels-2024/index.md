@@ -24,4 +24,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1016/j.cag.2024.103905
+image:
+  filename: publications/terracotta-panels-2024.png
+  preview_only: true
 ---

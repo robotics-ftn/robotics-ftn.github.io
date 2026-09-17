@@ -26,4 +26,7 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.3390/app12031228
+image:
+  filename: publications/factory-automation-2022.png
+  preview_only: true
 ---
