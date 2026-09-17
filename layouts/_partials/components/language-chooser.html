@@ -1,0 +1,38 @@
+{{ $page := .page }}
+{{ $class := .class }}
+{{ $hide_language_name := false }}
+{{ $str_languages := T "languages" }}
+
+{{- if $page.IsTranslated -}}
+  <div class="rl-lang-chooser relative {{ with $class }}{{. | safeCSS }}{{ end }}">
+    <button
+      title="{{ $str_languages }}"
+      data-state="closed"
+      data-hb-language-chooser
+      class="rl-lang-chooser-btn inline-flex h-8 items-center gap-2 rounded-md px-2 text-xs font-medium transition-colors"
+      type="button"
+      aria-label="{{ $str_languages }}"
+      aria-haspopup="listbox"
+      aria-expanded="false"
+    >
+      {{- partial "functions/get_icon" (dict "name" "globe-alt" "attributes" "height=18") -}}
+      {{- if not $hide_language_name -}}<span class="capitalize">{{ index hugo.Data.languages $page.Lang }}</span>{{ end -}}
+    </button>
+    <ul
+      class="rl-lang-chooser-menu absolute right-0 top-[calc(100%+0.35rem)] z-[60] m-0 hidden min-w-[10.5rem] overflow-hidden rounded-lg border py-1 text-sm shadow-xl"
+      role="listbox"
+    >
+      {{ range $page.Translations }}
+        <li>
+          <a
+            href="{{ .Permalink }}"
+            class="rl-lang-chooser-option block whitespace-nowrap px-3 py-2 transition-colors"
+            role="option"
+          >
+            {{- index hugo.Data.languages .Lang -}}
+          </a>
+        </li>
+      {{ end -}}
+    </ul>
+  </div>
+{{- end -}}

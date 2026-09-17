@@ -57,6 +57,8 @@ html {
 }
 
 body {
+  background-color: var(--hb-color-background);
+  color: var(--hb-color-foreground);
   background-image:
     linear-gradient(var(--rl-grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--rl-grid) 1px, transparent 1px);
@@ -227,6 +229,52 @@ html:not(.dark) .hbx-block-cta-card [class*="ring-cyan"] {
 /* Join contact block */
 html:not(.dark) [class*="bg-slate-950"] {
   background: rgba(241, 245, 249, 0.85) !important;
+}
+
+/* Language switcher — visible in both themes */
+.rl-lang-chooser-btn {
+  color: var(--hb-color-header-fg);
+}
+
+.rl-lang-chooser-btn:hover,
+.rl-lang-chooser-btn[data-state="open"] {
+  background: color-mix(in srgb, var(--hb-color-header-fg) 10%, transparent);
+  color: var(--color-primary-600);
+}
+
+html.dark .rl-lang-chooser-btn:hover,
+html.dark .rl-lang-chooser-btn[data-state="open"] {
+  color: var(--color-primary-300);
+}
+
+.rl-lang-chooser-menu {
+  background: var(--hb-color-background);
+  border-color: color-mix(in srgb, var(--hb-color-foreground) 14%, transparent);
+  color: var(--hb-color-foreground);
+}
+
+.rl-lang-chooser-option {
+  color: var(--hb-color-foreground);
+}
+
+.rl-lang-chooser-option:hover,
+.rl-lang-chooser-option:focus-visible {
+  background: color-mix(in srgb, var(--color-primary-500) 12%, var(--hb-color-background));
+  color: var(--color-primary-700);
+}
+
+html.dark .rl-lang-chooser-option:hover,
+html.dark .rl-lang-chooser-option:focus-visible {
+  color: var(--color-primary-300);
+}
+
+.page-header {
+  overflow: visible;
+}
+
+#site-header.header,
+.page-header {
+  z-index: 40;
 }
 
 @media (max-width: 768px) {

@@ -14,15 +14,6 @@ hugoblox:
   theme:
     mode: system
     pack: "robotics-lab"
-    colors:
-      primary: "#22d3ee"
-      secondary: "#fb923c"
-      neutral: "#111827"
-    colors_dark: {}
-    colors_light: {}
-    surfaces:
-      background: "#030712"
-      foreground: "#f8fafc"
 
   typography:
     pack: "robotics-lab"
