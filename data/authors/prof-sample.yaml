@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: prof-sample
+weight: 1
+name:
+  display: Prof. Marko Petrović (sample)
+  given: Marko
+  family: Petrović
+postnominals:
+  - PhD
+role: Associate Professor · Lab Director (sample profile)
+bio: |
+  **Sample profile.** Leads research on mobile manipulation and field robotics at FTN. Replace with the official lab director biography, photo, and Scholar profile.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://www.ftn.uns.ac.rs/
+links:
+  - icon: at-symbol
+    url: mailto:robotics.lab@ftn.uns.ac.rs
+    label: Email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=SAMPLE_PI
+  - icon: brands/github
+    url: https://github.com/robotics-ftn
+interests:
+  - Mobile manipulation
+  - Field robotics
+  - Robot learning
+user_groups:
+  - Faculty

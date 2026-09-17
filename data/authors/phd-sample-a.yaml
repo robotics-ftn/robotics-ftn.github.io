@@ -1,0 +1,23 @@
+schema: hugoblox/author/v1
+slug: phd-sample-a
+weight: 3
+name:
+  display: Luka Nikolić (sample)
+  given: Luka
+  family: Nikolić
+role: PhD Candidate (sample profile)
+bio: |
+  **Sample profile.** Developing semantic SLAM for vineyard robots. Replace with enrolled student information when confirmed.
+affiliations:
+  - name: Robotics Lab FTN
+    url: /
+links:
+  - icon: brands/github
+    url: https://github.com/robotics-ftn/mobile-robot-navigation
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=SAMPLE_PHD_A
+interests:
+  - SLAM
+  - Agricultural robotics
+user_groups:
+  - Students

@@ -1,0 +1,99 @@
+# Robotics Lab FTN — Hugo Blox site configuration
+hugoblox:
+  schema: "2.0"
+
+  identity:
+    name: "Robotics Lab FTN"
+    organization: "Faculty of Technical Sciences, University of Novi Sad"
+    type: organization
+    tagline: "Perception, planning, and control for robots that work with people."
+    description: "The Robotics Laboratory at the Faculty of Technical Sciences (FTN), University of Novi Sad, develops mobile manipulation, field robotics, and human-robot interaction systems for agriculture, logistics, and smart manufacturing."
+    social:
+      twitter: "robotics_ftn"
+
+  theme:
+    mode: system
+    pack: "default"
+    colors:
+      primary: "blue"
+      secondary: "cyan"
+
+  typography:
+    pack: "academic"
+
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+    avatar_shape: circle
+
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: true
+      text: "Join Us"
+      url: "/join/"
+
+  footer:
+    style: minimal
+    language_switcher: false
+    text: "Laboratory for Robotics and Autonomous Systems · FTN Novi Sad"
+
+  copyright:
+    notice: "© {year} {name}. Content licensed under {license} unless noted."
+    license:
+      type: cc
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+  seo:
+    title: "Robotics Lab FTN"
+    location:
+      address:
+        street: "Trg Dositeja Obradovića 6"
+        city: "Novi Sad"
+        region: "Vojvodina"
+        postal_code: "21000"
+        country: "Serbia"
+      coordinates:
+        latitude: 45.2467
+        longitude: 19.8517
+      phone: "+381 21 485 3500"
+
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: ieee
+
+  search:
+    enable: true
+    suggestions:
+      - "mobile robots"
+      - "publications"
+      - "thesis topics"
+
+  repository:
+    enable: true
+    url: "https://github.com/robotics-ftn/website"
+    branch: main
+    content_dir: content
+
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
+    address_format: en-us
+
+  pro:
+    hide_attribution: false

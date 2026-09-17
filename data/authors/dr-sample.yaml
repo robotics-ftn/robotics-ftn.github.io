@@ -1,0 +1,28 @@
+schema: hugoblox/author/v1
+slug: dr-sample
+weight: 2
+name:
+  display: Dr. Ana Jovanović (sample)
+  given: Ana
+  family: Jovanović
+postnominals:
+  - PhD
+role: Postdoctoral Researcher (sample profile)
+bio: |
+  **Sample profile.** Works on human-robot interaction and shared autonomy for collaborative cells. Replace with official researcher details.
+affiliations:
+  - name: Robotics Lab FTN
+    url: /
+links:
+  - icon: at-symbol
+    url: mailto:robotics.lab@ftn.uns.ac.rs
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=SAMPLE_POSTDOC
+  - icon: brands/github
+    url: https://github.com/robotics-ftn/human-robot-interaction
+interests:
+  - Human-robot interaction
+  - Teleoperation
+  - Safety
+user_groups:
+  - Researchers

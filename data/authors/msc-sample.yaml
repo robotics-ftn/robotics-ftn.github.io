@@ -1,0 +1,21 @@
+schema: hugoblox/author/v1
+slug: msc-sample
+weight: 5
+name:
+  display: Stefan Đorđević (sample)
+  given: Stefan
+  family: Đorđević
+role: MSc Student (sample profile)
+bio: |
+  **Sample profile.** Building ROS 2 teleoperation tools for the manipulation cell. Replace with enrolled student information when confirmed.
+affiliations:
+  - name: Robotics Lab FTN
+    url: /
+links:
+  - icon: brands/github
+    url: https://github.com/robotics-ftn/human-robot-interaction
+interests:
+  - ROS 2
+  - Teleoperation
+user_groups:
+  - Students
