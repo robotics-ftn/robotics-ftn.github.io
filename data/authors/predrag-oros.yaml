@@ -1,0 +1,18 @@
+schema: hugoblox/author/v1
+slug: predrag-oros
+weight: 10
+name:
+  display: Predrag Oros
+  given: Predrag
+  family: Oros
+role: Lab technician · Laboratory for Robotics and Mechatronics
+bio: |
+  Lab technician listed on the public FTN Mechatronika laboratory page for the Robotics and Mechatronics Laboratory.
+affiliations:
+  - name: Laboratory for Robotics and Mechatronics, FTN
+    url: https://mehatronika.ftn.uns.ac.rs/laboratorija-za-robotiku-i-mehatroniku/
+links:
+  - icon: at-symbol
+    url: mailto:mehatronika@uns.ac.rs
+user_groups:
+  - Staff

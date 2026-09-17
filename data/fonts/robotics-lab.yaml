@@ -1,0 +1,33 @@
+hugoblox:
+  meta:
+    format: "hugoblox-font@1"
+    name: "Robotics Lab"
+    vendor: "robotics-ftn"
+    version: "1.0.0"
+    license: "MIT"
+    description: "Bold technical sans with mono accents"
+
+  families:
+    heading: "Space Grotesk"
+    body: "Space Grotesk"
+    code: "JetBrains Mono"
+
+  weights:
+    heading: [500, 600, 700]
+    body: [400, 500]
+    code: [400, 500]
+
+  leading:
+    heading: 1.05
+    body: 1.65
+    code: 1.5
+
+  tracking:
+    heading: "-0.03em"
+    body: "0"
+    code: "0"
+
+  variable:
+    heading: true
+    body: true
+    code: true

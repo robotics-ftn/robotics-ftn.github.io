@@ -1,64 +1,58 @@
 ---
 title: Research
-summary: Mobile manipulation, field robotics, and human-robot interaction at FTN Novi Sad.
+summary: Industrial manipulation, humanoid locomotion, HRI, and control at FTN.
 type: landing
 
 sections:
   - block: markdown
     content:
-      title: Research at Robotics Lab FTN
+      title: Research & Projects
       text: |
-        Our laboratory at the Faculty of Technical Sciences (FTN), University of Novi Sad, develops autonomous systems that must operate reliably outside controlled lab conditions. We combine model-based control with learning-based perception, validate on our mobile platforms and manipulators, and publish open software whenever possible.
-
-        **Core themes:** mobile robot navigation, collaborative manipulation, human-robot interaction, and field robotics for agriculture and logistics.
+        The **Laboratory for Robotics and Mechatronics** (Лабораторија за роботику и мehatroniku) at FTN develops humanoid robots, dexterous hands, industrial manipulation, and human–robot interaction systems. Lab head: **prof. dr Mirko Raković**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:
-      title: Research Themes
+      title: Themes
       items:
-        - name: Mobile Robot Navigation
-          description: LiDAR–inertial odometry, semantic mapping, and risk-aware planning for indoor logistics and outdoor inspection.
-          emoji: "🛰️"
-          gradient: from-blue-500 to-cyan-500
+        - name: Industrial Manipulation
+          description: ABB cells, Robotiq Modbus RTU, scaled factory automation (Applied Sciences, 2022).
+          icon: hero/cog-6-tooth
+          gradient: from-cyan-500 to-blue-700
           status: active
-          topics: [SLAM, Planning, Multi-sensor fusion]
           cta:
-            text: GitHub
-            url: https://github.com/robotics-ftn/mobile-robot-navigation
-        - name: Collaborative Manipulation
-          description: Dual-arm coordination, grasp affordances, and task-level reasoning for flexible manufacturing cells.
-          emoji: "🦾"
-          gradient: from-indigo-500 to-purple-600
+            text: open_abb
+            url: https://github.com/robotics-ftn/open_abb
+        - name: Humanoid Locomotion
+          description: Motion primitives for biped walking; dynamic balance with multiple contacts.
+          icon: hero/arrow-path
+          gradient: from-orange-500 to-red-600
           status: active
-          topics: [Manipulation, Task planning, Safety]
           cta:
-            text: GitHub
-            url: https://github.com/robotics-ftn/collaborative-manipulation
-        - name: Human-Robot Interaction
-          description: Shared autonomy interfaces, operator workload modeling, and safety-aware teleoperation for mixed teams.
-          emoji: "🤝"
-          gradient: from-violet-500 to-fuchsia-500
+            text: T-RO 2014
+            url: /publications/biped-motion-primitives-2014/
+        - name: Human–Robot Interaction
+          description: Gaze dialogue model (IEEE Trans. Cybernetics, 2024) and action anticipation (RA-L, 2018).
+          icon: hero/chat-bubble-left-right
+          gradient: from-violet-500 to-purple-700
           status: active
-          topics: [Teleoperation, Intent prediction, UX]
           cta:
-            text: GitHub
-            url: https://github.com/robotics-ftn/human-robot-interaction
-        - name: Field Robotics
-          description: UAV and UGV systems for vineyard monitoring, yield estimation, and environmental sensing in Vojvodina.
-          emoji: "🌿"
-          gradient: from-emerald-500 to-teal-500
-          status: emerging
-          topics: [Agriculture, UAV, Edge AI]
+            text: Gaze paper
+            url: /publications/gaze-dialogue-2024/
+        - name: Control Systems
+          description: Fuzzy position–velocity control of the underactuated FTN robot hand (JIFS, 2018).
+          icon: hero/adjustments-horizontal
+          gradient: from-emerald-500 to-cyan-700
+          status: active
           cta:
-            text: GitHub
-            url: https://github.com/robotics-ftn/field-robotics-vineyard
+            text: JIFS paper
+            url: /publications/ftn-robot-hand-2018/
     design:
       layout: cards
 
   - block: collection
     content:
-      title: Active Projects
-      text: Each card links to a project page with code repositories and recent milestones.
+      title: GitHub Projects
+      text: Active repositories from the public **robotics-ftn** organization.
       filters:
         folders:
           - projects
@@ -70,12 +64,12 @@ sections:
 
   - block: cta-card
     content:
-      title: Collaborate with us
-      text: Industry partners and visiting researchers are welcome. Reach out with a short project description and timeline.
+      title: Collaborate
+      text: Industry and academic partners — reach out via the Join page or email the lab.
       button:
-        text: Contact the lab
+        text: Contact
         url: /join/#contact
     design:
       card:
-        css_class: 'bg-gray-50 dark:bg-gray-900 ring-1 ring-gray-200 dark:ring-gray-700'
+        css_class: 'ring-1 ring-cyan-500/30 bg-slate-900/80'
 ---

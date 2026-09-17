@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: mirko-rakovic
+weight: 1
+name:
+  display: prof. dr Mirko Raković
+  given: Mirko
+  family: Raković
+postnominals:
+  - PhD
+role: Full Professor · Head, Laboratory for Robotics and Mechatronics
+bio: |
+  Leads the Laboratory for Robotics and Mechatronics at FTN. Research spans biped locomotion, human–robot interaction, action anticipation, and the FTN robot hand for humanoid MARKO. IEEE member; former postdoc at IST/ISR Lisbon (VisLab).
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/1201/mirko-rakovic
+links:
+  - icon: at-symbol
+    url: mailto:rakovicm@uns.ac.rs
+    label: FTN email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=hSUzJK0AAAAJ
+  - icon: brands/github
+    url: https://github.com/robotics-ftn
+interests:
+  - Human-robot interaction
+  - Biped locomotion
+  - Robot manipulation
+  - Action anticipation
+user_groups:
+  - Faculty

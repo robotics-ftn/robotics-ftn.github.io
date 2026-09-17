@@ -1,29 +1,29 @@
 ---
 title: People
-summary: Faculty, researchers, and students in the Robotics Lab FTN.
+summary: Faculty and staff of the Laboratory for Robotics and Mechatronics, FTN.
 type: landing
 
 sections:
   - block: markdown
     content:
-      title: Our Team
+      title: Team
       text: |
-        The lab is led by faculty from the Department of Automatic Control and Robotics at FTN. Profiles marked **sample** are placeholders until the official roster is confirmed.
+        Faculty listed below are verified from public FTN and Mehatronika department pages. **Current PhD/MSc student roster is not published** on the lab website — see Join for open topics.
+
+        <div class="rl-gap-note">Placeholder: student/alumni profiles will be added when officially confirmed for web publication.</div>
 
   - block: team-showcase
     content:
-      title: Lab Members
-      subtitle: Faculty of Technical Sciences, University of Novi Sad
+      title: Faculty & Staff
+      subtitle: Chair of Mechatronics, Robotics and Automation
       user_groups:
         - Faculty
-        - Researchers
-        - Students
+        - Staff
       sort_by: weight
       sort_ascending: true
       cta:
-        text: Join our team
+        text: Join the lab
         url: /join/
-        icon: user-plus
     design:
       show_role: true
       show_organizations: true

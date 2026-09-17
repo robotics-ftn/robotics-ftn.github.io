@@ -3,26 +3,32 @@ hugoblox:
   schema: "2.0"
 
   identity:
-    name: "Robotics Lab FTN"
-    organization: "Faculty of Technical Sciences, University of Novi Sad"
+    name: "Robotics@FTN"
+    organization: "Laboratory for Robotics and Mechatronics · FTN, University of Novi Sad"
     type: organization
-    tagline: "Perception, planning, and control for robots that work with people."
-    description: "The Robotics Laboratory at the Faculty of Technical Sciences (FTN), University of Novi Sad, develops mobile manipulation, field robotics, and human-robot interaction systems for agriculture, logistics, and smart manufacturing."
+    tagline: "Industrial manipulation, humanoid locomotion, and human–robot interaction — built and tested on real hardware."
+    description: "The Laboratory for Robotics and Mechatronics at the Faculty of Technical Sciences (FTN), University of Novi Sad, develops humanoid robots, dexterous hands, industrial manipulation, and HRI systems. Led by prof. dr Mirko Raković."
     social:
-      twitter: "robotics_ftn"
+      twitter: ""
 
   theme:
-    mode: system
-    pack: "default"
+    mode: dark
+    pack: "robotics-lab"
     colors:
-      primary: "blue"
-      secondary: "cyan"
+      primary: "#22d3ee"
+      secondary: "#fb923c"
+      neutral: "#111827"
+    colors_dark: {}
+    colors_light: {}
+    surfaces:
+      background: "#030712"
+      foreground: "#f8fafc"
 
   typography:
-    pack: "academic"
+    pack: "robotics-lab"
 
   layout:
-    radius: "md"
+    radius: "lg"
     spacing: "comfortable"
     avatar_shape: circle
 
@@ -32,7 +38,7 @@ hugoblox:
     sticky: true
     align: center
     search: true
-    theme_toggle: true
+    theme_toggle: false
     theme_picker: false
     language_switcher: false
     cta:
@@ -43,10 +49,10 @@ hugoblox:
   footer:
     style: minimal
     language_switcher: false
-    text: "Laboratory for Robotics and Autonomous Systems · FTN Novi Sad"
+    text: "Chair of Mechatronics, Robotics and Automation · Trg Dositeja Obradovića 6, Novi Sad"
 
   copyright:
-    notice: "© {year} {name}. Content licensed under {license} unless noted."
+    notice: "© {year} {name}. Content from public FTN sources unless noted."
     license:
       type: cc
       allow_derivatives: false
@@ -54,18 +60,18 @@ hugoblox:
       allow_commercial: false
 
   seo:
-    title: "Robotics Lab FTN"
+    title: "Robotics@FTN"
     location:
       address:
         street: "Trg Dositeja Obradovića 6"
         city: "Novi Sad"
         region: "Vojvodina"
-        postal_code: "21000"
+        postal_code: "21102"
         country: "Serbia"
       coordinates:
         latitude: 45.2467
         longitude: 19.8517
-      phone: "+381 21 485 3500"
+      phone: "+381 21 485 2164"
 
   content:
     math:
@@ -73,20 +79,20 @@ hugoblox:
     toc:
       enable: true
     reading_time:
-      enable: true
+      enable: false
     citations:
       style: ieee
 
   search:
     enable: true
     suggestions:
-      - "mobile robots"
+      - "humanoid"
+      - "industrial robotics"
       - "publications"
-      - "thesis topics"
 
   repository:
     enable: true
-    url: "https://github.com/robotics-ftn/website"
+    url: "https://github.com/robotics-ftn/robotics-ftn.github.io"
     branch: main
     content_dir: content
 

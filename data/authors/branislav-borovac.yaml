@@ -1,0 +1,24 @@
+schema: hugoblox/author/v1
+slug: branislav-borovac
+weight: 4
+name:
+  display: prof. dr Branislav Borovac
+  given: Branislav
+  family: Borovac
+postnominals:
+  - PhD
+role: Full Professor · Senior robotics researcher (FTN)
+bio: |
+  Long-standing FTN robotics researcher; co-author of MARKO humanoid, biped locomotion, and industrial robotics textbooks. Public FTN profiles list extensive robotics publications with the lab group.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+links:
+  - icon: at-symbol
+    url: mailto:mehatronika@uns.ac.rs
+interests:
+  - Humanoid robotics
+  - Biped locomotion
+  - Assistive robotics
+user_groups:
+  - Faculty

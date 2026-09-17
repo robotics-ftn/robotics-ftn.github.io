@@ -1,0 +1,41 @@
+# Custom dark technical theme for Robotics Lab FTN
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Robotics Lab"
+    vendor: "robotics-ftn"
+    version: "1.0.0"
+    license: "MIT"
+    description: "Dark hardware-forward palette for a robotics lab product site"
+
+  type: "dual"
+
+  dark:
+    colors:
+      primary: "#22d3ee"
+      secondary: "#fb923c"
+      neutral: "#111827"
+    surfaces:
+      background: "#030712"
+      foreground: "#f8fafc"
+      header:
+        background: "rgba(3, 7, 18, 0.82)"
+        foreground: "#f8fafc"
+      footer:
+        background: "#020617"
+        foreground: "#94a3b8"
+
+  light:
+    colors:
+      primary: "#0891b2"
+      secondary: "#ea580c"
+      neutral: "#0f172a"
+    surfaces:
+      background: "#f8fafc"
+      foreground: "#0f172a"
+      header:
+        background: "rgba(248, 250, 252, 0.9)"
+        foreground: "#0f172a"
+      footer:
+        background: "#0f172a"
+        foreground: "#cbd5e1"

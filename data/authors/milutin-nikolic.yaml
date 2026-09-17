@@ -1,0 +1,24 @@
+schema: hugoblox/author/v1
+slug: milutin-nikolic
+weight: 3
+name:
+  display: prof. dr Milutin Nikolić
+  given: Milutin
+  family: Nikolić
+postnominals:
+  - PhD
+role: Associate Professor
+bio: |
+  Faculty member on the Chair of Mechatronics, Robotics and Automation. Co-author on biped locomotion and dynamic balance research; lectures on Industrial Robotics (H308) at FTN.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+links:
+  - icon: at-symbol
+    url: mailto:mehatronika@uns.ac.rs
+interests:
+  - Biped locomotion
+  - Dynamic balance
+  - Industrial robotics
+user_groups:
+  - Faculty

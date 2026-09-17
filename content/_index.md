@@ -7,21 +7,26 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: Faculty of Technical Sciences · University of Novi Sad
-      title: '[Robotics Lab FTN] builds robots for real environments'
+      eyebrow: Laboratory for Robotics and Mechatronics · FTN Novi Sad
+      title: '[Robots that move, grasp, and collaborate] with people'
       text: |
-        We research mobile manipulation, field robotics, and human-robot interaction — from vineyard monitoring to collaborative assembly cells on factory floors.
+        We build humanoid platforms, dexterous hands, and industrial manipulation systems — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences.
       announcement:
-        text: "Recruiting MSc and PhD students for 2026/27 intake."
+        badge:
+          text: FTN
+          color: primary
+        text: "Chair of Mechatronics, Robotics and Automation"
         link:
-          text: View open topics
+          text: Join the lab
           url: /join/
       primary_action:
         text: Explore Research
         url: /research/
+        style: gradient
       secondary_action:
-        text: Read Publications
+        text: View Publications
         url: /publications/
+        style: outline
       media:
         type: video
         src: /media/hero/lab-demo.mp4
@@ -30,53 +35,68 @@ sections:
         muted: true
     design:
       layout: split-right
-      size: default
+      size: viewport
       alignment: left
+      css_class: "rl-hero-cinematic"
+
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <div class="rl-stats">
+          <div class="rl-stat"><strong>50+</strong> peer-reviewed papers (public FTN record, prof. Raković)</div>
+          <div class="rl-stat"><strong>MARKO</strong> humanoid · 33 DOF assistive platform</div>
+          <div class="rl-stat"><strong>7</strong> open repos on <a href="https://github.com/robotics-ftn">github.com/robotics-ftn</a></div>
+          <div class="rl-stat"><strong>H308</strong> Industrial Robotics · 8 ECTS at FTN</div>
+        </div>
+    design:
+      css_class: "py-8"
 
   - block: focus-areas
     content:
-      title: Research Themes
-      subtitle: From perception to deployment
-      text: Our work spans algorithms, embedded systems, and field validation with industry and agricultural partners in Vojvodina.
+      title: Research Pillars
+      subtitle: Industrial · Humanoid · Interaction · Control
+      text: Grouped by themes from the Chair of Mechatronics, Robotics and Automation at FTN and the public robotics-ftn code organization.
       items:
-        - name: Mobile Robot Navigation
-          description: Robust localization and planning for uneven outdoor terrain and crowded indoor facilities.
-          emoji: "🛰️"
-          gradient: from-blue-500 to-cyan-500
+        - name: Industrial Manipulation
+          description: ABB robot programming, Robotiq grippers, scaled factory-automation cells, and industrial robotics coursework (H308).
+          icon: hero/wrench-screwdriver
+          gradient: from-cyan-500 to-blue-600
           status: active
-          topics: [SLAM, Path planning, Sensor fusion]
+          topics: [ABB, Robotiq, Factory cells]
           cta:
-            text: View project
-            url: /projects/mobile-robot-navigation/
-        - name: Collaborative Manipulation
-          description: Dual-arm cells and shared autonomy for small-batch assembly and logistics tasks.
-          emoji: "🦾"
-          gradient: from-indigo-500 to-purple-600
+            text: GitHub
+            url: https://github.com/robotics-ftn/open_abb
+        - name: Humanoid Locomotion
+          description: Biped walking via motion primitives, dynamic balance, and online path planning on unstructured terrain.
+          icon: hero/bolt
+          gradient: from-orange-500 to-amber-600
           status: active
-          topics: [Grasping, Task planning, Safety]
+          topics: [Biped gait, Motion primitives, Balance]
           cta:
-            text: View project
-            url: /projects/collaborative-manipulation/
-        - name: Human-Robot Interaction
-          description: Intuitive interfaces and intent prediction so operators can supervise robot teams safely.
-          emoji: "🤝"
-          gradient: from-violet-500 to-fuchsia-500
+            text: IEEE T-RO paper
+            url: /publications/biped-motion-primitives-2014/
+        - name: Human–Robot Interaction
+          description: Action anticipation, gaze dialogue models, and collaborative tasks with humanoid and industrial platforms.
+          icon: hero/users
+          gradient: from-fuchsia-500 to-violet-600
           status: active
-          topics: [Teleoperation, Shared control, UX]
+          topics: [Gaze, Anticipation, Collaboration]
           cta:
-            text: View project
-            url: /projects/human-robot-interaction/
-        - name: Field Robotics
-          description: UAV and UGV platforms for crop scouting, yield estimation, and environmental monitoring.
-          emoji: "🌿"
-          gradient: from-emerald-500 to-teal-500
-          status: emerging
-          topics: [Agriculture, UAV, Edge AI]
+            text: RA-L paper
+            url: /publications/action-anticipation-2018/
+        - name: Control Systems
+          description: Fuzzy and nonlinear control for underactuated robot hands, upper-body manipulation, and embedded real-time controllers.
+          icon: hero/cpu-chip
+          gradient: from-emerald-500 to-teal-600
+          status: active
+          topics: [Fuzzy control, Embedded, Manipulation]
           cta:
-            text: View project
-            url: /projects/field-robotics-vineyard/
+            text: FTN robot hand
+            url: /publications/ftn-robot-hand-2018/
     design:
       layout: cards
+      css_class: "py-16"
 
   - block: collection
     id: featured-publications
@@ -89,28 +109,30 @@ sections:
     design:
       view: citation
       columns: 1
+      css_class: "py-12"
 
   - block: collection
     content:
-      title: Latest from the Lab
+      title: Open Source @ robotics-ftn
       filters:
         folders:
           - projects
-      count: 4
+      count: 5
     design:
       view: article-grid
       columns: 2
       show_date: false
+      css_class: "py-12"
 
   - block: cta-card
     content:
-      title: Join the Robotics Lab FTN
+      title: Build robots with us at FTN
       text: |
-        We welcome motivated students and collaborators working on perception, planning, and trustworthy autonomy. See open thesis topics and how to apply.
+        PhD and MSc topics in locomotion, HRI, and industrial manipulation. Contact the lab or browse thesis areas on the Join page.
       button:
         text: Join Us
         url: /join/
     design:
       card:
-        css_class: 'bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-700 text-white shadow-xl'
+        css_class: 'bg-gradient-to-br from-cyan-600 via-slate-900 to-orange-600 text-white shadow-2xl ring-1 ring-cyan-400/30'
 ---

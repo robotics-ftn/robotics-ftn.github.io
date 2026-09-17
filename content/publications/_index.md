@@ -1,6 +1,6 @@
 ---
 title: Publications
-summary: Peer-reviewed papers, conference proceedings, and preprints from Robotics Lab FTN.
+summary: Peer-reviewed robotics publications with verified DOIs from FTN researchers.
 type: landing
 
 sections:
@@ -8,65 +8,65 @@ sections:
     content:
       title: Publications
       text: |
-        Publications are grouped by year. Each entry includes DOI links where available, copyable BibTeX citations, and PDFs for open preprints hosted in this repository.
-
-  - block: markdown
-    content:
-      title: '2025'
-      subtitle: ''
-
-  - block: collection
-    content:
-      filters:
-        folders:
-          - publications
-        tag: year-2025
-    design:
-      view: citation
-      show_date: true
+        Chronological list with **verified DOIs** from public FTN staff pages, IEEE Xplore, and publisher records. Click **Cite** on any entry for BibTeX.
 
   - block: markdown
     content:
       title: '2024'
-      subtitle: ''
 
   - block: collection
     content:
       filters:
-        folders:
-          - publications
+        folders: [publications]
         tag: year-2024
     design:
       view: citation
-      show_date: true
-
-  - block: markdown
-    content:
-      title: '2023'
-      subtitle: ''
-
-  - block: collection
-    content:
-      filters:
-        folders:
-          - publications
-        tag: year-2023
-    design:
-      view: citation
-      show_date: true
 
   - block: markdown
     content:
       title: '2022'
-      subtitle: ''
 
   - block: collection
     content:
       filters:
-        folders:
-          - publications
+        folders: [publications]
         tag: year-2022
     design:
       view: citation
-      show_date: true
+
+  - block: markdown
+    content:
+      title: '2019'
+
+  - block: collection
+    content:
+      filters:
+        folders: [publications]
+        tag: year-2019
+    design:
+      view: citation
+
+  - block: markdown
+    content:
+      title: '2018'
+
+  - block: collection
+    content:
+      filters:
+        folders: [publications]
+        tag: year-2018
+    design:
+      view: citation
+
+  - block: markdown
+    content:
+      title: '2014'
+
+  - block: collection
+    content:
+      filters:
+        folders: [publications]
+        tag: year-2014
+    design:
+      view: citation
 ---

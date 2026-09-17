@@ -1,18 +1,20 @@
 ---
 title: Lab
-summary: Mobile platforms, manipulators, and sensing hardware at Robotics Lab FTN.
+summary: Hardware platforms at the Laboratory for Robotics and Mechatronics, FTN.
 type: landing
 
 sections:
   - block: markdown
     content:
-      title: Laboratory & Hardware
+      title: Lab & Hardware
       text: |
-        Our lab on the FTN campus hosts mobile robots, manipulators, motion-capture, and UAV platforms used for teaching and research. Images below are **placeholders** representing typical equipment categories — replace with calibrated photos and serial numbers when available.
+        The Laboratory for Robotics and Mechatronics is **temporarily housed** in MI G3-1, G3-2, and MI 25 (workshop) per the public FTN Mehatronika page. Lab head: prof. dr Mirko Raković; lab technician: Predrag Oros.
+
+        <div class="rl-gap-note">Photos below are placeholders until official lab photography is approved for publication. Hardware descriptions are from public FTN research pages and papers.</div>
 
   - block: gallery
     content:
-      title: Platforms & Sensors
+      title: Platforms
       album: lab
     design:
       layout: masonry
@@ -20,14 +22,15 @@ sections:
 
   - block: markdown
     content:
-      title: Facilities
+      title: Equipment
       text: |
-        | Space | Equipment |
-        | --- | --- |
-        | **Mobile Robotics Arena** | 120 m² motion-capture volume, TurtleBot-class platforms, Vicon tracking |
-        | **Manipulation Cell** | Dual 6-DOF arms, parallel grippers, RGB-D and force-torque sensing |
-        | **Field Test Bay** | Outdoor pad for UGV trials; UAV launch area with geofencing |
-        | **Electronics Bench** | PCB rework, embedded bring-up, ROS 2 Humble workstations |
+        | Platform | Description | Source |
+        | --- | --- | --- |
+        | **Humanoid MARKO** | 33-DOF anthropomorphic platform for assistive therapy research; proprioceptive sensing, cameras, microphone | Public FTN papers & ETRAN 2018 prototype report |
+        | **FTN robot hand** | Underactuated tendon-driven hand; 5 palm-mounted DC motors; fuzzy position–velocity control | JIFS 2018, DOI 10.3233/JIFS-17879 |
+        | **Industrial robot arms** | ABB programming via `open_abb`; scaled factory-automation cell | Applied Sciences 2022; GitHub robotics-ftn |
+        | **Robotiq grippers** | Modbus RTU control via `robotiq_modbusrtu` | GitHub robotics-ftn |
+        | **Motion capture** | Motion Capture and Analysis Laboratory (prof. dr Srđan Savić) | [mehatronika.ftn.uns.ac.rs/laboratorije/](https://mehatronika.ftn.uns.ac.rs/laboratorije/) |
 
-        Lab access is coordinated with the course schedule. Visitors should email the lab in advance.
+        Related student robotics club: [Memristor Robotics](https://github.com/memristor) (Eurobot / ROS 2 platform, separate organization).
 ---

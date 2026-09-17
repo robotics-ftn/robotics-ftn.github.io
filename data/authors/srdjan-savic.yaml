@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: srdjan-savic
+weight: 2
+name:
+  display: prof. dr Srđan Savić
+  given: Srđan
+  family: Savić
+postnominals:
+  - PhD
+role: Associate Professor · Head, Motion Capture and Analysis Laboratory
+bio: |
+  Research on cognitive robotics, human–robot interaction, and motion capture. Co-developer of humanoid MARKO and contributor to biped locomotion and manipulation control at FTN.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/1646/srdjan-savic
+links:
+  - icon: at-symbol
+    url: mailto:mehatronika@uns.ac.rs
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=iSmttxsAAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0003-1385-2854
+interests:
+  - Human-robot interaction
+  - Cognitive robotics
+  - Motion capture
+  - Manipulation control
+user_groups:
+  - Faculty
