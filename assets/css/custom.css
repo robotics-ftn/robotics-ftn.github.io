@@ -7,6 +7,12 @@
   --rl-accent-2: #ea580c;
   --rl-grid: rgba(8, 145, 178, 0.08);
   --rl-glow: rgba(8, 145, 178, 0.28);
+  --rl-blueprint: url("/media/backgrounds/blueprint-light.jpg");
+  --rl-blueprint-overlay: linear-gradient(
+    180deg,
+    rgba(248, 250, 252, 0.62) 0%,
+    rgba(248, 250, 252, 0.78) 100%
+  );
   --rl-card-border: rgba(15, 23, 42, 0.12);
   --rl-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.98));
   --rl-card-hover-shadow: 0 20px 50px rgba(15, 23, 42, 0.12), 0 0 0 1px rgba(8, 145, 178, 0.18);
@@ -32,6 +38,12 @@ html.dark {
   --rl-accent-2: #fb923c;
   --rl-grid: rgba(34, 211, 238, 0.06);
   --rl-glow: rgba(34, 211, 238, 0.35);
+  --rl-blueprint: url("/media/backgrounds/blueprint-dark.jpg");
+  --rl-blueprint-overlay: linear-gradient(
+    180deg,
+    rgba(3, 7, 18, 0.48) 0%,
+    rgba(3, 7, 18, 0.72) 100%
+  );
   --rl-card-border: rgba(148, 163, 184, 0.12);
   --rl-card-bg: linear-gradient(180deg, rgba(15, 23, 42, 0.85), rgba(2, 6, 23, 0.95));
   --rl-card-hover-shadow: 0 20px 50px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(34, 211, 238, 0.15);
@@ -54,15 +66,20 @@ html.dark {
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--hb-color-background);
 }
 
 body {
-  background-color: var(--hb-color-background);
+  background-color: transparent;
   color: var(--hb-color-foreground);
-  background-image:
-    linear-gradient(var(--rl-grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--rl-grid) 1px, transparent 1px);
-  background-size: 48px 48px;
+}
+
+#page-bg {
+  background-color: var(--hb-color-background);
+  background-image: var(--rl-blueprint-overlay), var(--rl-blueprint);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Glass navigation */
