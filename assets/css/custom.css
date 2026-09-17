@@ -10,8 +10,8 @@
   --rl-blueprint: url("/media/backgrounds/blueprint-light.jpg");
   --rl-blueprint-overlay: linear-gradient(
     180deg,
-    rgba(248, 250, 252, 0.62) 0%,
-    rgba(248, 250, 252, 0.78) 100%
+    rgba(248, 250, 252, 0.88) 0%,
+    rgba(248, 250, 252, 0.94) 100%
   );
   --rl-card-border: rgba(15, 23, 42, 0.12);
   --rl-card-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.98));
@@ -41,8 +41,8 @@ html.dark {
   --rl-blueprint: url("/media/backgrounds/blueprint-dark.jpg");
   --rl-blueprint-overlay: linear-gradient(
     180deg,
-    rgba(3, 7, 18, 0.48) 0%,
-    rgba(3, 7, 18, 0.72) 100%
+    rgba(3, 7, 18, 0.82) 0%,
+    rgba(3, 7, 18, 0.90) 100%
   );
   --rl-card-border: rgba(148, 163, 184, 0.12);
   --rl-card-bg: linear-gradient(180deg, rgba(15, 23, 42, 0.85), rgba(2, 6, 23, 0.95));
@@ -80,6 +80,9 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: blur(2px) saturate(0.55);
+  transform: scale(1.04);
+  transform-origin: center;
 }
 
 /* Glass navigation */
