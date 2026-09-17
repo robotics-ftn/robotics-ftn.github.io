@@ -1,0 +1,264 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: Uključi/isključi navigaciju
+
+- id: table_of_contents
+  translation: Sadržaj
+
+- id: on_this_page
+  translation: Na ovoj stranici
+
+- id: back_to_top
+  translation: Nazad na vrh
+
+- id: home
+  translation: Početna
+
+- id: close
+  translation: Zatvori
+
+- id: languages
+  translation: Jezici
+
+# General
+
+- id: related
+  translation: Povezano
+
+- id: minute_read
+  translation: min čitanja
+
+- id: previous
+  translation: Prethodno
+
+- id: next
+  translation: Sledeće
+
+- id: figure
+  translation: 'Slika %d:'
+
+- id: edit_page
+  translation: Uredi ovu stranicu
+
+# Themes
+
+- id: theme_selector
+  translation: Podešavanja prikaza
+
+- id: theme_light
+  translation: Svetla
+
+- id: theme_dark
+  translation: Tamna
+
+- id: theme_auto
+  translation: Automatski
+
+# Buttons
+
+- id: btn_preprint
+  translation: Preprint
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_cite
+  translation: Citiraj
+
+- id: btn_slides
+  translation: Prezentacija
+
+- id: btn_video
+  translation: Video
+
+- id: btn_code
+  translation: Kod
+
+- id: btn_dataset
+  translation: Skup podataka
+
+- id: btn_project
+  translation: Projekat
+
+- id: btn_doi
+  translation: DOI
+
+- id: btn_site
+  translation: Sajt
+
+- id: btn_copy
+  translation: Kopiraj
+
+- id: btn_copied
+  translation: Kopirano
+
+- id: btn_download
+  translation: Preuzmi
+
+# About widget
+
+- id: interests
+  translation: Oblasti interesovanja
+
+- id: education
+  translation: Obrazovanje
+
+- id: about_me
+  translation: Profesionalni rezime
+
+# Experience widget
+
+- id: experience
+  translation: Iskustvo
+
+- id: present
+  translation: Trenutno
+
+# Pages widget
+
+- id: read_more
+  translation: Pročitaj više
+
+- id: more_pages
+  translation: Prikaži sve
+
+- id: more_publications
+  translation: Prikaži sve publikacije
+
+# Contact info block
+
+- id: block_contact_title
+  translation: Kontakt
+
+- id: block_contact_visit_title
+  translation: Posetite nas
+
+- id: block_contact_office_hours
+  translation: Radno vreme
+
+- id: block_contact_view_on_map
+  translation: Prikaži na mapi
+
+- id: block_contact_connect_title
+  translation: Povežite se
+
+- id: block_contact_follow_us
+  translation: Pratite nas
+
+- id: block_contact_prospective_title
+  translation: Kandidati
+
+# Publication/Event details
+
+- id: abstract
+  translation: Apstrakt
+
+- id: publication
+  translation: Publikacija
+
+- id: publication_type
+  translation: Tip
+
+- id: peer_reviewed
+  translation: Recenzirano
+
+- id: open_access
+  translation: Otvoren pristup
+
+- id: date
+  translation: Datum
+
+- id: last_updated
+  translation: Poslednje ažuriranje
+
+- id: pub_paper_conference
+  translation: Konferencijski rad
+
+- id: pub_article_journal
+  translation: Članak u časopisu
+
+# Content types
+
+- id: publications
+  translation: Publikacije
+
+- id: projects
+  translation: Projekti
+
+- id: authors
+  translation: Autori
+
+- id: featured
+  translation: Istaknuto
+
+- id: details
+  translation: Detalji
+
+- id: topics
+  translation: Teme
+
+- id: copy_citation
+  translation: Kopiraj citat
+
+- id: how_to_cite
+  translation: Kako citirati
+
+- id: citation
+  translation: Citat
+
+- id: bibtex
+  translation: BibTeX
+
+- id: download_cite_bib
+  translation: Preuzmi cite.bib
+
+# Search
+
+- id: search
+  translation: Pretraga
+
+- id: search_placeholder
+  translation: Pretraži...
+
+- id: search_results
+  translation: rezultata
+
+- id: search_no_results
+  translation: Nema rezultata
+
+- id: search_common_queries
+  translation: Česte pretrage
+
+# Error 404
+
+- id: page_not_found
+  translation: Stranica nije pronađena
+
+- id: 404_recommendations
+  translation: Možda ste tražili nešto od ovoga?
+
+# Published with
+
+- id: published_with
+  translation: Napravljeno pomoću {hugoblox}.
+
+- id: poweredby_button
+  translation: 'Napravite svoj →'
+
+# Portfolio block
+
+- id: portfolio_link_code
+  translation: Kod
+
+- id: portfolio_link_live
+  translation: Uživo
+
+- id: portfolio_view_all
+  translation: Prikaži sve projekte
+
+- id: browse
+  translation: Pregledaj
+
+- id: all
+  translation: Sve

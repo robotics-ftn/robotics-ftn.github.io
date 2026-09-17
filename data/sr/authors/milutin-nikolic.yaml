@@ -1,0 +1,11 @@
+role: Vanredni profesor
+bio: |
+  Nastavnik na Katedri za mehatroniku, robotiku i automatizaciju. Suautor istraživanja bipedne lokomocije i dinamičkog balansa; predaje Industrijsku robotiku (H308) na FTN-u.
+affiliations:
+  - name: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+interests:
+  - Bipedna lokomocija
+  - Dinamički balans
+  - Industrijska robotika
+user_groups:
+  - Nastavnici

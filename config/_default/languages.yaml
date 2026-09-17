@@ -1,22 +1,98 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Languages — English + Serbian (Latin script)
+# Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  label: English
+  contentDir: content/en
+  weight: 1
+  title: Robotics@FTN
+  params:
+    hugoblox:
+      identity:
+        tagline: "Industrial manipulation, humanoid locomotion, and human–robot interaction — built and tested on real hardware."
+        description: "The Laboratory for Robotics and Mechatronics at the Faculty of Technical Sciences (FTN), University of Novi Sad, develops humanoid robots, dexterous hands, industrial manipulation, and HRI systems. Led by prof. dr Mirko Raković."
+      header:
+        cta:
+          text: Join Us
+          url: /join/
+      footer:
+        text: "Chair of Mechatronics, Robotics and Automation · Trg Dositeja Obradovića 6, Novi Sad"
+      copyright:
+        notice: "© {year} {name}. Content from public FTN sources unless noted."
+      search:
+        suggestions:
+          - "humanoid"
+          - "industrial robotics"
+          - "publications"
+  menu:
+    main:
+      - name: Home
+        url: /
+        weight: 10
+      - name: Research
+        url: /research/
+        weight: 20
+      - name: Publications
+        url: /publications/
+        weight: 30
+      - name: People
+        url: /people/
+        weight: 40
+      - name: Teaching
+        url: /teaching/
+        weight: 50
+      - name: Lab
+        url: /lab/
+        weight: 60
+      - name: Join
+        url: /join/
+        weight: 70
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+sr:
+  locale: sr-Latn
+  label: Srpski
+  contentDir: content/sr
+  weight: 2
+  title: Robotika@FTN
+  params:
+    hugoblox:
+      identity:
+        tagline: "Industrijska manipulacija, humanoidna lokomocija i interakcija čovek–robot — razvijeno i testirano na stvarnom hardveru."
+        description: "Laboratorija za robotiku i mehatroniku na Fakultetu tehničkih nauka (FTN), Univerzitet u Novom Sadu, razvija humanoidne robote, dexterous ruke, industrijsku manipulaciju i sisteme interakcije čovek–robot. Rukovodilac: prof. dr Mirko Raković."
+      header:
+        cta:
+          text: Pridružite se
+          url: /join/
+      footer:
+        text: "Katedra za mehatroniku, robotiku i automatizaciju · Trg Dositeja Obradovića 6, Novi Sad"
+      copyright:
+        notice: "© {year} {name}. Sadržaj preuzet iz javnih FTN izvora, osim ako nije drugačije naznačeno."
+      search:
+        suggestions:
+          - "humanoid"
+          - "industrijska robotika"
+          - "publikacije"
+  menu:
+    main:
+      - name: Početna
+        url: /
+        weight: 10
+      - name: Istraživanje
+        url: /research/
+        weight: 20
+      - name: Publikacije
+        url: /publications/
+        weight: 30
+      - name: Tim
+        url: /people/
+        weight: 40
+      - name: Nastava
+        url: /teaching/
+        weight: 50
+      - name: Laboratorija
+        url: /lab/
+        weight: 60
+      - name: Pridružite se
+        url: /join/
+        weight: 70
