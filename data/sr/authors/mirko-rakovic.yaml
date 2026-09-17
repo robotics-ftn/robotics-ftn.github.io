@@ -1,12 +1,25 @@
 role: Redovni profesor · Rukovodilac laboratorije
 bio: |
-  Redovni profesor i jedan od troje rukovodilaca Laboratorije za robotiku i mehatroniku na FTN-u. Istraživanja obuhvataju bipednu lokomociju, interakciju čovek–robot, anticipaciju akcija i FTN robot ruku za humanoid MARKO. Član IEEE; bivši postdoktorant na IST/ISR Lisabon (VisLab).
+  Redovni profesor (od 2024) i jedan od troje rukovodilaca Laboratorije za robotiku i mehatroniku na Fakultetu tehničkih nauka, Univerzitet u Novom Sadu. Doktorat iz robotike na FTN-u (2013) na temu sinteze i realizacije bipednog hoda pomoću primitiva; master iz elektrotehnike i računarstva (2005) na upravljanju DC motorima sa četkicama.
+
+  Istraživanja obuhvataju humanoidnu i kolaborativnu robotiku, ugrađene sisteme, interakciju čovek–robot i primenjenu veštačku inteligenciju — od primitiva bipedne lokomocije i FTN robotske ruke do dijaloga pogledom i anticipacije akcija, uključujući rad kao experienced researcher na IST/ISR Lisabon (VisLab, 2017–2018). Raniji boravci: Hochschule Heidelberg, Nanyang Technological University i Technikum Wien.
+
+  Rukovodilac projekata Meta-Cobots, glasovno vođenog logističkog sistema (H2020 L4MS), troprste HRC ruke (Fond za inovacije), ACTICIPATE (MSCA-IF) i asistivne robotike za decu (III44008). Associate editor časopisa International Journal of Advanced Robotic Systems; review editor za humanoidnu robotiku u Frontiers in Robotics and AI.
+
+  [Curriculum vitae (PDF)](/media/cv/mirko-rakovic.pdf) · [Google Scholar](https://scholar.google.com/citations?user=hSUzJK0AAAAJ)
+education:
+  - area: Doktorat iz robotike
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2013
+  - area: Master iz elektrotehnike i računarstva
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2005
 affiliations:
   - name: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
 interests:
+  - Humanoidna i kolaborativna robotika
   - Interakcija čovek–robot
-  - Bipedna lokomocija
-  - Manipulacija robotima
-  - Anticipacija akcija
+  - Ugrađeni sistemi
+  - Primenjena veštačka inteligencija
 user_groups:
   - Nastavnici
