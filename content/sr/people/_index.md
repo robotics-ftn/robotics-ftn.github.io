@@ -1,6 +1,6 @@
 ---
-title: Ljudi
-summary: Nastavnici i osoblje Laboratorije za robotiku i mehatroniku, FTN.
+title: Tim
+summary: Nastavnici, istraživači, studenti i osoblje Laboratorije za robotiku i mehatroniku, FTN.
 type: landing
 
 sections:
@@ -8,22 +8,16 @@ sections:
     content:
       title: Tim
       text: |
-        Nastavnici navedeni ispod potvrđeni su iz javnih FTN stranica i stranica Katedre za mehatroniku. **Aktuelna lista doktorskih i master studenata nije objavljena** na sajtu laboratorije — otvorene teme pogledajte na stranici Pridruži se.
-
-        <div class="rl-gap-note">Placeholder: profili studenata i bivših saradnika biće dodati kada budu zvanično potvrđeni za objavljivanje na webu.</div>
+        Laboratorijom za robotiku i mehatroniku ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Grupu je osnovao **prof. emeritus dr Branislav Borovac**.
 
   - block: team-showcase
     content:
-      title: Nastavnici i osoblje
+      title: Nastavnici
       subtitle: Katedra za mehatroniku, robotiku i automatizaciju
       user_groups:
         - Nastavnici
-        - Tehničko osoblje
       sort_by: weight
       sort_ascending: true
-      cta:
-        text: Pridružite se laboratoriji
-        url: /join/
     design:
       show_role: true
       show_organizations: true
@@ -31,4 +25,77 @@ sections:
       max_interests: 4
       show_social: true
       max_columns: 3
+
+  - block: team-showcase
+    content:
+      title: Saradnici u nastavi
+      user_groups:
+        - Saradnici u nastavi
+      sort_by: weight
+      sort_ascending: true
+    design:
+      show_role: true
+      show_organizations: false
+      show_interests: false
+      show_social: true
+      max_columns: 4
+
+  - block: team-showcase
+    content:
+      title: Doktorski studenti
+      user_groups:
+        - Doktorski studenti
+      sort_by: weight
+      sort_ascending: true
+    design:
+      show_role: true
+      show_organizations: false
+      show_interests: false
+      show_social: true
+      max_columns: 4
+
+  - block: team-showcase
+    content:
+      title: Tehničko osoblje
+      user_groups:
+        - Tehničko osoblje
+      sort_by: weight
+      sort_ascending: true
+    design:
+      show_role: true
+      show_organizations: false
+      show_interests: false
+      show_social: true
+      max_columns: 4
+
+  - block: team-showcase
+    content:
+      title: Istaknuti master i osnovni studenti
+      user_groups:
+        - Istaknuti studenti
+      sort_by: weight
+      sort_ascending: true
+    design:
+      show_role: true
+      show_organizations: false
+      show_interests: false
+      show_social: true
+      max_columns: 4
+
+  - block: team-showcase
+    content:
+      title: Alumni
+      user_groups:
+        - Alumni
+      sort_by: weight
+      sort_ascending: true
+      cta:
+        text: Pridružite se laboratoriji
+        url: /join/
+    design:
+      show_role: true
+      show_organizations: false
+      show_interests: false
+      show_social: true
+      max_columns: 4
 ---

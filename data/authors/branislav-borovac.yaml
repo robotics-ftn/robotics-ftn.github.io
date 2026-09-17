@@ -2,14 +2,14 @@ schema: hugoblox/author/v1
 slug: branislav-borovac
 weight: 4
 name:
-  display: prof. dr Branislav Borovac
+  display: prof. emeritus dr Branislav Borovac
   given: Branislav
   family: Borovac
 postnominals:
   - PhD
-role: Full Professor · Senior robotics researcher (FTN)
+role: Professor Emeritus · Founder of the group
 bio: |
-  Long-standing FTN robotics researcher; co-author of MARKO humanoid, biped locomotion, and industrial robotics textbooks. Public FTN profiles list extensive robotics publications with the lab group.
+  Professor emeritus who established the robotics group at FTN. Co-author of the MARKO humanoid, biped locomotion research, and industrial robotics textbooks.
 affiliations:
   - name: Faculty of Technical Sciences, University of Novi Sad
     url: https://ftn.uns.ac.rs/

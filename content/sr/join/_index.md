@@ -35,7 +35,7 @@ sections:
           - 21102 Novi Sad, Srbija
           - "Prostorije: MI G3-1, G3-2, MI 25 (radionica) — privremena lokacija"
       office_hours:
-        - "Kabinet rukovodioca laboratorije: prof. Raković, soba 119 (javna FTN stranica)"
+        - "Prof. Raković, soba 119 (javna FTN stranica)"
         - "Telefon katedre: +381 21 485 2167"
       email: rakovicm@uns.ac.rs
       phone: "+381 21 485 2164"
@@ -48,7 +48,7 @@ sections:
         title: Budući studenti
         text: Pošaljite CV, uverenje o položenim ispitima i kratak motivacioni tekst. Kontakt GitHub organizacije je takođe robotics.ftn@gmail.com.
         button:
-          text: Pišite rukovodiocu laboratorije
+          text: Pišite laboratoriji
           url: mailto:rakovicm@uns.ac.rs
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

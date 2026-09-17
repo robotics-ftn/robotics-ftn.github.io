@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: andrej-cilag
+weight: 20
+name:
+  display: Andrej Čilag
+  given: Andrej
+  family: Čilag
+role: Teaching Assistant · PhD student
+bio: |
+  Teaching assistant and PhD student at the Laboratory for Robotics and Mechatronics, Faculty of Technical Sciences.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+user_groups:
+  - Teaching Assistants

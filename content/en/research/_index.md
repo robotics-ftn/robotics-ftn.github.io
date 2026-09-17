@@ -8,7 +8,7 @@ sections:
     content:
       title: Research & Projects
       text: |
-        The **Laboratory for Robotics and Mechatronics** (Лабораторија за роботику и мehatroniku) at FTN develops humanoid robots, dexterous hands, industrial manipulation, and human–robot interaction systems. Lab head: **prof. dr Mirko Raković**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
+        The **Laboratory for Robotics and Mechatronics** at FTN develops humanoid robots, dexterous hands, industrial manipulation, and human–robot interaction systems. The laboratory is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:

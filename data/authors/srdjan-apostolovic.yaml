@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: srdjan-apostolovic
+weight: 23
+name:
+  display: Srđan Apostolović
+  given: Srđan
+  family: Apostolović
+role: Junior Teaching Assistant · MSc student
+bio: |
+  Junior teaching assistant and MSc student at the Laboratory for Robotics and Mechatronics, Faculty of Technical Sciences.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+user_groups:
+  - Teaching Assistants

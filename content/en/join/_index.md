@@ -35,7 +35,7 @@ sections:
           - 21102 Novi Sad, Serbia
           - "Rooms: MI G3-1, G3-2, MI 25 (workshop) — temporary location"
       office_hours:
-        - "Lab head office: prof. Raković, room 119 (public FTN page)"
+        - "Prof. Raković, room 119 (public FTN page)"
         - "Chair phone: +381 21 485 2167"
       email: rakovicm@uns.ac.rs
       phone: "+381 21 485 2164"
@@ -48,7 +48,7 @@ sections:
         title: Prospective students
         text: Email a CV, transcript, and short statement. GitHub org contact also listed as robotics.ftn@gmail.com.
         button:
-          text: Email lab head
+          text: Email the lab
           url: mailto:rakovicm@uns.ac.rs
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

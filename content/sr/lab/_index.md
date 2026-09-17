@@ -8,7 +8,7 @@ sections:
     content:
       title: Laboratorija i hardver
       text: |
-        Laboratorija za robotiku i mehatroniku je **privremeno smeštena** u prostorijama MI G3-1, G3-2 i MI 25 (radionica), prema javnoj stranici Katedre za mehatroniku na FTN-u. Rukovodilac laboratorije: prof. dr Mirko Raković; laboratorijski tehničar: Predrag Oros.
+        Laboratorija za robotiku i mehatroniku je **privremeno smeštena** u prostorijama MI G3-1, G3-2 i MI 25 (radionica), prema javnoj stranici Katedre za mehatroniku na FTN-u. Rukovodioci laboratorije: prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić. Laboratorijski tehničari: Predrag Oros i Tanja Berisavljević.
 
         <div class="rl-gap-note">Fotografije ispod su placeholderi dok se zvanična fotografija laboratorije ne odobri za objavljivanje. Opisi hardvera potiču iz javnih FTN istraživačkih stranica i radova.</div>
 

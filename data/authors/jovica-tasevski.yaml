@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: jovica-tasevski
+weight: 60
+name:
+  display: Jovica Tasevski
+  given: Jovica
+  family: Tasevski
+role: Alumnus
+bio: |
+  Alumnus of the Laboratory for Robotics and Mechatronics, Faculty of Technical Sciences.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+user_groups:
+  - Alumni

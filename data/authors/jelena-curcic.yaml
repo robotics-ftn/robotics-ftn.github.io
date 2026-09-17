@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: jelena-curcic
+weight: 31
+name:
+  display: Jelena Ćurčić
+  given: Jelena
+  family: Ćurčić
+role: PhD student
+bio: |
+  PhD student at the Laboratory for Robotics and Mechatronics, Faculty of Technical Sciences.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+user_groups:
+  - PhD Students

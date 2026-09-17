@@ -8,7 +8,7 @@ sections:
     content:
       title: Lab & Hardware
       text: |
-        The Laboratory for Robotics and Mechatronics is **temporarily housed** in MI G3-1, G3-2, and MI 25 (workshop) per the public FTN Mehatronika page. Lab head: prof. dr Mirko Raković; lab technician: Predrag Oros.
+        The Laboratory for Robotics and Mechatronics is **temporarily housed** in MI G3-1, G3-2, and MI 25 (workshop) per the public FTN Mehatronika page. Heads of laboratory: prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić. Lab technicians: Predrag Oros and Tanja Berisavljević.
 
         <div class="rl-gap-note">Photos below are placeholders until official lab photography is approved for publication. Hardware descriptions are from public FTN research pages and papers.</div>
 

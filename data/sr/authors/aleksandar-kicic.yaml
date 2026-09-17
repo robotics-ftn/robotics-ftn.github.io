@@ -1,0 +1,7 @@
+role: Student doktorskih studija
+bio: |
+  Student doktorskih studija u Laboratoriji za robotiku i mehatroniku, Fakultet tehničkih nauka.
+affiliations:
+  - name: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+user_groups:
+  - Doktorski studenti

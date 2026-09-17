@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: aleksandar-kicic
+weight: 30
+name:
+  display: Aleksandar Kičić
+  given: Aleksandar
+  family: Kičić
+role: PhD student
+bio: |
+  PhD student at the Laboratory for Robotics and Mechatronics, Faculty of Technical Sciences.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+user_groups:
+  - PhD Students

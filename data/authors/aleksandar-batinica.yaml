@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: aleksandar-batinica
+weight: 61
+name:
+  display: Aleksandar Batinica
+  given: Aleksandar
+  family: Batinica
+role: Alumnus
+bio: |
+  Alumnus of the Laboratory for Robotics and Mechatronics, Faculty of Technical Sciences.
+affiliations:
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+user_groups:
+  - Alumni
