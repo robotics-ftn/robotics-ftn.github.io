@@ -28,11 +28,10 @@ sections:
         url: /publications/
         style: outline
       media:
-        type: video
-        src: /media/hero/lab-demo.mp4
-        autoplay: true
-        loop: true
-        muted: true
+        type: image
+        src: hero/logo.png
+        dark_src: hero/logo-dark.png
+        alt: Robotics@FTN Research Group
     design:
       layout: split-right
       size: viewport

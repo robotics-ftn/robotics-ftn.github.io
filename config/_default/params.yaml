@@ -28,6 +28,8 @@ hugoblox:
     style: navbar
     sticky: true
     align: center
+    show_logo: true
+    show_title: true
     search: true
     theme_toggle: true
     theme_picker: false
