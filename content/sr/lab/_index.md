@@ -31,6 +31,4 @@ sections:
         | **Industrijske robotske ruke** | ABB programiranje preko `open_abb`; skalirana ćelija fabričke automatizacije | Applied Sciences 2022; GitHub robotics-ftn |
         | **Robotiq hvataljke** | Modbus RTU kontrola preko `robotiq_modbusrtu` | GitHub robotics-ftn |
         | **Motion capture** | Laboratorija za snimanje i analizu pokreta (prof. dr Srđan Savić) | [mehatronika.ftn.uns.ac.rs/laboratorije/](https://mehatronika.ftn.uns.ac.rs/laboratorije/) |
-
-        Povezani studentski robotički klub: [Memristor Robotics](https://github.com/memristor) (Eurobot / ROS 2 platforma, zasebna organizacija).
 ---
