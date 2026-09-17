@@ -4,7 +4,7 @@ Academic site for the **Laboratory for Robotics and Mechatronics** at the Facult
 
 Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.com/). Deployed to GitHub Pages via GitHub Actions.
 
-**Languages:** English at `/` and Serbian Latin at `/sr/…` — header language switcher (globe icon).
+**Languages:** English at `/` and Serbian Latin at `/sr/…` — header language switcher (globe icon). Legacy `/en/…` URLs redirect to the same English path at the site root.
 
 **Theme:** Dark and light modes with header toggle (sun/moon). First visit follows OS `prefers-color-scheme`; choice persists in `localStorage` (`wc-color-theme`).
 

@@ -1,0 +1,10 @@
+{{/* English used to live under /en/. Canonical English is now at the site root. */}}
+<script>
+(function () {
+  var path = location.pathname;
+  if (path === "/en" || path.indexOf("/en/") === 0) {
+    var next = path.replace(/^\/en(?=\/|$)/, "") || "/";
+    location.replace(next + location.search + location.hash);
+  }
+})();
+</script>
