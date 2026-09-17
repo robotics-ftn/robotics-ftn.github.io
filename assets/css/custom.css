@@ -80,9 +80,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: blur(2px) saturate(0.55);
-  transform: scale(1.04);
-  transform-origin: center;
+  z-index: -1;
 }
 
 /* Glass navigation */

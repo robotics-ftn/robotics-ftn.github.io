@@ -4,7 +4,7 @@ Academic site for the **Laboratory for Robotics and Mechatronics** at the Facult
 
 Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.com/). Deployed to GitHub Pages via GitHub Actions.
 
-**Languages:** English (`/en/…`) and Serbian Latin (`/sr/…`) — header language switcher (globe icon).
+**Languages:** English at `/` and Serbian Latin at `/sr/…` — header language switcher (globe icon).
 
 **Theme:** Dark and light modes with header toggle (sun/moon). First visit follows OS `prefers-color-scheme`; choice persists in `localStorage` (`wc-color-theme`).
 
@@ -12,7 +12,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 
 | Route | Content |
 | --- | --- |
-| `/en/` or `/sr/` | Cinematic hero, research pillars, featured publications |
+| `/` or `/sr/` | Cinematic hero, research pillars, featured publications |
 | `…/research/` | Themes + GitHub project cards |
 | `…/publications/` | Year-grouped papers with DOI + BibTeX |
 | `…/people/` | Faculty & staff from public FTN sources |
@@ -31,7 +31,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 ```bash
 pnpm install
 pnpm dev
-# → http://127.0.0.1:43123/en/  (or /sr/)
+# → http://127.0.0.1:43123/  (Serbian: /sr/)
 ```
 
 ## Content sources
