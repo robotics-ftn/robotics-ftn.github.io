@@ -40,6 +40,19 @@ Real data from public FTN pages, Google Scholar, IEEE Xplore, and [github.com/ro
 
 Serbian UI strings: `i18n/sr.yaml`. Per-author bios: `data/sr/authors/`.
 
+## Publication thumbnails
+
+Drop a figure, GIF, or looping video next to a paper as:
+
+```
+assets/media/publications/<slug>.gif   # preferred
+assets/media/publications/<slug>.mp4
+assets/media/publications/<slug>.png
+assets/media/publications/<slug>.jpg
+```
+
+`<slug>` is the folder name under `content/en/publications/` (same file serves English and Serbian). Missing files show an empty frame until you add one. Thumbnails currently on the site are figures extracted from author-hosted or open-access copies of the papers.
+
 ## Deploy
 
 Push to `main` triggers `.github/workflows/deploy.yml` → GitHub Pages at `https://robotics-ftn.github.io/` (configure repo name accordingly).

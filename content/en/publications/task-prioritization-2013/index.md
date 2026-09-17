@@ -24,7 +24,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1142/S0219843613500126
-image:
-  filename: publications/task-prioritization-2013.png
-  preview_only: true
 ---

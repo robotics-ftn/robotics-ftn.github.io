@@ -24,7 +24,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1016/j.autcon.2016.11.003
-image:
-  filename: publications/freeform-foam-2017.png
-  preview_only: true
 ---

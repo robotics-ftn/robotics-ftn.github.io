@@ -26,7 +26,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1109/LRA.2018.2861569
-image:
-  filename: publications/action-anticipation-2018.png
-  preview_only: true
 ---

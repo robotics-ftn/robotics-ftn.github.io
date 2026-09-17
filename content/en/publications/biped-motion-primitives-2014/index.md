@@ -24,7 +24,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1109/TRO.2014.2344431
-image:
-  filename: publications/biped-motion-primitives-2014.png
-  preview_only: true
 ---

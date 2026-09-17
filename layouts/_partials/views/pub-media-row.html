@@ -1,19 +1,34 @@
 {{- $item := . -}}
 {{- $year := $item.Date.Format "2006" -}}
 {{- $pub := partial "functions/resolve_publication.html" $item -}}
-{{- $image_params := partial "functions/get_page_image_params.html" $item -}}
-{{- $filename := $image_params.filename | default "" -}}
+{{- $slug := path.Base (strings.TrimSuffix "/" $item.File.Dir) -}}
 {{- $media := false -}}
 {{- $media_kind := "image" -}}
-{{- if $filename -}}
-  {{- $media = resources.Get (path.Join "media" $filename) -}}
-  {{- $ext := path.Ext $filename | lower -}}
-  {{- if in (slice ".mp4" ".webm" ".ogg") $ext -}}
-    {{- $media_kind = "video" -}}
+{{- $page_featured := ($item.Resources.ByType "image").GetMatch "*featured*" -}}
+{{- if reflect.IsResource $page_featured -}}
+  {{- $media = $page_featured -}}
+{{- end -}}
+{{- if not $media -}}
+  {{- range $ext := slice "gif" "mp4" "webm" "webp" "png" "jpg" "jpeg" -}}
+    {{- if not $media -}}
+      {{- with resources.Get (printf "media/publications/%s.%s" $slug $ext) -}}
+        {{- $media = . -}}
+        {{- if in (slice "mp4" "webm") $ext -}}
+          {{- $media_kind = "video" -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- if not $media -}}
-  {{- $media = partial "functions/get_featured_image.html" $item -}}
+  {{- $image_params := partial "functions/get_page_image_params.html" $item -}}
+  {{- with $image_params.filename -}}
+    {{- $media = resources.Get (path.Join "media" .) -}}
+    {{- $ext := path.Ext . | lower -}}
+    {{- if in (slice ".mp4" ".webm" ".ogg") $ext -}}
+      {{- $media_kind = "video" -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 {{- $paper_url := "" -}}
 {{- with $item.Params.hugoblox -}}
@@ -38,15 +53,17 @@
   {{- if and (in (slice "site" "project") .type) .url }}{{ $site_url = .url }}{{ end -}}
 {{- end -}}
 <article class="rl-pub-row">
+  {{- if $media }}
   <a class="rl-pub-media" href="{{ $item.RelPermalink }}" aria-hidden="true" tabindex="-1">
-    {{- if and $media (eq $media_kind "video") }}
+    {{- if eq $media_kind "video" }}
       <video src="{{ $media.RelPermalink }}" autoplay muted loop playsinline preload="metadata"></video>
-    {{- else if $media }}
-      <img src="{{ $media.RelPermalink }}" alt="" width="480" height="360">
     {{- else }}
-      <span class="rl-pub-media-fallback">{{ substr $item.Title 0 1 }}</span>
+      <img src="{{ $media.RelPermalink }}" alt="" width="480" height="360">
     {{- end }}
   </a>
+  {{- else }}
+  <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+  {{- end }}
   <div class="rl-pub-body">
     <h3 class="rl-pub-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h3>
     <p class="rl-pub-authors">{{ partial "page_metadata_authors" $item }}</p>

@@ -24,7 +24,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1007/s00004-023-00739-8
-image:
-  filename: publications/surface-patterns-2023.png
-  preview_only: true
 ---

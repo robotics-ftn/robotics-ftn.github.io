@@ -25,7 +25,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1142/S0219843608001339
-image:
-  filename: publications/gait-synthesis-disturbances-2008.png
-  preview_only: true
 ---

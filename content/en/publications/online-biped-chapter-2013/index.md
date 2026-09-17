@@ -21,7 +21,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1007/978-3-642-33959-2_6
-image:
-  filename: publications/online-biped-chapter-2013.png
-  preview_only: true
 ---

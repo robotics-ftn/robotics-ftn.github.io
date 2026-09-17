@@ -23,7 +23,4 @@ hugoblox:
 links:
   - type: pdf
     url: https://doi.org/10.1007/s11044-017-9572-9
-image:
-  filename: publications/dynamic-balance-sliding-2018.png
-  preview_only: true
 ---
