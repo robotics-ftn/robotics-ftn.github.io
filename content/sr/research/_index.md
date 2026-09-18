@@ -52,7 +52,7 @@ sections:
             url: /research/mobile-robotics/
         - name: Okretne ruke i EOAT
           description: Nedovoljno aktuirana FTN robot ruka (JIFS, 2018), silom-osetljiva troprsta ruka (ASME JMR, 2026) i industrijski alati na kraju ruke.
-          image: research/dexterous-hands-eoat.png
+          image: research/dexterous-hands-eoat-card.jpg
           gradient: from-emerald-500 to-cyan-700
           status: active
           url: /research/dexterous-hands-eoat/
