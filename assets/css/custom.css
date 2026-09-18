@@ -629,10 +629,13 @@ html.dark .rl-theme-figure figcaption {
 
 /* Research page — funded PI projects from CV */
 .rl-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
   margin: 0;
 }
 
-.prose .rl-projects :where(ol, li, h3, p) {
+.prose .rl-projects :where(ol, li, h3, p.rl-project-meta) {
   margin: 0;
   padding-inline-start: 0;
 }
@@ -644,6 +647,15 @@ html.dark .rl-theme-figure figcaption {
 .prose .rl-projects h3 {
   color: inherit;
   font-weight: 650;
+}
+
+.prose .rl-projects-lead,
+.rl-projects-lead {
+  display: block;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: color-mix(in srgb, var(--hb-color-foreground) 72%, transparent);
 }
 
 .rl-project-list {
