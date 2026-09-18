@@ -10,7 +10,7 @@ sections:
       eyebrow: Robotics Research group at FTN · Novi Sad
       title: '[Robots that move, grasp, and collaborate] with people'
       text: |
-        We build humanoid platforms, dexterous hands, and industrial manipulation systems — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences.
+        We build humanoid platforms, dexterous hands, industrial manipulation, and mobile robotics — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences.
       announcement:
         badge:
           text: FTN
@@ -54,7 +54,7 @@ sections:
   - block: focus-areas
     content:
       title: Research Pillars
-      subtitle: Industrial · Humanoid · Interaction · Control
+      subtitle: Industrial · Humanoid · Interaction · Mobile · Hands · Perception
       text: Grouped by themes from the Chair of Mechatronics, Robotics and Automation at FTN and the public robotics-ftn code organization.
       items:
         - name: Industrial Manipulation
@@ -84,15 +84,30 @@ sections:
           cta:
             text: RA-L paper
             url: /publications/action-anticipation-2018/
-        - name: Control Systems
-          description: Fuzzy and nonlinear control for underactuated robot hands, upper-body manipulation, and embedded real-time controllers.
-          icon: hero/cpu-chip
+        - name: Mobile robotics
+          description: Mobile platforms for navigation and field tasks, developed alongside humanoid and industrial systems at FTN.
+          icon: hero/map
+          gradient: from-sky-500 to-indigo-600
+          status: active
+          topics: [Navigation, Mobile platforms, Field robotics]
+        - name: Dexterous hands and EOAT
+          description: Underactuated tendon-driven hands, force-sensitive three-finger designs, and end-of-arm tooling on industrial cells.
+          icon: hero/hand-raised
           gradient: from-emerald-500 to-teal-600
           status: active
-          topics: [Fuzzy control, Embedded, Manipulation]
+          topics: [FTN hand, Three-finger hand, EOAT]
           cta:
-            text: FTN robot hand
-            url: /publications/ftn-robot-hand-2018/
+            text: Three-finger hand
+            url: /publications/three-finger-hand-2026/
+        - name: Perception and tactile sensing
+          description: Visual inference of object properties and force-sensitive grasping on dexterous hands.
+          icon: hero/eye
+          gradient: from-teal-500 to-emerald-600
+          status: active
+          topics: [Vision, Force sensing, Object properties]
+          cta:
+            text: ICRA 2022
+            url: /publications/icra-object-properties-2022/
     design:
       layout: cards
       css_class: "py-16"
@@ -127,7 +142,7 @@ sections:
     content:
       title: Build robots with us at FTN
       text: |
-        PhD and MSc topics in locomotion, HRI, and industrial manipulation. Contact the group or browse thesis areas on the Join page.
+        PhD and MSc topics in locomotion, HRI, industrial manipulation, mobile robotics, and dexterous hands. Contact the group or browse thesis areas on the Join page.
       button:
         text: Join Us
         url: /join/

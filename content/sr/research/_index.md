@@ -1,6 +1,6 @@
 ---
 title: Istraživanja
-summary: Industrijska manipulacija, humanoidna lokomocija, HRI i kontrola na FTN-u.
+summary: Industrijska manipulacija, humanoidna lokomocija, HRI, mobilna robotika, okretne ruke i taktilno senziranje na FTN-u.
 type: landing
 
 sections:
@@ -8,7 +8,7 @@ sections:
     content:
       title: Istraživanja i projekti
       text: |
-        **Istraživačka grupa za robotiku na FTN-u** razvija humanoidne robote, okretne ruke, industrijsku manipulaciju i sisteme interakcije čovek–robot. Grupom ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Otvoreni kod: [github.com/robotics-ftn](https://github.com/robotics-ftn).
+        **Istraživačka grupa za robotiku na FTN-u** razvija humanoidne robote, okretne ruke, industrijsku manipulaciju, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Otvoreni kod: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:
@@ -38,14 +38,27 @@ sections:
           cta:
             text: Rad o pogledu
             url: /publications/gaze-dialogue-2024/
-        - name: Sistemi kontrole
-          description: Fuzzy kontrola položaj–brzina nedovoljno aktuirane FTN robote ruke (JIFS, 2018).
-          icon: hero/adjustments-horizontal
+        - name: Mobilna robotika
+          description: Mobilne robotske platforme za navigaciju i rad u terenu na Katedri za mehatroniku, robotiku i automatizaciju.
+          icon: hero/map
+          gradient: from-sky-500 to-indigo-700
+          status: active
+        - name: Okretne ruke i EOAT
+          description: Nedovoljno aktuirana FTN robot ruka (JIFS, 2018), silom-osetljiva troprsta ruka (ASME JMR, 2026) i industrijski alati na kraju ruke.
+          icon: hero/hand-raised
           gradient: from-emerald-500 to-cyan-700
           status: active
           cta:
-            text: JIFS rad
-            url: /publications/ftn-robot-hand-2018/
+            text: ASME 2026
+            url: /publications/three-finger-hand-2026/
+        - name: Percepcija i taktilno senziranje
+          description: Zaključivanje o svojstvima objekata iz vizuelnih znakova (ICRA, 2022) i osetljivanje sile na troprstoj robot ruci (ASME JMR, 2026).
+          icon: hero/eye
+          gradient: from-teal-500 to-emerald-700
+          status: active
+          cta:
+            text: ICRA 2022
+            url: /publications/icra-object-properties-2022/
     design:
       layout: cards
 

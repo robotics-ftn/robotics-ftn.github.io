@@ -10,7 +10,7 @@ sections:
       eyebrow: Istraživačka grupa za robotiku na FTN-u · Novi Sad
       title: '[Roboti koji se kreću, hvataju i sarađuju] sa ljudima'
       text: |
-        Razvijamo humanoidne platforme, okretne ruke i sisteme za industrijsku manipulaciju — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka.
+        Razvijamo humanoidne platforme, okretne ruke, industrijsku manipulaciju i mobilnu robotiku — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka.
       announcement:
         badge:
           text: FTN
@@ -54,7 +54,7 @@ sections:
   - block: focus-areas
     content:
       title: Istraživački stubovi
-      subtitle: Industrijska · Humanoidna · Interakcija · Kontrola
+      subtitle: Industrijska · Humanoidna · Interakcija · Mobilna · Ruke · Percepcija
       text: Grupisano po temama Katedre za mehatroniku, robotiku i automatizaciju na FTN-u i javne robotics-ftn organizacije na GitHub-u.
       items:
         - name: Industrijska manipulacija
@@ -84,15 +84,30 @@ sections:
           cta:
             text: RA-L rad
             url: /publications/action-anticipation-2018/
-        - name: Sistemi kontrole
-          description: Fuzzy i nelinearna kontrola za nedovoljno aktuirane robote ruke, manipulaciju gornjeg dela tela i ugrađene kontrolere u realnom vremenu.
-          icon: hero/cpu-chip
+        - name: Mobilna robotika
+          description: Mobilne platforme za navigaciju i rad u terenu, uz humanoidne i industrijske sisteme na FTN-u.
+          icon: hero/map
+          gradient: from-sky-500 to-indigo-600
+          status: active
+          topics: [Navigacija, Mobilne platforme, Terenska robotika]
+        - name: Okretne ruke i EOAT
+          description: Nedovoljno aktuirane tetivne ruke, silom-osetljivi troprsti dizajni i alati na kraju ruke na industrijskim ćelijama.
+          icon: hero/hand-raised
           gradient: from-emerald-500 to-teal-600
           status: active
-          topics: [Fuzzy kontrola, Ugrađeni sistemi, Manipulacija]
+          topics: [FTN ruka, Troprsta ruka, EOAT]
           cta:
-            text: FTN robot ruka
-            url: /publications/ftn-robot-hand-2018/
+            text: Troprsta ruka
+            url: /publications/three-finger-hand-2026/
+        - name: Percepcija i taktilno senziranje
+          description: Vizuelno zaključivanje o svojstvima objekata i hvatanje osetljivo na silu na okretnim rukama.
+          icon: hero/eye
+          gradient: from-teal-500 to-emerald-600
+          status: active
+          topics: [Vid, Osetljivanje sile, Svojstva objekata]
+          cta:
+            text: ICRA 2022
+            url: /publications/icra-object-properties-2022/
     design:
       layout: cards
       css_class: "py-16"
@@ -127,7 +142,7 @@ sections:
     content:
       title: Gradite robote sa nama na FTN-u
       text: |
-        Teme za doktorske i master studije iz lokomocije, HRI-ja i industrijske manipulacije. Pišite grupi ili pogledajte oblasti za teze na stranici Pridruži se.
+        Teme za doktorske i master studije iz lokomocije, HRI-ja, industrijske manipulacije, mobilne robotike i okretnih ruku. Pišite grupi ili pogledajte oblasti za teze na stranici Pridruži se.
       button:
         text: Pridružite se
         url: /join/

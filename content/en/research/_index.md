@@ -1,6 +1,6 @@
 ---
 title: Research
-summary: Industrial manipulation, humanoid locomotion, HRI, and control at FTN.
+summary: Industrial manipulation, humanoid locomotion, HRI, mobile robotics, dexterous hands, and tactile sensing at FTN.
 type: landing
 
 sections:
@@ -8,7 +8,7 @@ sections:
     content:
       title: Research & Projects
       text: |
-        The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, industrial manipulation, and human–robot interaction systems. The group is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
+        The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, industrial manipulation, human–robot interaction systems, and mobile robotics. The group is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:
@@ -38,14 +38,27 @@ sections:
           cta:
             text: Gaze paper
             url: /publications/gaze-dialogue-2024/
-        - name: Control Systems
-          description: Fuzzy position–velocity control of the underactuated FTN robot hand (JIFS, 2018).
-          icon: hero/adjustments-horizontal
+        - name: Mobile robotics
+          description: Mobile robot platforms for navigation and field work at the Chair of Mechatronics, Robotics and Automation.
+          icon: hero/map
+          gradient: from-sky-500 to-indigo-700
+          status: active
+        - name: Dexterous hands and EOAT
+          description: Underactuated FTN robot hand (JIFS, 2018), force-sensitive three-finger hand (ASME JMR, 2026), and industrial end-of-arm tooling.
+          icon: hero/hand-raised
           gradient: from-emerald-500 to-cyan-700
           status: active
           cta:
-            text: JIFS paper
-            url: /publications/ftn-robot-hand-2018/
+            text: ASME 2026
+            url: /publications/three-finger-hand-2026/
+        - name: Perception and tactile sensing
+          description: Inferring object properties from visual cues (ICRA, 2022) and force sensing on the three-finger robot hand (ASME JMR, 2026).
+          icon: hero/eye
+          gradient: from-teal-500 to-emerald-700
+          status: active
+          cta:
+            text: ICRA 2022
+            url: /publications/icra-object-properties-2022/
     design:
       layout: cards
 

@@ -14,9 +14,11 @@ sections:
 
         1. **Biped locomotion & motion primitives** — unstructured terrain, dynamic balance
         2. **Human–robot interaction** — gaze dialogue, action anticipation, collaborative manipulation
-        3. **Dexterous manipulation** — FTN robot hand, fuzzy/nonlinear control
+        3. **Dexterous hands and EOAT** — FTN robot hand, three-finger force-sensitive hand, end-of-arm tooling
         4. **Industrial robotics** — ABB cells, Robotiq integration, factory automation
-        5. **Motion digitization** — motion capture and analysis (with Motion Capture Lab)
+        5. **Mobile robotics** — mobile platforms for navigation and field work
+        6. **Perception and tactile sensing** — visual object properties, force-sensitive grasping
+        7. **Motion digitization** — motion capture and analysis (with Motion Capture Lab)
 
         <div class="rl-gap-note">Placeholder: formal vacancy announcements and application deadlines are not yet published on this site. Confirm intake periods with the group.</div>
 
