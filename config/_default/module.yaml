@@ -27,3 +27,7 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  # Publish original media files at /media/... so markdown <img> tags work
+  # (Hugo otherwise only emits processed _hu_*.webp hashes).
+  - source: assets/media
+    target: static/media
