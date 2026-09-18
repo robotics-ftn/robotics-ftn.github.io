@@ -24,5 +24,5 @@ hugoblox:
     doi: 10.1142/S0219843623500305
 links:
   - type: pdf
-    url: https://doi.org/10.1142/S0219843623500305
+    url: /media/publications/zmp-fifty-five-years-2024.pdf
 ---

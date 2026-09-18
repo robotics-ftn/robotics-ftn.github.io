@@ -22,5 +22,5 @@ hugoblox:
     doi: 10.1038/s41598-018-26726-5
 links:
   - type: pdf
-    url: https://doi.org/10.1038/s41598-018-26726-5
+    url: /media/publications/tree-vibrations-2018.pdf
 ---

@@ -21,5 +21,5 @@ hugoblox:
     doi: 10.1007/978-3-319-28860-4_13
 links:
   - type: pdf
-    url: https://doi.org/10.1007/978-3-319-28860-4_13
+    url: /media/publications/disturbances-biped-chapter-2016.pdf
 ---

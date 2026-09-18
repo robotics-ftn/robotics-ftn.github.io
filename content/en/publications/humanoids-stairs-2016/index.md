@@ -23,5 +23,5 @@ hugoblox:
     doi: 10.1109/HUMANOIDS.2016.7803254
 links:
   - type: pdf
-    url: https://doi.org/10.1109/HUMANOIDS.2016.7803254
+    url: /media/publications/humanoids-stairs-2016.pdf
 ---

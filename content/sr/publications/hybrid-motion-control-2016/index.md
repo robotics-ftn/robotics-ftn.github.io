@@ -23,5 +23,5 @@ hugoblox:
     doi: 10.2298/TSCI151005037S
 links:
   - type: pdf
-    url: https://doi.org/10.2298/TSCI151005037S
+    url: /media/publications/hybrid-motion-control-2016.pdf
 ---

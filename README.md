@@ -52,6 +52,8 @@ assets/media/publications/<slug>.webp
 
 `<slug>` is the folder name under `content/en/publications/` (same file serves English and Serbian). Missing files show an empty frame until you add one. Thumbnails currently on the site are figures extracted from author-hosted or open-access copies of the papers.
 
+Open-access or author PDF copies, when available, live next to the still as `assets/media/publications/<slug>.pdf` and are linked from the publications list (`/media/publications/<slug>.pdf`).
+
 ## Deploy
 
 Push to `main` triggers `.github/workflows/deploy.yml` → GitHub Pages at `https://robotics-ftn.github.io/` (configure repo name accordingly).

@@ -28,10 +28,24 @@
   {{- end -}}
 {{- end -}}
 {{- $paper_url := "" -}}
-{{- with $item.Params.hugoblox -}}
-  {{- with .ids -}}
-    {{- with .doi -}}
-      {{- $paper_url = printf "https://doi.org/%s" . -}}
+{{- range $item.Params.links -}}
+  {{- if and (eq .type "pdf") .url -}}
+    {{- if or (hasPrefix .url "/media/") (hasPrefix .url "/preprints/") -}}
+      {{- $paper_url = .url -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $paper_url -}}
+  {{- with resources.Get (printf "media/publications/%s.pdf" $slug) -}}
+    {{- $paper_url = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $paper_url -}}
+  {{- with $item.Params.hugoblox -}}
+    {{- with .ids -}}
+      {{- with .doi -}}
+        {{- $paper_url = printf "https://doi.org/%s" . -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

@@ -22,5 +22,5 @@ hugoblox:
     doi: 10.1007/s11044-017-9572-9
 links:
   - type: pdf
-    url: https://doi.org/10.1007/s11044-017-9572-9
+    url: /media/publications/dynamic-balance-sliding-2018.pdf
 ---
