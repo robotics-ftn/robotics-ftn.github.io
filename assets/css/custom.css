@@ -609,6 +609,24 @@ html.dark .rl-theme-figure figcaption {
   margin: 0;
 }
 
+.prose .rl-projects :where(ol, li, h3, p) {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.prose .rl-projects ol {
+  list-style: none;
+}
+
+.prose .rl-projects h3 {
+  color: inherit;
+  font-weight: 650;
+}
+
+.prose .rl-projects-lead {
+  margin: 0 0 1.15rem;
+}
+
 .rl-projects-lead {
   margin: 0 0 1.15rem;
   font-size: 0.95rem;
