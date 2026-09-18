@@ -9,8 +9,8 @@ sections:
       title: Locomotion
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/locomotion.jpg" alt="MARKO humanoid lower body and spine hardware">
-          <figcaption>Humanoid hardware used in locomotion and upper-body work (Facta Universitatis, 2014).</figcaption>
+          <img src="/media/research/locomotion.jpg" alt="Quadruped robot in simulation with contact forces and support polygon">
+          <figcaption>Quadruped locomotion in simulation, with contact visualization and support polygon.</figcaption>
         </figure>
 
         Locomotion research at FTN centres on biped walking with reconfigurable motion primitives, dynamic balance with multiple contacts, and online path planning when the terrain is not known in advance.

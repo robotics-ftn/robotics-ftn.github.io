@@ -9,8 +9,8 @@ sections:
       title: Lokomocija
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/locomotion.jpg" alt="Donji deo tela i kičma humanoida MARKO">
-          <figcaption>Humanoidni hardver korišćen u radovima o lokomociji i gornjem delu tela (Facta Universitatis, 2014).</figcaption>
+          <img src="/media/research/locomotion.jpg" alt="Četvoronožni robot u simulaciji sa kontaktnim silama i poligonom oslonca">
+          <figcaption>Četvoronožna lokomocija u simulaciji, sa vizuelizacijom kontakata i poligonom oslonca.</figcaption>
         </figure>
 
         Istraživanja lokomocije na FTN-u usmerena su na bipedalno hodanje pomoću rekonfigurisanih primitiva kretanja, dinamički balans sa više kontakata i online planiranje putanje kada teren nije unapred poznat.
