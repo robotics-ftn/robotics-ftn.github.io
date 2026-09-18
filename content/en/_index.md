@@ -38,19 +38,6 @@ sections:
       alignment: left
       css_class: "rl-hero-cinematic"
 
-  - block: markdown
-    content:
-      title: ''
-      text: |
-        <div class="rl-stats">
-          <div class="rl-stat"><strong>50+</strong> peer-reviewed papers (public FTN record, prof. Raković)</div>
-          <div class="rl-stat"><strong>MARKO</strong> humanoid · 33 DOF assistive platform</div>
-          <div class="rl-stat"><strong>7</strong> open repos on <a href="https://github.com/robotics-ftn">github.com/robotics-ftn</a></div>
-          <div class="rl-stat"><strong>H308</strong> Industrial Robotics · 8 ECTS at FTN</div>
-        </div>
-    design:
-      css_class: "py-8"
-
   - block: focus-areas
     content:
       title: Research Pillars
@@ -123,19 +110,6 @@ sections:
     design:
       view: citation
       columns: 1
-      css_class: "py-12"
-
-  - block: collection
-    content:
-      title: Open Source @ robotics-ftn
-      filters:
-        folders:
-          - projects
-      count: 5
-    design:
-      view: article-grid
-      columns: 2
-      show_date: false
       css_class: "py-12"
 
   - block: cta-card

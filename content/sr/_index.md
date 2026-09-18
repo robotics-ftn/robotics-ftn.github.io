@@ -38,19 +38,6 @@ sections:
       alignment: left
       css_class: "rl-hero-cinematic"
 
-  - block: markdown
-    content:
-      title: ''
-      text: |
-        <div class="rl-stats">
-          <div class="rl-stat"><strong>50+</strong> recenziranih radova (javni FTN zapis, prof. Raković)</div>
-          <div class="rl-stat"><strong>MARKO</strong> humanoid · 33 DOF asistivna platforma</div>
-          <div class="rl-stat"><strong>7</strong> otvorenih repozitorijuma na <a href="https://github.com/robotics-ftn">github.com/robotics-ftn</a></div>
-          <div class="rl-stat"><strong>H308</strong> Industrijska robotika · 8 ESPB na FTN-u</div>
-        </div>
-    design:
-      css_class: "py-8"
-
   - block: focus-areas
     content:
       title: Istraživački stubovi
@@ -123,19 +110,6 @@ sections:
     design:
       view: citation
       columns: 1
-      css_class: "py-12"
-
-  - block: collection
-    content:
-      title: Otvoreni kod @ robotics-ftn
-      filters:
-        folders:
-          - projects
-      count: 5
-    design:
-      view: article-grid
-      columns: 2
-      show_date: false
       css_class: "py-12"
 
   - block: cta-card
