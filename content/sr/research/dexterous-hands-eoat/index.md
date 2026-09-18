@@ -9,8 +9,8 @@ sections:
       title: Okretne ruke i EOAT
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/dexterous-hands-eoat.jpg" alt="Nedovoljno aktuirana FTN robot ruka">
-          <figcaption>Nedovoljno aktuirana FTN robot ruka (JIFS, 2018).</figcaption>
+          <img src="/media/research/dexterous-hands-eoat.png" alt="Troprsta ruka osetljiva na silu, dijagram karakteristika i ABB manipulator">
+          <figcaption>Silom-osetljiva nedovoljno aktuirana troprsta ruka i alati na kraju ruke ABB robota (ASME JMR, 2026).</figcaption>
         </figure>
 
         Okretna manipulacija na FTN-u obuhvata tetivne, nedovoljno aktuirane ruke i alate na kraju ruke (EOAT) na industrijskim ćelijama.

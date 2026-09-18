@@ -86,7 +86,7 @@ sections:
             url: /research/mobile-robotics/
         - name: Dexterous hands and EOAT
           description: Underactuated tendon-driven hands, force-sensitive three-finger designs, and end-of-arm tooling on industrial cells.
-          image: research/dexterous-hands-eoat.jpg
+          image: research/dexterous-hands-eoat.png
           gradient: from-emerald-500 to-teal-600
           status: active
           topics: [FTN hand, Three-finger hand, EOAT]

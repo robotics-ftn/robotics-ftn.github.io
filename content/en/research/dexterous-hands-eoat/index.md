@@ -9,8 +9,8 @@ sections:
       title: Dexterous Hands and EOAT
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/dexterous-hands-eoat.jpg" alt="Underactuated FTN robot hand">
-          <figcaption>Underactuated FTN robot hand (JIFS, 2018).</figcaption>
+          <img src="/media/research/dexterous-hands-eoat.png" alt="Force-sensitive three-finger hand stacking blocks, feature diagram, and ABB manipulator">
+          <figcaption>Force-sensitive underactuated three-finger hand and ABB end-of-arm tooling (ASME JMR, 2026).</figcaption>
         </figure>
 
         Dexterous manipulation at FTN covers tendon-driven underactuated hands and the end-of-arm tooling (EOAT) used on industrial cells.

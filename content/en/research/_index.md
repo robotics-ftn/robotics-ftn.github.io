@@ -52,7 +52,7 @@ sections:
             url: /research/mobile-robotics/
         - name: Dexterous hands and EOAT
           description: Underactuated FTN robot hand (JIFS, 2018), force-sensitive three-finger hand (ASME JMR, 2026), and industrial end-of-arm tooling.
-          image: research/dexterous-hands-eoat.jpg
+          image: research/dexterous-hands-eoat.png
           gradient: from-emerald-500 to-cyan-700
           status: active
           url: /research/dexterous-hands-eoat/

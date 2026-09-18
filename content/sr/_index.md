@@ -86,7 +86,7 @@ sections:
             url: /research/mobile-robotics/
         - name: Okretne ruke i EOAT
           description: Nedovoljno aktuirane tetivne ruke, silom-osetljivi troprsti dizajni i alati na kraju ruke na industrijskim ćelijama.
-          image: research/dexterous-hands-eoat.jpg
+          image: research/dexterous-hands-eoat.png
           gradient: from-emerald-500 to-teal-600
           status: active
           topics: [FTN ruka, Troprsta ruka, EOAT]
