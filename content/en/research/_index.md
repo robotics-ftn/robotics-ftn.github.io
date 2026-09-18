@@ -25,7 +25,7 @@ sections:
             url: /research/robot-manipulation/
         - name: Locomotion
           description: Motion primitives for biped walking; dynamic balance with multiple contacts.
-          image: research/locomotion.jpg
+          image: research/locomotion-card.jpg
           gradient: from-slate-300 to-slate-500
           status: active
           url: /research/locomotion/

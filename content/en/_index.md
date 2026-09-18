@@ -56,7 +56,7 @@ sections:
             url: /research/robot-manipulation/
         - name: Locomotion
           description: Biped walking via motion primitives, dynamic balance, and online path planning on unstructured terrain.
-          image: research/locomotion.jpg
+          image: research/locomotion-card.jpg
           gradient: from-slate-300 to-slate-500
           status: active
           topics: [Biped gait, Motion primitives, Balance]

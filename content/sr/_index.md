@@ -56,7 +56,7 @@ sections:
             url: /research/robot-manipulation/
         - name: Lokomocija
           description: Bipedalno hodanje pomoću primitiva kretanja, dinamički balans i online planiranje putanje na nestrukturisanom terenu.
-          image: research/locomotion.jpg
+          image: research/locomotion-card.jpg
           gradient: from-slate-300 to-slate-500
           status: active
           topics: [Bipedalni hod, Primitivi kretanja, Balans]
