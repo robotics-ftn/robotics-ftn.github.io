@@ -1,6 +1,6 @@
 ---
 title: Istraživanja
-summary: Robotska manipulacija, lokomocija, HRI, mobilna robotika, okretne ruke i taktilno senziranje na FTN-u.
+summary: Teme, projekti rukovodioca i otvorena istraživanja Istraživačke grupe za robotiku na FTN-u.
 type: landing
 
 sections:
@@ -70,6 +70,65 @@ sections:
             url: /research/perception-tactile-sensing/
     design:
       layout: cards
+
+  - block: markdown
+    content:
+      title: Projekti
+      text: |
+        <div class="rl-projects" id="projects">
+          <p class="rl-projects-lead">Projekti na kojima je rukovodilac <a href="/sr/authors/mirko-rakovic/">prof. dr Mirko Raković</a>, prema CV-u.</p>
+          <ol class="rl-project-list">
+            <li>
+              <span class="rl-project-years">2021–2022</span>
+              <div>
+                <h3 class="rl-project-title">Meta-Cobots: interakcija čovek–robot u sintetičkom okruženju</h3>
+                <p class="rl-project-meta">Epic Megagrant</p>
+              </div>
+            </li>
+            <li>
+              <span class="rl-project-years">2020–2021</span>
+              <div>
+                <h3 class="rl-project-title">Glasovno vođen logistički sistem za automatizaciju u proizvodnji mesa</h3>
+                <p class="rl-project-meta">H2020 Smart Logistics for Manufacturing L4MS 767642</p>
+              </div>
+            </li>
+            <li>
+              <span class="rl-project-years">2019–2021</span>
+              <div>
+                <h3 class="rl-project-title">Troprsta HRC robotska ruka</h3>
+                <p class="rl-project-meta">Grant Fonda za inovacije Republike Srbije</p>
+              </div>
+            </li>
+            <li>
+              <span class="rl-project-years">2018</span>
+              <div>
+                <h3 class="rl-project-title">Duboko učenje za 3D procenu pogleda</h3>
+                <p class="rl-project-meta">NVidia GPU grant</p>
+              </div>
+            </li>
+            <li>
+              <span class="rl-project-years">2017–2018</span>
+              <div>
+                <h3 class="rl-project-title">ACTICIPATE: razumevanje akcija u dijadnoj interakciji čovek–robot</h3>
+                <p class="rl-project-meta">H2020-MSCA-IF-2016, Project ID 752611</p>
+              </div>
+            </li>
+            <li>
+              <span class="rl-project-years">2016–2017</span>
+              <div>
+                <h3 class="rl-project-title">Upravljanje bimanualnom fizičkom interakcijom čovek–robot za rehabilitaciju i industrijske usluge</h3>
+                <p class="rl-project-meta">PI sa strane UNS, bilateralni projekat UNS–JSI</p>
+              </div>
+            </li>
+            <li>
+              <span class="rl-project-years">2011–2020</span>
+              <div>
+                <h3 class="rl-project-title">Projektovanje robota kao asistivne tehnologije u tretmanu dece sa smetnjama u razvoju</h3>
+                <p class="rl-project-meta">Scientific fund of Serbia, projekat III44008</p>
+              </div>
+            </li>
+          </ol>
+        </div>
 
   - block: cta-card
     content:
