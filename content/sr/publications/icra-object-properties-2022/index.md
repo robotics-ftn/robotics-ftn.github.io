@@ -15,6 +15,7 @@ tags:
   - year-2022
   - Human-robot interaction
 featured: true
+weight: 5
 hugoblox:
   ids:
     doi: 10.1109/ICRA46639.2022.9811725

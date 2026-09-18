@@ -103,6 +103,9 @@ sections:
     id: featured-publications
     content:
       title: Istaknute publikacije
+      count: 5
+      sort_by: Weight
+      sort_ascending: true
       filters:
         folders:
           - publications

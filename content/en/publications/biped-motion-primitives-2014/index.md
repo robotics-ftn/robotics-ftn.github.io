@@ -17,7 +17,7 @@ summary: Biped walking via reconfigurable motion primitives (IEEE T-RO, 2014).
 tags:
   - year-2014
   - Humanoid locomotion
-featured: true
+featured: false
 hugoblox:
   ids:
     doi: 10.1109/TRO.2014.2344431

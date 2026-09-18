@@ -15,7 +15,7 @@ summary: RNN prediction of multiple action sequences in HRI (ICRA 2018).
 tags:
   - year-2018
   - Human-robot interaction
-featured: true
+featured: false
 hugoblox:
   ids:
     doi: 10.1109/ICRA.2018.8460924

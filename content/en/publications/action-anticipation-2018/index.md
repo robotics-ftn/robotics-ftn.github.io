@@ -19,7 +19,7 @@ summary: Action anticipation for human–robot cooperation (IEEE RA-L, 2018).
 tags:
   - year-2018
   - Human-robot interaction
-featured: true
+featured: false
 hugoblox:
   ids:
     doi: 10.1109/LRA.2018.2861569

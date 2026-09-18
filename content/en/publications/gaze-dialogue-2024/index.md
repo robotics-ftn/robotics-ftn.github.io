@@ -19,6 +19,7 @@ tags:
   - year-2024
   - Human-robot interaction
 featured: true
+weight: 2
 hugoblox:
   ids:
     doi: 10.1109/TCYB.2022.3222077

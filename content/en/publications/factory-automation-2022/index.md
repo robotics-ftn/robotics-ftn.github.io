@@ -19,7 +19,8 @@ summary: Scaled factory-automation cell with industrial robot integration (Appli
 tags:
   - year-2022
   - Industrial manipulation
-featured: false
+featured: true
+weight: 4
 hugoblox:
   ids:
     doi: 10.3390/app12031228

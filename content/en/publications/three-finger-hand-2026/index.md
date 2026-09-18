@@ -16,7 +16,8 @@ summary: Force-sensitive underactuated three-finger robot hand (ASME J. Mechanis
 tags:
   - year-2026
   - Industrial manipulation
-featured: false
+featured: true
+weight: 1
 hugoblox:
   ids:
     doi: 10.1115/1.4072408

@@ -19,7 +19,8 @@ summary: Umanjena laboratorijska ćelija fabričke automatizacije sa integracijo
 tags:
   - year-2022
   - Industrial manipulation
-featured: false
+featured: true
+weight: 4
 hugoblox:
   ids:
     doi: 10.3390/app12031228

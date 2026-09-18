@@ -17,7 +17,8 @@ summary: Review of the zero-moment point after fifty-five years (IJHR, 2024).
 tags:
   - year-2024
   - Humanoid locomotion
-featured: false
+featured: true
+weight: 3
 hugoblox:
   ids:
     doi: 10.1142/S0219843623500305

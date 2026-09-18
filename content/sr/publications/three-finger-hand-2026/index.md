@@ -16,7 +16,8 @@ summary: Sila-osetljiva podaktuirana troprsta robotska ruka (ASME J. Mechanisms 
 tags:
   - year-2026
   - Industrial manipulation
-featured: false
+featured: true
+weight: 1
 hugoblox:
   ids:
     doi: 10.1115/1.4072408
