@@ -66,21 +66,27 @@ html.dark {
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--hb-color-background);
+  background-color: var(--hb-color-background, #f8fafc);
 }
 
 body {
-  background-color: transparent;
+  background-color: var(--hb-color-background, #f8fafc);
+  background-image:
+    linear-gradient(var(--rl-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--rl-grid) 1px, transparent 1px);
+  background-size: 28px 28px;
   color: var(--hb-color-foreground);
 }
 
+html.dark,
+html.dark body {
+  background-color: var(--hb-color-background, #030712);
+}
+
+/* Huge fixed JPEG layer blanks Chrome outside Cursor; keep a CSS grid instead. */
 #page-bg {
-  background-color: var(--hb-color-background);
-  background-image: var(--rl-blueprint-overlay), var(--rl-blueprint);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1;
+  display: none !important;
+  background-image: none !important;
 }
 
 /* Glass navigation */
