@@ -9,8 +9,8 @@ sections:
       title: Robotska manipulacija
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/robot-manipulation.jpg" alt="ABB industrijski robot i skalirana ćelija fabričke automatizacije">
-          <figcaption>Skalirana laboratorijska ćelija sa ABB manipulatorom (Applied Sciences, 2022).</figcaption>
+          <img src="/media/research/robot-manipulation.jpg" alt="Kolaborativni robot umeće konektor u štampanu ploču u nosaču">
+          <figcaption>Umetanje konektora u štampanu ploču u nosaču u laboratoriji za robotiku na FTN-u.</figcaption>
         </figure>
 
         Grupa razvija i predaje robotske ćelije na Fakultetu tehničkih nauka — programiranje ABB robota, integraciju hvataljki i skaliranu fabričku automatizaciju koja se može pokrenuti u nastavnoj laboratoriji.

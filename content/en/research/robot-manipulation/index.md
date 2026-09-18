@@ -9,8 +9,8 @@ sections:
       title: Robot manipulation
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/robot-manipulation.jpg" alt="ABB industrial robot and scaled factory-automation cell">
-          <figcaption>Scaled laboratory cell with an ABB manipulator (Applied Sciences, 2022).</figcaption>
+          <img src="/media/research/robot-manipulation.jpg" alt="Collaborative robot inserting a connector into a fixture-held circuit board">
+          <figcaption>Connector insertion on a fixture-held PCB in the FTN robotics lab.</figcaption>
         </figure>
 
         The group builds and teaches robot cells at the Faculty of Technical Sciences — ABB programming, gripper integration, and scaled factory automation that can be run in a teaching laboratory.
