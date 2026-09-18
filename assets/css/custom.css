@@ -203,41 +203,47 @@ article[class*="rounded"]:hover,
 }
 
 /* Focus areas / research pillars */
-.hbx-block-focus-areas [class*="rounded-2xl"],
-.hbx-block-focus-areas [class*="rounded-xl"] {
+#section-focus-areas [class*="rounded-2xl"],
+#section-focus-areas [class*="rounded-xl"] {
   border: 1px solid var(--rl-card-border);
   background: var(--rl-focus-bg);
 }
 
-/* Theme thumbnails: keep a light wash, but no coloured (cyan/emerald) tint */
-.hbx-block-focus-areas .h-48.overflow-hidden {
+/* Theme thumbnails: real photo color + a white/gray wash (not cyan/emerald) */
+a.block.relative.h-48[class*="bg-gradient-to-br"],
+div.relative.h-48[class*="bg-gradient-to-br"] {
   background-image: none !important;
-  background-color: #e2e8f0;
+  background-color: #e2e8f0 !important;
 }
 
-html.dark .hbx-block-focus-areas .h-48.overflow-hidden {
-  background-color: #334155;
+html.dark a.block.relative.h-48[class*="bg-gradient-to-br"],
+html.dark div.relative.h-48[class*="bg-gradient-to-br"] {
+  background-color: #334155 !important;
 }
 
-.hbx-block-focus-areas .h-48 img {
-  opacity: 1;
+a.block.relative.h-48[class*="bg-gradient-to-br"] img,
+div.relative.h-48[class*="bg-gradient-to-br"] img {
+  opacity: 1 !important;
 }
 
-.hbx-block-focus-areas .h-48::after {
+a.block.relative.h-48[class*="bg-gradient-to-br"]::after,
+div.relative.h-48[class*="bg-gradient-to-br"]::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.18);
   pointer-events: none;
-  transition: background-color 0.35s ease, opacity 0.35s ease;
+  transition: opacity 0.35s ease;
 }
 
-html.dark .hbx-block-focus-areas .h-48::after {
+html.dark a.block.relative.h-48[class*="bg-gradient-to-br"]::after,
+html.dark div.relative.h-48[class*="bg-gradient-to-br"]::after {
   background: rgba(15, 23, 42, 0.22);
 }
 
-.hbx-block-focus-areas .group:hover .h-48::after {
-  opacity: 0.35;
+.group:hover a.block.relative.h-48[class*="bg-gradient-to-br"]::after,
+.group:hover div.relative.h-48[class*="bg-gradient-to-br"]::after {
+  opacity: 0.3;
 }
 
 /* Publications citations */

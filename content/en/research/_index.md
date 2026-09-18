@@ -17,7 +17,7 @@ sections:
         - name: Robot manipulation
           description: ABB cells, Robotiq Modbus RTU, scaled factory automation (Applied Sciences, 2022).
           image: research/robot-manipulation.jpg
-          gradient: from-cyan-500 to-blue-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/robot-manipulation/
           cta:
@@ -26,7 +26,7 @@ sections:
         - name: Locomotion
           description: Motion primitives for biped walking; dynamic balance with multiple contacts.
           image: research/locomotion.jpg
-          gradient: from-orange-500 to-red-600
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/locomotion/
           cta:
@@ -35,7 +35,7 @@ sections:
         - name: Human–Robot Interaction
           description: Gaze dialogue model (IEEE Trans. Cybernetics, 2024) and action anticipation (RA-L, 2018).
           image: research/human-robot-interaction.jpg
-          gradient: from-violet-500 to-purple-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/human-robot-interaction/
           cta:
@@ -44,7 +44,7 @@ sections:
         - name: Mobile robotics
           description: Mobile robot platforms for navigation and field work at the Chair of Mechatronics, Robotics and Automation.
           image: research/mobile-robotics.jpg
-          gradient: from-sky-500 to-indigo-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/mobile-robotics/
           cta:
@@ -53,7 +53,7 @@ sections:
         - name: Dexterous hands and EOAT
           description: Underactuated FTN robot hand (JIFS, 2018), force-sensitive three-finger hand (ASME JMR, 2026), and industrial end-of-arm tooling.
           image: research/dexterous-hands-eoat-card.jpg
-          gradient: from-emerald-500 to-cyan-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/dexterous-hands-eoat/
           cta:
@@ -62,7 +62,7 @@ sections:
         - name: Perception and tactile sensing
           description: Inferring object properties from visual cues (ICRA, 2022) and force sensing on the three-finger robot hand (ASME JMR, 2026).
           image: research/perception-tactile-sensing.jpg
-          gradient: from-teal-500 to-emerald-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/perception-tactile-sensing/
           cta:

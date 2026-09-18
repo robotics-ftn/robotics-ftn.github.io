@@ -47,7 +47,7 @@ sections:
         - name: Robot manipulation
           description: ABB robot programming, Robotiq grippers, scaled factory-automation cells, and industrial robotics coursework (H308).
           image: research/robot-manipulation.jpg
-          gradient: from-cyan-500 to-blue-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [ABB, Robotiq, Factory cells]
           url: /research/robot-manipulation/
@@ -57,7 +57,7 @@ sections:
         - name: Locomotion
           description: Biped walking via motion primitives, dynamic balance, and online path planning on unstructured terrain.
           image: research/locomotion.jpg
-          gradient: from-orange-500 to-amber-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Biped gait, Motion primitives, Balance]
           url: /research/locomotion/
@@ -67,7 +67,7 @@ sections:
         - name: Human–Robot Interaction
           description: Action anticipation, gaze dialogue models, and collaborative tasks with humanoid and industrial platforms.
           image: research/human-robot-interaction.jpg
-          gradient: from-fuchsia-500 to-violet-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Gaze, Anticipation, Collaboration]
           url: /research/human-robot-interaction/
@@ -77,7 +77,7 @@ sections:
         - name: Mobile robotics
           description: Mobile platforms for navigation and field tasks, developed alongside humanoid and industrial systems at FTN.
           image: research/mobile-robotics.jpg
-          gradient: from-sky-500 to-indigo-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Navigation, Mobile platforms, Field robotics]
           url: /research/mobile-robotics/
@@ -87,7 +87,7 @@ sections:
         - name: Dexterous hands and EOAT
           description: Underactuated tendon-driven hands, force-sensitive three-finger designs, and end-of-arm tooling on industrial cells.
           image: research/dexterous-hands-eoat-card.jpg
-          gradient: from-emerald-500 to-teal-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [FTN hand, Three-finger hand, EOAT]
           url: /research/dexterous-hands-eoat/
@@ -97,7 +97,7 @@ sections:
         - name: Perception and tactile sensing
           description: Visual inference of object properties and force-sensitive grasping on dexterous hands.
           image: research/perception-tactile-sensing.jpg
-          gradient: from-teal-500 to-emerald-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Vision, Force sensing, Object properties]
           url: /research/perception-tactile-sensing/

@@ -17,7 +17,7 @@ sections:
         - name: Robotska manipulacija
           description: ABB ćelije, Robotiq Modbus RTU, skalirana fabrička automatizacija (Applied Sciences, 2022).
           image: research/robot-manipulation.jpg
-          gradient: from-cyan-500 to-blue-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/robot-manipulation/
           cta:
@@ -26,7 +26,7 @@ sections:
         - name: Lokomocija
           description: Primitivi kretanja za bipedalno hodanje; dinamički balans sa više kontaktnih tačaka.
           image: research/locomotion.jpg
-          gradient: from-orange-500 to-red-600
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/locomotion/
           cta:
@@ -35,7 +35,7 @@ sections:
         - name: Interakcija čovek–robot
           description: Model dijaloga pogledom (IEEE Trans. Cybernetics, 2024) i anticipacija akcija (RA-L, 2018).
           image: research/human-robot-interaction.jpg
-          gradient: from-violet-500 to-purple-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/human-robot-interaction/
           cta:
@@ -44,7 +44,7 @@ sections:
         - name: Mobilna robotika
           description: Mobilne robotske platforme za navigaciju i rad u terenu na Katedri za mehatroniku, robotiku i automatizaciju.
           image: research/mobile-robotics.jpg
-          gradient: from-sky-500 to-indigo-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/mobile-robotics/
           cta:
@@ -53,7 +53,7 @@ sections:
         - name: Okretne ruke i EOAT
           description: Nedovoljno aktuirana FTN robot ruka (JIFS, 2018), silom-osetljiva troprsta ruka (ASME JMR, 2026) i industrijski alati na kraju ruke.
           image: research/dexterous-hands-eoat-card.jpg
-          gradient: from-emerald-500 to-cyan-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/dexterous-hands-eoat/
           cta:
@@ -62,7 +62,7 @@ sections:
         - name: Percepcija i taktilno senziranje
           description: Zaključivanje o svojstvima objekata iz vizuelnih znakova (ICRA, 2022) i osetljivanje sile na troprstoj robot ruci (ASME JMR, 2026).
           image: research/perception-tactile-sensing.jpg
-          gradient: from-teal-500 to-emerald-700
+          gradient: from-slate-300 to-slate-500
           status: active
           url: /research/perception-tactile-sensing/
           cta:

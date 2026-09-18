@@ -47,7 +47,7 @@ sections:
         - name: Robotska manipulacija
           description: Programiranje ABB robota, Robotiq hvataljke, skalirane ćelije fabričke automatizacije i nastava iz industrijske robotike (H308).
           image: research/robot-manipulation.jpg
-          gradient: from-cyan-500 to-blue-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [ABB, Robotiq, Fabričke ćelije]
           url: /research/robot-manipulation/
@@ -57,7 +57,7 @@ sections:
         - name: Lokomocija
           description: Bipedalno hodanje pomoću primitiva kretanja, dinamički balans i online planiranje putanje na nestrukturisanom terenu.
           image: research/locomotion.jpg
-          gradient: from-orange-500 to-amber-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Bipedalni hod, Primitivi kretanja, Balans]
           url: /research/locomotion/
@@ -67,7 +67,7 @@ sections:
         - name: Interakcija čovek–robot
           description: Model dijaloga pogledom, anticipacija akcija i kolaborativni zadaci na humanoidnim i industrijskim platformama.
           image: research/human-robot-interaction.jpg
-          gradient: from-fuchsia-500 to-violet-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Pogled, Anticipacija, Saradnja]
           url: /research/human-robot-interaction/
@@ -77,7 +77,7 @@ sections:
         - name: Mobilna robotika
           description: Mobilne platforme za navigaciju i rad u terenu, uz humanoidne i industrijske sisteme na FTN-u.
           image: research/mobile-robotics.jpg
-          gradient: from-sky-500 to-indigo-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Navigacija, Mobilne platforme, Terenska robotika]
           url: /research/mobile-robotics/
@@ -87,7 +87,7 @@ sections:
         - name: Okretne ruke i EOAT
           description: Nedovoljno aktuirane tetivne ruke, silom-osetljivi troprsti dizajni i alati na kraju ruke na industrijskim ćelijama.
           image: research/dexterous-hands-eoat-card.jpg
-          gradient: from-emerald-500 to-teal-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [FTN ruka, Troprsta ruka, EOAT]
           url: /research/dexterous-hands-eoat/
@@ -97,7 +97,7 @@ sections:
         - name: Percepcija i taktilno senziranje
           description: Vizuelno zaključivanje o svojstvima objekata i hvatanje osetljivo na silu na okretnim rukama.
           image: research/perception-tactile-sensing.jpg
-          gradient: from-teal-500 to-emerald-600
+          gradient: from-slate-300 to-slate-500
           status: active
           topics: [Vid, Osetljivanje sile, Svojstva objekata]
           url: /research/perception-tactile-sensing/
