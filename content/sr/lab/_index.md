@@ -36,6 +36,15 @@ sections:
                   <p class="rl-pub-authors">Dva xArm7 manipulatora za bimanualni rad.</p>
                 </div>
               </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media">
+                  <img src="/media/lab/staubli-ts80.jpg" alt="" width="480" height="360">
+                </div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Stäubli TS 80 SCARA manipulator</h3>
+                  <p class="rl-pub-authors">SCARA manipulator.</p>
+                </div>
+              </article>
             </div>
           </section>
           <section class="rl-pubs-year-group" aria-labelledby="lab-hands">
