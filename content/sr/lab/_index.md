@@ -27,6 +27,15 @@ sections:
                   <p class="rl-pub-authors">Narandžasti i beli IRB 140 manipulatori za nastavu i eksperimente; programiranje preko <code>open_abb</code>.</p>
                 </div>
               </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media">
+                  <img src="/media/lab/xarm7-bimanual.jpg" alt="" width="480" height="360">
+                </div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Bimanualni robotski setup sa dva xArm7 manipulatora</h3>
+                  <p class="rl-pub-authors">Dva xArm7 manipulatora za bimanualni rad.</p>
+                </div>
+              </article>
             </div>
           </section>
           <section class="rl-pubs-year-group" aria-labelledby="lab-hands">

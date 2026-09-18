@@ -27,6 +27,15 @@ sections:
                   <p class="rl-pub-authors">Orange and white IRB 140 manipulators used for teaching and experiments; programmed via <code>open_abb</code>.</p>
                 </div>
               </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media">
+                  <img src="/media/lab/xarm7-bimanual.jpg" alt="" width="480" height="360">
+                </div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Bimanual robot arm setup with two xArm7 robotic arms</h3>
+                  <p class="rl-pub-authors">Two xArm7 arms mounted for bimanual work.</p>
+                </div>
+              </article>
             </div>
           </section>
           <section class="rl-pubs-year-group" aria-labelledby="lab-hands">
