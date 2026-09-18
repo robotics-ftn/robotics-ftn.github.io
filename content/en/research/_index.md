@@ -6,7 +6,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Research & Projects
+      title: Research
       text: |
         The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, industrial manipulation, human–robot interaction systems, and mobile robotics. The group is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
@@ -61,19 +61,6 @@ sections:
             url: /publications/icra-object-properties-2022/
     design:
       layout: cards
-
-  - block: collection
-    content:
-      title: GitHub Projects
-      text: Active repositories from the public **robotics-ftn** organization.
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 3
-      show_date: false
-      show_read_time: false
 
   - block: cta-card
     content:

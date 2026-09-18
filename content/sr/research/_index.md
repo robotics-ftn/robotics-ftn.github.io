@@ -6,7 +6,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Istraživanja i projekti
+      title: Istraživanja
       text: |
         **Istraživačka grupa za robotiku na FTN-u** razvija humanoidne robote, okretne ruke, industrijsku manipulaciju, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Otvoreni kod: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
@@ -61,19 +61,6 @@ sections:
             url: /publications/icra-object-properties-2022/
     design:
       layout: cards
-
-  - block: collection
-    content:
-      title: GitHub projekti
-      text: Aktivni repozitorijumi javne **robotics-ftn** organizacije.
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 3
-      show_date: false
-      show_read_time: false
 
   - block: cta-card
     content:
