@@ -269,27 +269,15 @@ html.dark .hbx-block-team-showcase img {
 }
 
 /* Gallery / lab hardware */
-.rl-lab-thumb {
-  margin: 0 0 1.25rem;
-  max-width: 280px;
-}
-
-.rl-lab-thumb img {
-  display: block;
+.rl-lab-equip {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  border-radius: 0.5rem;
-  border: 1px solid var(--rl-card-border);
-  background: #0f172a;
-}
-
-.prose .rl-lab-thumb {
-  margin: 0 0 1.25rem;
-}
-
-.prose .rl-lab-thumb img {
+  max-width: 920px;
   margin: 0;
+  padding: 0;
+}
+
+.prose:has(.rl-lab-equip) {
+  max-width: 920px;
 }
 
 .hbx-block-gallery img {

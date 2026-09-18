@@ -14,27 +14,58 @@ sections:
     content:
       title: Oprema
       text: |
-        <figure class="rl-lab-thumb">
-          <img src="/media/lab/abb-irb140.jpg" alt="Dva ABB IRB140 robotska manipulatora">
-        </figure>
-
-        ### Roboti
-
-        | Oprema | Opis |
-        | --- | --- |
-        | **Dva ABB IRB140 robotska manipulatora** | Narandžasti i beli IRB 140 manipulatori za nastavu i eksperimente; programiranje preko `open_abb` |
-
-        ### Ruke i alati
-
-        | Oprema | Opis |
-        | --- | --- |
-        | **FTN robot ruka** | Nedovoljno aktuirana ruka sa tetivnim pogonom; 5 DC motora na dlanu; fuzzy kontrola položaj–brzina |
-        | **Robotiq hvataljke** | Modbus RTU kontrola preko `robotiq_modbusrtu` |
-
-        ### Humanoidi i pokret
-
-        | Oprema | Opis |
-        | --- | --- |
-        | **Humanoid MARKO** | 33-DOF antropomorfna platforma za istraživanje asistivne terapije; proprioceptivno osećanje, kamere, mikrofon |
-        | **Motion capture** | [Laboratorija za snimanje i analizu pokreta](https://mehatronika.ftn.uns.ac.rs/laboratorije/) (prof. dr Srđan Savić) |
+        <div class="rl-pubs rl-lab-equip not-prose">
+          <section class="rl-pubs-year-group" aria-labelledby="lab-robots">
+            <h2 class="rl-pubs-year" id="lab-robots">Roboti</h2>
+            <div class="rl-pubs-list">
+              <article class="rl-pub-row">
+                <div class="rl-pub-media">
+                  <img src="/media/lab/abb-irb140.jpg" alt="" width="480" height="360">
+                </div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Dva ABB IRB140 robotska manipulatora</h3>
+                  <p class="rl-pub-authors">Narandžasti i beli IRB 140 manipulatori za nastavu i eksperimente; programiranje preko <code>open_abb</code>.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-hands">
+            <h2 class="rl-pubs-year" id="lab-hands">Ruke i alati</h2>
+            <div class="rl-pubs-list">
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">FTN robot ruka</h3>
+                  <p class="rl-pub-authors">Nedovoljno aktuirana ruka sa tetivnim pogonom; 5 DC motora na dlanu; fuzzy kontrola položaj–brzina.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Robotiq hvataljke</h3>
+                  <p class="rl-pub-authors">Modbus RTU kontrola preko <code>robotiq_modbusrtu</code>.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-humanoids">
+            <h2 class="rl-pubs-year" id="lab-humanoids">Humanoidi i pokret</h2>
+            <div class="rl-pubs-list">
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Humanoid MARKO</h3>
+                  <p class="rl-pub-authors">33-DOF antropomorfna platforma za istraživanje asistivne terapije; proprioceptivno osećanje, kamere, mikrofon.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Motion capture</h3>
+                  <p class="rl-pub-authors"><a href="https://mehatronika.ftn.uns.ac.rs/laboratorije/">Laboratorija za snimanje i analizu pokreta</a> (prof. dr Srđan Savić).</p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
 ---
