@@ -15,7 +15,7 @@ peer_reviewed: true
 summary: Balance and anti-sliding control with multiple spatial contacts (Multibody System Dynamics, 2018).
 tags:
   - year-2018
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

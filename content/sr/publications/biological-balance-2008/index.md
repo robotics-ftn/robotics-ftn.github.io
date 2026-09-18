@@ -19,7 +19,7 @@ peer_reviewed: true
 summary: Biološki principi izbora upravljanja za očuvanje dinamičkog balansa humanoida (IJHR, 2008).
 tags:
   - year-2008
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

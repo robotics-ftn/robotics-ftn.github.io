@@ -16,7 +16,7 @@ peer_reviewed: true
 summary: Online path planning combined with biped walking primitives (Frontiers in Neurorobotics, 2019).
 tags:
   - year-2019
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

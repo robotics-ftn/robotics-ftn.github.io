@@ -16,7 +16,7 @@ peer_reviewed: true
 summary: Bipedni hod preko rekonfigurisivih primitiva kretanja (IEEE T-RO, 2014).
 tags:
   - year-2014
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

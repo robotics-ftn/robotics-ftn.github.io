@@ -17,7 +17,7 @@ peer_reviewed: true
 summary: Sinteza hoda i upravljanje humanoida pri malim poremećajima (IJHR, 2008).
 tags:
   - year-2008
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

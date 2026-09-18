@@ -16,7 +16,7 @@ peer_reviewed: true
 summary: Pregled koncepta nultog momenta (ZMP) posle pedeset pet godina (IJHR, 2024).
 tags:
   - year-2024
-  - Humanoid locomotion
+  - Locomotion
 featured: true
 weight: 3
 hugoblox:

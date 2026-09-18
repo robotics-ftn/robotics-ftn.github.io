@@ -16,7 +16,7 @@ peer_reviewed: true
 summary: Hybrid motion control for leader–follower humanoid cooperation (Thermal Science, 2016).
 tags:
   - year-2016
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

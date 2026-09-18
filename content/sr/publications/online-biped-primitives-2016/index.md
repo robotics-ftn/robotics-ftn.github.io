@@ -14,7 +14,7 @@ peer_reviewed: true
 summary: Onlajn izmena bipednog hoda sastavljenog od primitiva kretanja (Thermal Science, 2016).
 tags:
   - year-2016
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

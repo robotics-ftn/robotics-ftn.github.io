@@ -6,8 +6,8 @@ hugoblox:
     name: "Robotics@FTN"
     organization: "Robotics Research group at FTN, University of Novi Sad"
     type: organization
-    tagline: "Industrial manipulation, humanoid locomotion, and human–robot interaction — built and tested on real hardware."
-    description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, industrial manipulation, HRI systems, and mobile robotics. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
+    tagline: "Robot-arm manipulation, locomotion, and human–robot interaction — built and tested on real hardware."
+    description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, robot-arm manipulation, HRI systems, and mobile robotics. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
     social:
       twitter: ""
 

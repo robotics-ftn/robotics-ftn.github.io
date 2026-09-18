@@ -17,7 +17,7 @@ peer_reviewed: true
 summary: Gait synthesis and control of humanoids under small disturbances (IJHR, 2008).
 tags:
   - year-2008
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

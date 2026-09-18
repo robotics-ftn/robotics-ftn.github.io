@@ -16,7 +16,7 @@ peer_reviewed: true
 summary: Onlajn planiranje putanje i realizacija bipednog hoda (Frontiers in Neurorobotics, 2019).
 tags:
   - year-2019
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

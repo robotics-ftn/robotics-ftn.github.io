@@ -15,7 +15,7 @@ peer_reviewed: true
 summary: Kompenzacija poremećaja koji ugrožavaju dinamički balans humanoida (IJHR, 2011).
 tags:
   - year-2011
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

@@ -13,7 +13,7 @@ peer_reviewed: true
 summary: Poglavlje o onlajn generisanju bipednog kretanja u nestrukturisanom okruženju (Springer, 2013).
 tags:
   - year-2013
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

@@ -10,8 +10,8 @@ en:
   params:
     hugoblox:
       identity:
-        tagline: "Industrial manipulation, humanoid locomotion, and human–robot interaction — built and tested on real hardware."
-        description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, industrial manipulation, HRI systems, and mobile robotics. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
+        tagline: "Robot-arm manipulation, locomotion, and human–robot interaction — built and tested on real hardware."
+        description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, robot-arm manipulation, HRI systems, and mobile robotics. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
       header:
         cta:
           text: Join Us
@@ -58,8 +58,8 @@ sr:
   params:
     hugoblox:
       identity:
-        tagline: "Industrijska manipulacija, humanoidna lokomocija i interakcija čovek–robot — razvijeno i testirano na stvarnom hardveru."
-        description: "Istraživačka grupa za robotiku na FTN-u, Fakultet tehničkih nauka (Univerzitet u Novom Sadu), razvija humanoidne robote, okretne ruke, industrijsku manipulaciju, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić."
+        tagline: "Manipulacija robotskim rukama, lokomocija i interakcija čovek–robot — razvijeno i testirano na stvarnom hardveru."
+        description: "Istraživačka grupa za robotiku na FTN-u, Fakultet tehničkih nauka (Univerzitet u Novom Sadu), razvija humanoidne robote, okretne ruke, manipulaciju robotskim rukama, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić."
       header:
         cta:
           text: Pridružite se

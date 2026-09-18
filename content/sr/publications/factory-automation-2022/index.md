@@ -18,7 +18,7 @@ peer_reviewed: true
 summary: Umanjena laboratorijska ćelija fabričke automatizacije sa integracijom robota (Applied Sciences, 2022).
 tags:
   - year-2022
-  - Industrial manipulation
+  - Robot arms manipulation
   - Mobile robotics
 featured: true
 weight: 4

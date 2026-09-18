@@ -15,7 +15,7 @@ sections:
 
         Dexterous manipulation at FTN covers tendon-driven underactuated hands and the end-of-arm tooling (EOAT) used on industrial cells.
 
-        The FTN robot hand is an underactuated, tendon-driven design with palm-mounted motors and fuzzy position–velocity finger control ([JIFS, 2018](/publications/ftn-robot-hand-2018/)). A later force-sensitive three-finger hand extends that line ([ASME Journal of Mechanisms and Robotics, 2026](/publications/three-finger-hand-2026/)). On industrial arms, EOAT includes Robotiq grippers driven over Modbus RTU in the scaled factory cell — see [industrial manipulation](/research/industrial-manipulation/).
+        The FTN robot hand is an underactuated, tendon-driven design with palm-mounted motors and fuzzy position–velocity finger control ([JIFS, 2018](/publications/ftn-robot-hand-2018/)). A later force-sensitive three-finger hand extends that line ([ASME Journal of Mechanisms and Robotics, 2026](/publications/three-finger-hand-2026/)). On industrial arms, EOAT includes Robotiq grippers driven over Modbus RTU in the scaled factory cell — see [robot arms manipulation](/research/robot-arms-manipulation/).
 
   - block: collection
     content:

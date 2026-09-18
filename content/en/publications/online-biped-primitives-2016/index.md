@@ -14,7 +14,7 @@ peer_reviewed: true
 summary: Online modification of biped walk built from motion primitives (Thermal Science, 2016).
 tags:
   - year-2016
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

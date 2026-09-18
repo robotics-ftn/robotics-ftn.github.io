@@ -15,7 +15,7 @@ peer_reviewed: true
 summary: Compensation of disturbances that threaten humanoid dynamic balance (IJHR, 2011).
 tags:
   - year-2011
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

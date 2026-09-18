@@ -1,15 +1,15 @@
 ---
-title: Humanoidna lokomocija
+title: Lokomocija
 summary: Primitivi bipednog hoda, dinamički balans i planiranje putanje na nestrukturisanom terenu.
 type: landing
 
 sections:
   - block: markdown
     content:
-      title: Humanoidna lokomocija
+      title: Lokomocija
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/humanoid-locomotion.jpg" alt="Donji deo tela i kičma humanoida MARKO">
+          <img src="/media/research/locomotion.jpg" alt="Donji deo tela i kičma humanoida MARKO">
           <figcaption>Humanoidni hardver korišćen u radovima o lokomociji i gornjem delu tela (Facta Universitatis, 2014).</figcaption>
         </figure>
 
@@ -24,7 +24,7 @@ sections:
         folders:
           - publications
         tags:
-          - Humanoid locomotion
+          - Locomotion
     design:
       view: citation
       columns: 1

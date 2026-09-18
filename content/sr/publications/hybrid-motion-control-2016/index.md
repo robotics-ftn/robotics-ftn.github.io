@@ -16,7 +16,7 @@ peer_reviewed: true
 summary: Hibridno upravljanje kretanjem humanoida u leader–follower zadacima (Thermal Science, 2016).
 tags:
   - year-2016
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

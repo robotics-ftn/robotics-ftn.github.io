@@ -15,7 +15,7 @@ peer_reviewed: true
 summary: Očuvanje dinamičkog balansa i sprečavanje klizanja pri višestrukim kontaktima (Multibody System Dynamics, 2018).
 tags:
   - year-2018
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

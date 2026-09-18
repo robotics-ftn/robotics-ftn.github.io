@@ -1,15 +1,15 @@
 ---
-title: Humanoid Locomotion
+title: Locomotion
 summary: Biped walking primitives, dynamic balance, and path planning on unstructured terrain.
 type: landing
 
 sections:
   - block: markdown
     content:
-      title: Humanoid Locomotion
+      title: Locomotion
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/humanoid-locomotion.jpg" alt="MARKO humanoid lower body and spine hardware">
+          <img src="/media/research/locomotion.jpg" alt="MARKO humanoid lower body and spine hardware">
           <figcaption>Humanoid hardware used in locomotion and upper-body work (Facta Universitatis, 2014).</figcaption>
         </figure>
 
@@ -24,7 +24,7 @@ sections:
         folders:
           - publications
         tags:
-          - Humanoid locomotion
+          - Locomotion
     design:
       view: citation
       columns: 1

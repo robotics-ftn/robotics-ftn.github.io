@@ -13,7 +13,7 @@ peer_reviewed: true
 summary: Book chapter on online biped motion generation in unstructured environments (Springer, 2013).
 tags:
   - year-2013
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

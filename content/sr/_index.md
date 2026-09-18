@@ -10,7 +10,7 @@ sections:
       eyebrow: Istraživačka grupa za robotiku na FTN-u · Novi Sad
       title: '[Roboti koji se kreću, hvataju i sarađuju] sa ljudima'
       text: |
-        Razvijamo humanoidne platforme, okretne ruke, industrijsku manipulaciju i mobilnu robotiku — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka.
+        Razvijamo humanoidne platforme, okretne ruke, manipulaciju robotskim rukama i mobilnu robotiku — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka.
       announcement:
         badge:
           text: FTN
@@ -41,29 +41,29 @@ sections:
   - block: focus-areas
     content:
       title: Istraživački stubovi
-      subtitle: Industrijska · Humanoidna · Interakcija · Mobilna · Ruke · Percepcija
+      subtitle: Manipulatori · Lokomocija · Interakcija · Mobilna · Ruke · Percepcija
       text: Grupisano po temama Katedre za mehatroniku, robotiku i automatizaciju na FTN-u i javne robotics-ftn organizacije na GitHub-u.
       items:
-        - name: Industrijska manipulacija
+        - name: Manipulacija robotskim rukama
           description: Programiranje ABB robota, Robotiq hvataljke, skalirane ćelije fabričke automatizacije i nastava iz industrijske robotike (H308).
-          image: research/industrial-manipulation.jpg
+          image: research/robot-arms-manipulation.jpg
           gradient: from-cyan-500 to-blue-600
           status: active
           topics: [ABB, Robotiq, Fabričke ćelije]
-          url: /research/industrial-manipulation/
+          url: /research/robot-arms-manipulation/
           cta:
             text: Saznajte više
-            url: /research/industrial-manipulation/
-        - name: Humanoidna lokomocija
+            url: /research/robot-arms-manipulation/
+        - name: Lokomocija
           description: Bipedalno hodanje pomoću primitiva kretanja, dinamički balans i online planiranje putanje na nestrukturisanom terenu.
-          image: research/humanoid-locomotion.jpg
+          image: research/locomotion.jpg
           gradient: from-orange-500 to-amber-600
           status: active
           topics: [Bipedalni hod, Primitivi kretanja, Balans]
-          url: /research/humanoid-locomotion/
+          url: /research/locomotion/
           cta:
             text: Saznajte više
-            url: /research/humanoid-locomotion/
+            url: /research/locomotion/
         - name: Interakcija čovek–robot
           description: Model dijaloga pogledom, anticipacija akcija i kolaborativni zadaci na humanoidnim i industrijskim platformama.
           image: research/human-robot-interaction.jpg
@@ -128,7 +128,7 @@ sections:
     content:
       title: Gradite robote sa nama na FTN-u
       text: |
-        Teme za doktorske i master studije iz lokomocije, HRI-ja, industrijske manipulacije, mobilne robotike i okretnih ruku. Pišite grupi ili pogledajte oblasti za teze na stranici Pridruži se.
+        Teme za doktorske i master studije iz lokomocije, HRI-ja, manipulacije robotskim rukama, mobilne robotike i okretnih ruku. Pišite grupi ili pogledajte oblasti za teze na stranici Pridruži se.
       button:
         text: Pridružite se
         url: /join/

@@ -19,7 +19,7 @@ peer_reviewed: true
 summary: Biological principles for selecting balance-preservation control on humanoids (IJHR, 2008).
 tags:
   - year-2008
-  - Humanoid locomotion
+  - Locomotion
 featured: false
 hugoblox:
   ids:

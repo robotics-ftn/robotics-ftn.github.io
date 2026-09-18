@@ -1,6 +1,6 @@
 ---
 title: Research
-summary: Industrial manipulation, humanoid locomotion, HRI, mobile robotics, dexterous hands, and tactile sensing at FTN.
+summary: Robot-arm manipulation, locomotion, HRI, mobile robotics, dexterous hands, and tactile sensing at FTN.
 type: landing
 
 sections:
@@ -8,30 +8,30 @@ sections:
     content:
       title: Research
       text: |
-        The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, industrial manipulation, human–robot interaction systems, and mobile robotics. The group is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
+        The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, robot-arm manipulation, human–robot interaction systems, and mobile robotics. The group is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:
       title: Themes
       items:
-        - name: Industrial Manipulation
+        - name: Robot arms manipulation
           description: ABB cells, Robotiq Modbus RTU, scaled factory automation (Applied Sciences, 2022).
-          image: research/industrial-manipulation.jpg
+          image: research/robot-arms-manipulation.jpg
           gradient: from-cyan-500 to-blue-700
           status: active
-          url: /research/industrial-manipulation/
+          url: /research/robot-arms-manipulation/
           cta:
             text: Learn more
-            url: /research/industrial-manipulation/
-        - name: Humanoid Locomotion
+            url: /research/robot-arms-manipulation/
+        - name: Locomotion
           description: Motion primitives for biped walking; dynamic balance with multiple contacts.
-          image: research/humanoid-locomotion.jpg
+          image: research/locomotion.jpg
           gradient: from-orange-500 to-red-600
           status: active
-          url: /research/humanoid-locomotion/
+          url: /research/locomotion/
           cta:
             text: Learn more
-            url: /research/humanoid-locomotion/
+            url: /research/locomotion/
         - name: Human–Robot Interaction
           description: Gaze dialogue model (IEEE Trans. Cybernetics, 2024) and action anticipation (RA-L, 2018).
           image: research/human-robot-interaction.jpg
