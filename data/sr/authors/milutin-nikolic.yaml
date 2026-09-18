@@ -1,11 +1,23 @@
 role: Vanredni profesor · Rukovodilac grupe
 bio: |
-  Vanredni profesor i jedan od troje rukovodilaca Istraživačke grupe za robotiku na FTN-u. Istražuje bipednu lokomociju i dinamički balans; predaje Industrijsku robotiku (H308).
+  Vanredni profesor (od 2020) i jedan od troje rukovodilaca Istraživačke grupe za robotiku na FTN-u, Fakultet tehničkih nauka, Univerzitet u Novom Sadu, na Katedri za mehatroniku, robotiku i automatizaciju. Doktorat iz mehatronike na FTN-u (2015), mentor prof. dr Branislav Borovac, na temu modifikacije pokreta robota pri dvonožnom kretanju ili stajanju u prisustvu ograničenja ili poremećaja; master iz mehatronike (2008), najbolji student generacije (prosek 10,0).
+
+  Istraživanja obuhvataju upravljanje u prostoru zadataka i prioritetizaciju zadataka kvadratnim programiranjem, sintezu pokreta celim telom, kriterijume stabilnosti pri većem broju kontakata, generisanje hoda i kompenzaciju poremećaja, te kinematiku, dinamiku i simulaciju robota — uključujući noviji rad na planiranju težišta četvoronožnog robota Solo12. Docent sa posebnim imenovanjem u laboratoriji Nakamura & Yamamoto, Univerzitet u Tokiju (mart 2019–april 2020). Predaje Industrijsku robotiku (H308), snimanje i analizu kretanja, osnove razvoja proizvoda, Naprednu robotiku i neindustrijsku robotiku i automatizaciju.
+
+  [Curriculum vitae (PDF)](/media/cv/milutin-nikolic.pdf)
+education:
+  - area: Doktorat iz mehatronike
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2015
+  - area: Master iz mehatronike
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2008
 affiliations:
   - name: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
 interests:
-  - Bipedna lokomocija
-  - Dinamički balans
+  - Sinteza pokreta celim telom
+  - Višekontaktni balans
+  - Bipedna i četvoronožna lokomocija
   - Industrijska robotika
 user_groups:
   - Nastavnici

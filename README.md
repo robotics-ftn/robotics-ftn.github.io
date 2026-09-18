@@ -36,7 +36,7 @@ pnpm dev
 
 ## Content sources
 
-Real data from public FTN pages, Google Scholar, IEEE Xplore, and [github.com/robotics-ftn](https://github.com/robotics-ftn). Gaps (student roster, lab photos, open vacancies) are labeled in content.
+Real data from public FTN pages, CVs of prof. dr Mirko Raković and prof. dr Milutin Nikolić (PDFs under `assets/media/cv/`), Google Scholar, IEEE Xplore, and [github.com/robotics-ftn](https://github.com/robotics-ftn). Gaps (photos, Scholar IDs, remaining conference papers) are labeled in content or left for later expansion.
 
 Serbian UI strings: `i18n/sr.yaml`. Per-author bios: `data/sr/authors/`.
 

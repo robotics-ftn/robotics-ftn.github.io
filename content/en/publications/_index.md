@@ -1,4 +1,4 @@
 ---
 title: Publications
-summary: Selected publications from prof. dr Mirko Raković’s CV, with DOIs where available.
+summary: Selected publications from the CVs of prof. dr Mirko Raković and prof. dr Milutin Nikolić, with DOIs where available.
 ---

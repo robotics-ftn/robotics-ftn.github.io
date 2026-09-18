@@ -1,4 +1,4 @@
 ---
 title: Publikacije
-summary: Odabrane publikacije iz CV-a prof. dr Mirka Rakovića, sa DOI-jevima gde su dostupni.
+summary: Odabrane publikacije iz CV-ova prof. dr Mirka Rakovića i prof. dr Milutina Nikolića, sa DOI-jevima gde su dostupni.
 ---

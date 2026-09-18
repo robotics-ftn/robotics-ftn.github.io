@@ -9,16 +9,32 @@ postnominals:
   - PhD
 role: Associate Professor · Head of group
 bio: |
-  Associate professor and one of three heads of the Robotics Research group at FTN. Research includes biped locomotion and dynamic balance; lectures Industrial Robotics (H308).
+  Associate professor (since 2020) and one of three heads of the Robotics Research group at FTN, Faculty of Technical Sciences, University of Novi Sad, at the Chair of Mechatronics, Robotics and Automation. PhD in mechatronics at FTN (2015), mentored by prof. dr Branislav Borovac, on modifying robot motion during biped walking or standing under constraints and disturbances; MSc in mechatronics (2008), generation’s best student (GPA 10.0).
+
+  Research covers task-space control and task prioritization with quadratic programming, whole-body motion synthesis, multi-contact stability, gait generation and disturbance compensation, and robot kinematics, dynamics and simulation — including recent work on Solo12 quadruped CoM planning. Assistant professor (special appointment) at the Nakamura & Yamamoto Lab, University of Tokyo (March 2019–April 2020). Lectures Industrial Robotics (H308), motion capture and analysis, product development, Advanced Robotics, and non-industrial robotics and automation.
+
+  [Curriculum vitae (PDF)](/media/cv/milutin-nikolic.pdf)
+education:
+  - area: PhD in Mechatronics
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2015
+  - area: MSc in Mechatronics
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2008
 affiliations:
   - name: Faculty of Technical Sciences, University of Novi Sad
     url: https://ftn.uns.ac.rs/
 links:
   - icon: at-symbol
-    url: mailto:mehatronika@uns.ac.rs
+    url: mailto:milutinn@uns.ac.rs
+    label: FTN email
+  - icon: link
+    url: https://www.milutinnikolic.com
+    label: Personal site
 interests:
-  - Biped locomotion
-  - Dynamic balance
+  - Whole-body motion synthesis
+  - Multi-contact balance
+  - Biped and quadruped locomotion
   - Industrial robotics
 user_groups:
   - Faculty
