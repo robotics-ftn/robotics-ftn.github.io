@@ -10,7 +10,7 @@ sections:
       eyebrow: Robotics Research group at FTN · Novi Sad
       title: '[Robots that move, grasp, and collaborate] with people'
       text: |
-        We build humanoid platforms, dexterous hands, robot-arm manipulation, and mobile robotics — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences.
+        We build humanoid platforms, dexterous hands, robot manipulation, and mobile robotics — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences.
       announcement:
         badge:
           text: FTN
@@ -41,19 +41,19 @@ sections:
   - block: focus-areas
     content:
       title: Research Pillars
-      subtitle: Arms · Locomotion · Interaction · Mobile · Hands · Perception
+      subtitle: Manipulation · Locomotion · Interaction · Mobile · Hands · Perception
       text: Grouped by themes from the Chair of Mechatronics, Robotics and Automation at FTN and the public robotics-ftn code organization.
       items:
-        - name: Robot arms manipulation
+        - name: Robot manipulation
           description: ABB robot programming, Robotiq grippers, scaled factory-automation cells, and industrial robotics coursework (H308).
-          image: research/robot-arms-manipulation.jpg
+          image: research/robot-manipulation.jpg
           gradient: from-cyan-500 to-blue-600
           status: active
           topics: [ABB, Robotiq, Factory cells]
-          url: /research/robot-arms-manipulation/
+          url: /research/robot-manipulation/
           cta:
             text: Learn more
-            url: /research/robot-arms-manipulation/
+            url: /research/robot-manipulation/
         - name: Locomotion
           description: Biped walking via motion primitives, dynamic balance, and online path planning on unstructured terrain.
           image: research/locomotion.jpg
@@ -128,7 +128,7 @@ sections:
     content:
       title: Build robots with us at FTN
       text: |
-        PhD and MSc topics in locomotion, HRI, robot-arm manipulation, mobile robotics, and dexterous hands. Contact the group or browse thesis areas on the Join page.
+        PhD and MSc topics in locomotion, HRI, robot manipulation, mobile robotics, and dexterous hands. Contact the group or browse thesis areas on the Join page.
       button:
         text: Join Us
         url: /join/

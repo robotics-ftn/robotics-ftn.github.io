@@ -15,7 +15,7 @@ sections:
 
         Mobile platforms at FTN are developed together with industrial cells — wheeled bases that carry parts and tools in a scaled factory layout, rather than as a separate software stack.
 
-        The public laboratory cell in [Applied Sciences, 2022](/publications/factory-automation-2022/) integrates an ABB manipulator with a mobile unit for factory-automation experiments. Navigation and path-planning ideas from the group’s biped work ([Frontiers in Neurorobotics, 2019](/publications/human-inspired-path-planning-2019/)) sit alongside that hardware. Industrial programming of the same cell is described under [robot arms manipulation](/research/robot-arms-manipulation/).
+        The public laboratory cell in [Applied Sciences, 2022](/publications/factory-automation-2022/) integrates an ABB manipulator with a mobile unit for factory-automation experiments. Navigation and path-planning ideas from the group’s biped work ([Frontiers in Neurorobotics, 2019](/publications/human-inspired-path-planning-2019/)) sit alongside that hardware. Industrial programming of the same cell is described under [robot manipulation](/research/robot-manipulation/).
 
   - block: collection
     content:

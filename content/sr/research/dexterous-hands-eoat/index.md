@@ -15,7 +15,7 @@ sections:
 
         Okretna manipulacija na FTN-u obuhvata tetivne, nedovoljno aktuirane ruke i alate na kraju ruke (EOAT) na industrijskim ćelijama.
 
-        FTN robot ruka je nedovoljno aktuirani, tetivni dizajn sa motorima u dlanu i fuzzy kontrolom položaj–brzina prsta ([JIFS, 2018](/publications/ftn-robot-hand-2018/)). Kasnija silom-osetljiva troprsta ruka nastavlja tu liniju ([ASME Journal of Mechanisms and Robotics, 2026](/publications/three-finger-hand-2026/)). Na industrijskim rukama EOAT uključuje Robotiq hvataljke preko Modbus RTU u skaliranoj fabričkoj ćeliji — vidi [manipulacija robotskim rukama](/research/robot-arms-manipulation/).
+        FTN robot ruka je nedovoljno aktuirani, tetivni dizajn sa motorima u dlanu i fuzzy kontrolom položaj–brzina prsta ([JIFS, 2018](/publications/ftn-robot-hand-2018/)). Kasnija silom-osetljiva troprsta ruka nastavlja tu liniju ([ASME Journal of Mechanisms and Robotics, 2026](/publications/three-finger-hand-2026/)). Na industrijskim rukama EOAT uključuje Robotiq hvataljke preko Modbus RTU u skaliranoj fabričkoj ćeliji — vidi [robotska manipulacija](/research/robot-manipulation/).
 
   - block: collection
     content:

@@ -1,6 +1,6 @@
 ---
 title: Istraživanja
-summary: Manipulacija robotskim rukama, lokomocija, HRI, mobilna robotika, okretne ruke i taktilno senziranje na FTN-u.
+summary: Robotska manipulacija, lokomocija, HRI, mobilna robotika, okretne ruke i taktilno senziranje na FTN-u.
 type: landing
 
 sections:
@@ -8,21 +8,21 @@ sections:
     content:
       title: Istraživanja
       text: |
-        **Istraživačka grupa za robotiku na FTN-u** razvija humanoidne robote, okretne ruke, manipulaciju robotskim rukama, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Otvoreni kod: [github.com/robotics-ftn](https://github.com/robotics-ftn).
+        **Istraživačka grupa za robotiku na FTN-u** razvija humanoidne robote, okretne ruke, robotsku manipulaciju, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Otvoreni kod: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:
       title: Teme
       items:
-        - name: Manipulacija robotskim rukama
+        - name: Robotska manipulacija
           description: ABB ćelije, Robotiq Modbus RTU, skalirana fabrička automatizacija (Applied Sciences, 2022).
-          image: research/robot-arms-manipulation.jpg
+          image: research/robot-manipulation.jpg
           gradient: from-cyan-500 to-blue-700
           status: active
-          url: /research/robot-arms-manipulation/
+          url: /research/robot-manipulation/
           cta:
             text: Saznajte više
-            url: /research/robot-arms-manipulation/
+            url: /research/robot-manipulation/
         - name: Lokomocija
           description: Primitivi kretanja za bipedalno hodanje; dinamički balans sa više kontaktnih tačaka.
           image: research/locomotion.jpg

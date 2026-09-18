@@ -15,7 +15,7 @@ sections:
         1. **Lokomocija i primitivi kretanja** — nestrukturisan teren, dinamički balans
         2. **Interakcija čovek–robot** — dijalog pogledom, anticipacija akcija, kolaborativna manipulacija
         3. **Okretne ruke i EOAT** — FTN robot ruka, silom-osetljiva troprsta ruka, alati na kraju ruke
-        4. **Manipulacija robotskim rukama** — ABB ćelije, Robotiq integracija, fabrička automatizacija
+        4. **Robotska manipulacija** — ABB ćelije, Robotiq integracija, fabrička automatizacija
         5. **Mobilna robotika** — mobilne platforme za navigaciju i rad u terenu
         6. **Percepcija i taktilno senziranje** — vizuelna svojstva objekata, hvatanje osetljivo na silu
         7. **Digitalizacija pokreta** — snimanje i analiza pokreta (uz Laboratoriju za snimanje i analizu pokreta)

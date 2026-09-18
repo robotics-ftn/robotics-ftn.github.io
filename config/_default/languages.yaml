@@ -10,8 +10,8 @@ en:
   params:
     hugoblox:
       identity:
-        tagline: "Robot-arm manipulation, locomotion, and human–robot interaction — built and tested on real hardware."
-        description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, robot-arm manipulation, HRI systems, and mobile robotics. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
+        tagline: "Robot manipulation, locomotion, and human–robot interaction — built and tested on real hardware."
+        description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, robot manipulation, HRI systems, and mobile robotics. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
       header:
         cta:
           text: Join Us
@@ -58,8 +58,8 @@ sr:
   params:
     hugoblox:
       identity:
-        tagline: "Manipulacija robotskim rukama, lokomocija i interakcija čovek–robot — razvijeno i testirano na stvarnom hardveru."
-        description: "Istraživačka grupa za robotiku na FTN-u, Fakultet tehničkih nauka (Univerzitet u Novom Sadu), razvija humanoidne robote, okretne ruke, manipulaciju robotskim rukama, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić."
+        tagline: "Robotska manipulacija, lokomocija i interakcija čovek–robot — razvijeno i testirano na stvarnom hardveru."
+        description: "Istraživačka grupa za robotiku na FTN-u, Fakultet tehničkih nauka (Univerzitet u Novom Sadu), razvija humanoidne robote, okretne ruke, robotsku manipulaciju, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić."
       header:
         cta:
           text: Pridružite se

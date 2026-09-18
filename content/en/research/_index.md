@@ -1,6 +1,6 @@
 ---
 title: Research
-summary: Robot-arm manipulation, locomotion, HRI, mobile robotics, dexterous hands, and tactile sensing at FTN.
+summary: Robot manipulation, locomotion, HRI, mobile robotics, dexterous hands, and tactile sensing at FTN.
 type: landing
 
 sections:
@@ -8,21 +8,21 @@ sections:
     content:
       title: Research
       text: |
-        The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, robot-arm manipulation, human–robot interaction systems, and mobile robotics. The group is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
+        The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, robot manipulation, human–robot interaction systems, and mobile robotics. The group is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. Open code: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:
       title: Themes
       items:
-        - name: Robot arms manipulation
+        - name: Robot manipulation
           description: ABB cells, Robotiq Modbus RTU, scaled factory automation (Applied Sciences, 2022).
-          image: research/robot-arms-manipulation.jpg
+          image: research/robot-manipulation.jpg
           gradient: from-cyan-500 to-blue-700
           status: active
-          url: /research/robot-arms-manipulation/
+          url: /research/robot-manipulation/
           cta:
             text: Learn more
-            url: /research/robot-arms-manipulation/
+            url: /research/robot-manipulation/
         - name: Locomotion
           description: Motion primitives for biped walking; dynamic balance with multiple contacts.
           image: research/locomotion.jpg
