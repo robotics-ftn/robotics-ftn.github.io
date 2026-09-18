@@ -1,6 +1,6 @@
 ---
 title: People
-summary: Faculty, researchers, students, and staff of the Laboratory for Robotics and Mechatronics, FTN.
+summary: Faculty, researchers, students, and staff of the Robotics Research group at FTN.
 type: landing
 
 sections:
@@ -8,7 +8,7 @@ sections:
     content:
       title: Team
       text: |
-        The Laboratory for Robotics and Mechatronics is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. The group was established by **prof. emeritus dr Branislav Borovac**.
+        The Robotics Research group at FTN is headed equally by **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković**, and **prof. dr Srđan Savić**. The group was established by **prof. emeritus dr Branislav Borovac**.
 
   - block: team-showcase
     content:
@@ -90,7 +90,7 @@ sections:
       sort_by: weight
       sort_ascending: true
       cta:
-        text: Join the lab
+        text: Join the group
         url: /join/
     design:
       show_role: true

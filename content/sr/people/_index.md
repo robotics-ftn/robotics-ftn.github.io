@@ -1,6 +1,6 @@
 ---
 title: Tim
-summary: Nastavnici, istraživači, studenti i osoblje Laboratorije za robotiku i mehatroniku, FTN.
+summary: Nastavnici, istraživači, studenti i osoblje Istraživačke grupe za robotiku na FTN-u.
 type: landing
 
 sections:
@@ -8,7 +8,7 @@ sections:
     content:
       title: Tim
       text: |
-        Laboratorijom za robotiku i mehatroniku ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Grupu je osnovao **prof. emeritus dr Branislav Borovac**.
+        Istraživačkom grupom za robotiku na FTN-u ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Grupu je osnovao **prof. emeritus dr Branislav Borovac**.
 
   - block: team-showcase
     content:
@@ -90,7 +90,7 @@ sections:
       sort_by: weight
       sort_ascending: true
       cta:
-        text: Pridružite se laboratoriji
+        text: Pridružite se grupi
         url: /join/
     design:
       show_role: true

@@ -11,7 +11,7 @@ en:
     hugoblox:
       identity:
         tagline: "Industrial manipulation, humanoid locomotion, and human–robot interaction — built and tested on real hardware."
-        description: "The Laboratory for Robotics and Mechatronics at the Faculty of Technical Sciences (FTN), University of Novi Sad, develops humanoid robots, dexterous hands, industrial manipulation, and HRI systems. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
+        description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, industrial manipulation, and HRI systems. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
       header:
         cta:
           text: Join Us
@@ -59,7 +59,7 @@ sr:
     hugoblox:
       identity:
         tagline: "Industrijska manipulacija, humanoidna lokomocija i interakcija čovek–robot — razvijeno i testirano na stvarnom hardveru."
-        description: "Laboratorija za robotiku i mehatroniku na Fakultetu tehničkih nauka (FTN), Univerzitet u Novom Sadu, razvija humanoidne robote, dexterous ruke, industrijsku manipulaciju i sisteme interakcije čovek–robot. Laboratorijom ravnopravno rukovode prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić."
+        description: "Istraživačka grupa za robotiku na FTN-u, Fakultet tehničkih nauka (Univerzitet u Novom Sadu), razvija humanoidne robote, dexterous ruke, industrijsku manipulaciju i sisteme interakcije čovek–robot. Grupom ravnopravno rukovode prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić."
       header:
         cta:
           text: Pridružite se

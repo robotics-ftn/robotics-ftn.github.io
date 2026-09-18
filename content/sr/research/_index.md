@@ -8,7 +8,7 @@ sections:
     content:
       title: Istraživanja i projekti
       text: |
-        **Laboratorija za robotiku i mehatroniku** na FTN-u razvija humanoidne robote, okretne ruke, industrijsku manipulaciju i sisteme interakcije čovek–robot. Laboratorijom ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Otvoreni kod: [github.com/robotics-ftn](https://github.com/robotics-ftn).
+        **Istraživačka grupa za robotiku na FTN-u** razvija humanoidne robote, okretne ruke, industrijsku manipulaciju i sisteme interakcije čovek–robot. Grupom ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Otvoreni kod: [github.com/robotics-ftn](https://github.com/robotics-ftn).
 
   - block: focus-areas
     content:
@@ -65,7 +65,7 @@ sections:
   - block: cta-card
     content:
       title: Saradnja
-      text: Industrijski i akademski partneri — javite se putem stranice Pridruži se ili e-poštom laboratoriji.
+      text: Industrijski i akademski partneri — javite se putem stranice Pridruži se ili e-poštom grupi.
       button:
         text: Kontakt
         url: /join/#contact

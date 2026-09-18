@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: Laboratorija za robotiku i mehatroniku · FTN Novi Sad
+      eyebrow: Istraživačka grupa za robotiku na FTN-u · Novi Sad
       title: '[Roboti koji se kreću, hvataju i sarađuju] sa ljudima'
       text: |
         Razvijamo humanoidne platforme, okretne ruke i sisteme za industrijsku manipulaciju — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka.
@@ -17,7 +17,7 @@ sections:
           color: primary
         text: "Katedra za mehatroniku, robotiku i automatizaciju"
         link:
-          text: Pridružite se laboratoriji
+          text: Pridružite se grupi
           url: /join/
       primary_action:
         text: Istraživanja
@@ -127,7 +127,7 @@ sections:
     content:
       title: Gradite robote sa nama na FTN-u
       text: |
-        Teme za doktorske i master studije iz lokomocije, HRI-ja i industrijske manipulacije. Pišite laboratoriji ili pogledajte oblasti za teze na stranici Pridruži se.
+        Teme za doktorske i master studije iz lokomocije, HRI-ja i industrijske manipulacije. Pišite grupi ili pogledajte oblasti za teze na stranici Pridruži se.
       button:
         text: Pridružite se
         url: /join/

@@ -1,13 +1,13 @@
-# Robotics Lab FTN — Hugo Blox site configuration
+# Robotics Research group at FTN — Hugo Blox site configuration
 hugoblox:
   schema: "2.0"
 
   identity:
     name: "Robotics@FTN"
-    organization: "Laboratory for Robotics and Mechatronics · FTN, University of Novi Sad"
+    organization: "Robotics Research group at FTN, University of Novi Sad"
     type: organization
     tagline: "Industrial manipulation, humanoid locomotion, and human–robot interaction — built and tested on real hardware."
-    description: "The Laboratory for Robotics and Mechatronics at the Faculty of Technical Sciences (FTN), University of Novi Sad, develops humanoid robots, dexterous hands, industrial manipulation, and HRI systems. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
+    description: "The Robotics Research group at FTN, Faculty of Technical Sciences (University of Novi Sad), develops humanoid robots, dexterous hands, industrial manipulation, and HRI systems. Headed equally by prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić."
     social:
       twitter: ""
 

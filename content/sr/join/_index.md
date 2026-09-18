@@ -8,7 +8,7 @@ sections:
     content:
       title: Pridružite se Robotics@FTN
       text: |
-        Laboratorija za robotiku i mehatroniku poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike. **Zvanični oglasi za otvorene pozicije nisu pronađeni** na javnim FTN stranicama u trenutku izrade sajta — obratite se laboratoriji direktno radi razgovora o temama.
+        Istraživačka grupa za robotiku na FTN-u poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike. **Zvanični oglasi za otvorene pozicije nisu pronađeni** na javnim FTN stranicama u trenutku izrade sajta — obratite se grupi direktno radi razgovora o temama.
 
         ### Istraživačke teme (iz javnih FTN istraživanja)
 
@@ -18,7 +18,7 @@ sections:
         4. **Industrijska robotika** — ABB ćelije, Robotiq integracija, fabrička automatizacija
         5. **Digitalizacija pokreta** — snimanje i analiza pokreta (uz Laboratoriju za snimanje i analizu pokreta)
 
-        <div class="rl-gap-note">Placeholder: formalna obaveštenja o slobodnim mestima i rokovi za prijave još nisu objavljeni na ovom sajtu. Rokove upisa potvrdite sa laboratorijom.</div>
+        <div class="rl-gap-note">Placeholder: formalna obaveštenja o slobodnim mestima i rokovi za prijave još nisu objavljeni na ovom sajtu. Rokove upisa potvrdite sa grupom.</div>
 
   - block: contact-info
     id: contact
@@ -29,7 +29,7 @@ sections:
       connect_title: Javite nam se
       address:
         lines:
-          - Laboratorija za robotiku i mehatroniku
+          - Istraživačka grupa za robotiku na FTN-u
           - Katedra za mehatroniku, robotiku i automatizaciju
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Srbija
@@ -48,7 +48,7 @@ sections:
         title: Budući studenti
         text: Pošaljite CV, uverenje o položenim ispitima i kratak motivacioni tekst. Kontakt GitHub organizacije je takođe robotics.ftn@gmail.com.
         button:
-          text: Pišite laboratoriji
+          text: Pišite grupi
           url: mailto:rakovicm@uns.ac.rs
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

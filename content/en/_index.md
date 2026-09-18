@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: Laboratory for Robotics and Mechatronics · FTN Novi Sad
+      eyebrow: Robotics Research group at FTN · Novi Sad
       title: '[Robots that move, grasp, and collaborate] with people'
       text: |
         We build humanoid platforms, dexterous hands, and industrial manipulation systems — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences.
@@ -17,7 +17,7 @@ sections:
           color: primary
         text: "Chair of Mechatronics, Robotics and Automation"
         link:
-          text: Join the lab
+          text: Join the group
           url: /join/
       primary_action:
         text: Explore Research
@@ -127,7 +127,7 @@ sections:
     content:
       title: Build robots with us at FTN
       text: |
-        PhD and MSc topics in locomotion, HRI, and industrial manipulation. Contact the lab or browse thesis areas on the Join page.
+        PhD and MSc topics in locomotion, HRI, and industrial manipulation. Contact the group or browse thesis areas on the Join page.
       button:
         text: Join Us
         url: /join/

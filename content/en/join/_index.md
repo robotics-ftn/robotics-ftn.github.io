@@ -8,7 +8,7 @@ sections:
     content:
       title: Join Robotics@FTN
       text: |
-        The Laboratory for Robotics and Mechatronics welcomes motivated MSc and PhD candidates in locomotion, manipulation, HRI, and industrial robotics. **No official open-position listings** were found on public FTN pages at build time — contact the lab directly to discuss topics.
+        The Robotics Research group at FTN welcomes motivated MSc and PhD candidates in locomotion, manipulation, HRI, and industrial robotics. **No official open-position listings** were found on public FTN pages at build time — contact the group directly to discuss topics.
 
         ### Research topics (from public FTN research)
 
@@ -18,7 +18,7 @@ sections:
         4. **Industrial robotics** — ABB cells, Robotiq integration, factory automation
         5. **Motion digitization** — motion capture and analysis (with Motion Capture Lab)
 
-        <div class="rl-gap-note">Placeholder: formal vacancy announcements and application deadlines are not yet published on this site. Confirm intake periods with the lab.</div>
+        <div class="rl-gap-note">Placeholder: formal vacancy announcements and application deadlines are not yet published on this site. Confirm intake periods with the group.</div>
 
   - block: contact-info
     id: contact
@@ -29,7 +29,7 @@ sections:
       connect_title: Reach us
       address:
         lines:
-          - Laboratory for Robotics and Mechatronics
+          - Robotics Research group at FTN
           - Chair of Mechatronics, Robotics and Automation
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Serbia
@@ -48,7 +48,7 @@ sections:
         title: Prospective students
         text: Email a CV, transcript, and short statement. GitHub org contact also listed as robotics.ftn@gmail.com.
         button:
-          text: Email the lab
+          text: Email the group
           url: mailto:rakovicm@uns.ac.rs
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

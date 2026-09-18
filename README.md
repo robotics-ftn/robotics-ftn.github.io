@@ -1,6 +1,6 @@
 # Robotics@FTN Website
 
-Academic site for the **Laboratory for Robotics and Mechatronics** at the Faculty of Technical Sciences (FTN), University of Novi Sad.
+Academic site for the **Robotics Research group at FTN**, Faculty of Technical Sciences, University of Novi Sad.
 
 Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.com/). Deployed to GitHub Pages via GitHub Actions.
 

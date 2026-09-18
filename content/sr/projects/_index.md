@@ -1,14 +1,14 @@
 ---
 title: Projekti
-summary: Projekti robotike otvorenog koda iz Laboratorije za robotiku, FTN.
+summary: Projekti robotike otvorenog koda iz Istraživačke grupe za robotiku na FTN-u.
 date: 2026-01-01
 type: landing
 
 sections:
   - block: collection
     content:
-      title: Projekti laboratorije
-      text: Istraživački softver i demonstratori koje održava Laboratorija za robotiku FTN.
+      title: Projekti grupe
+      text: Istraživački softver i demonstratori koje održava Istraživačka grupa za robotiku na FTN-u.
       filters:
         folders:
           - projects
