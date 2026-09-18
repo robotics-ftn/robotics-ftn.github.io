@@ -9,13 +9,10 @@
   {{- $media = $page_featured -}}
 {{- end -}}
 {{- if not $media -}}
-  {{- range $ext := slice "gif" "mp4" "webm" "webp" "png" "jpg" "jpeg" -}}
+  {{- range $ext := slice "jpg" "jpeg" "png" "webp" -}}
     {{- if not $media -}}
       {{- with resources.Get (printf "media/publications/%s.%s" $slug $ext) -}}
         {{- $media = . -}}
-        {{- if in (slice "mp4" "webm") $ext -}}
-          {{- $media_kind = "video" -}}
-        {{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}

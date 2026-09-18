@@ -14,7 +14,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | --- | --- |
 | `/` or `/sr/` | Cinematic hero, research pillars, featured publications |
 | `…/research/` | Themes + GitHub project cards |
-| `…/publications/` | Compact year-grouped list (Intent Lab style) with related image/GIF per paper, DOI, and BibTeX |
+| `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, DOI, and BibTeX |
 | `…/people/` | Faculty & staff from public FTN sources |
 | `…/teaching/` | H308, H829, Mechatronics labs |
 | `…/lab/` | MARKO, FTN hand, industrial cells |
@@ -42,13 +42,12 @@ Serbian UI strings: `i18n/sr.yaml`. Per-author bios: `data/sr/authors/`.
 
 ## Publication thumbnails
 
-Drop a figure, GIF, or looping video next to a paper as:
+Drop one still photo or figure next to a paper as:
 
 ```
-assets/media/publications/<slug>.gif   # preferred
-assets/media/publications/<slug>.mp4
-assets/media/publications/<slug>.png
 assets/media/publications/<slug>.jpg
+assets/media/publications/<slug>.png
+assets/media/publications/<slug>.webp
 ```
 
 `<slug>` is the folder name under `content/en/publications/` (same file serves English and Serbian). Missing files show an empty frame until you add one. Thumbnails currently on the site are figures extracted from author-hosted or open-access copies of the papers.
