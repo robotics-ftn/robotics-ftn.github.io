@@ -623,17 +623,6 @@ html.dark .rl-theme-figure figcaption {
   font-weight: 650;
 }
 
-.prose .rl-projects-lead {
-  margin: 0 0 1.15rem;
-}
-
-.rl-projects-lead {
-  margin: 0 0 1.15rem;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: color-mix(in srgb, var(--hb-color-foreground) 72%, transparent);
-}
-
 .rl-project-list {
   list-style: none;
   margin: 0;

@@ -76,7 +76,6 @@ sections:
       title: Projects
       text: |
         <div class="rl-projects" id="projects">
-          <p class="rl-projects-lead">Principal-investigator projects from the CV of <a href="/authors/mirko-rakovic/">prof. dr Mirko Raković</a>.</p>
           <ol class="rl-project-list">
             <li>
               <span class="rl-project-years">2021–2022</span>
