@@ -75,7 +75,8 @@ sections:
     content:
       title: Projekti
       text: |
-        <div class="rl-projects" id="projects">
+        <div class="rl-projects not-prose" id="projects">
+          <p class="rl-projects-lead">Projekti na kojima je rukovodilac <a href="/sr/authors/mirko-rakovic/">prof. dr Mirko Raković</a>, prema CV-u.</p>
           <ol class="rl-project-list">
             <li>
               <span class="rl-project-years">2021–2022</span>

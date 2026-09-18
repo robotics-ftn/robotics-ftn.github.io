@@ -75,7 +75,8 @@ sections:
     content:
       title: Projects
       text: |
-        <div class="rl-projects" id="projects">
+        <div class="rl-projects not-prose" id="projects">
+          <p class="rl-projects-lead">Principal-investigator projects from the CV of <a href="/authors/mirko-rakovic/">prof. dr Mirko Raković</a>.</p>
           <ol class="rl-project-list">
             <li>
               <span class="rl-project-years">2021–2022</span>
@@ -116,7 +117,7 @@ sections:
               <span class="rl-project-years">2016–2017</span>
               <div>
                 <h3 class="rl-project-title">Control of bimanual physical human-robot interaction for rehabilitation and industrial services</h3>
-                <p class="rl-project-meta">PI on UNS side, bilateral project between UNS and JSI</p>
+                <p class="rl-project-meta">PI on UNS side, bilateral UNS–JSI</p>
               </div>
             </li>
             <li>
