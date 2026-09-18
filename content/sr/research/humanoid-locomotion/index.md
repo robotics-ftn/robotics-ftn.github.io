@@ -1,0 +1,39 @@
+---
+title: Humanoidna lokomocija
+summary: Primitivi bipednog hoda, dinamički balans i planiranje putanje na nestrukturisanom terenu.
+type: landing
+
+sections:
+  - block: markdown
+    content:
+      title: Humanoidna lokomocija
+      text: |
+        <figure class="rl-theme-figure">
+          <img src="/media/research/humanoid-locomotion.jpg" alt="Donji deo tela i kičma humanoida MARKO">
+          <figcaption>Humanoidni hardver korišćen u radovima o lokomociji i gornjem delu tela (Facta Universitatis, 2014).</figcaption>
+        </figure>
+
+        Istraživanja lokomocije na FTN-u usmerena su na bipedalno hodanje pomoću rekonfigurisanih primitiva kretanja, dinamički balans sa više kontakata i online planiranje putanje kada teren nije unapred poznat.
+
+        Ključni radovi uključuju realizaciju bipednog hoda u nestrukturisanom okruženju ([IEEE T-RO, 2014](/publications/biped-motion-primitives-2014/)), planiranje putanje inspirisano čovekom uz primitive hodanja ([Frontiers in Neurorobotics, 2019](/publications/human-inspired-path-planning-2019/)) i pregled tačke nultog momenta posle pedeset pet godina ([IJHR, 2024](/publications/zmp-fifty-five-years-2024/)). Povezani radovi obuhvataju kompenzaciju poremećaja, sprečavanje klizanja i asistivni humanoid MARKO.
+
+  - block: collection
+    content:
+      title: Radovi
+      filters:
+        folders:
+          - publications
+        tags:
+          - Humanoid locomotion
+    design:
+      view: citation
+      columns: 1
+
+  - block: cta-card
+    content:
+      title: Saradnja
+      text: Teme za doktorske i master studije iz lokomocije — javite se grupi putem stranice Pridruži se.
+      button:
+        text: Kontakt
+        url: /join/#contact
+---

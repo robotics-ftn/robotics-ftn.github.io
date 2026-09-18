@@ -13,7 +13,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | Route | Content |
 | --- | --- |
 | `/` or `/sr/` | Cinematic hero, research pillars, featured publications |
-| `…/research/` | Research themes and collaborate CTA |
+| `…/research/` | Research themes; each card opens a theme page with paper figures and related publications |
 | `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, DOI, and BibTeX |
 | `…/people/` | Faculty & staff from public FTN sources |
 | `…/teaching/` | H308, H829, Mechatronics labs |

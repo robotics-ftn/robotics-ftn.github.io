@@ -15,7 +15,8 @@ peer_reviewed: true
 summary: Sila-osetljiva podaktuirana troprsta robotska ruka (ASME J. Mechanisms and Robotics, 2026).
 tags:
   - year-2026
-  - Industrial manipulation
+  - Dexterous hands
+  - Perception and tactile sensing
 featured: true
 weight: 1
 hugoblox:

@@ -14,6 +14,7 @@ summary: Inferring container fullness from human visual cues (ICRA 2022).
 tags:
   - year-2022
   - Human-robot interaction
+  - Perception and tactile sensing
 featured: true
 weight: 5
 hugoblox:

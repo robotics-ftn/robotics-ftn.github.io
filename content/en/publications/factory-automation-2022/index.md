@@ -19,6 +19,7 @@ summary: Scaled factory-automation cell with industrial robot integration (Appli
 tags:
   - year-2022
   - Industrial manipulation
+  - Mobile robotics
 featured: true
 weight: 4
 hugoblox:

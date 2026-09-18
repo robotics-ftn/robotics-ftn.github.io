@@ -19,7 +19,7 @@ peer_reviewed: true
 summary: Fuzzy upravljanje podaktuirane FTN robotske ruke (JIFS, 2018).
 tags:
   - year-2018
-  - Industrial manipulation
+  - Dexterous hands
 featured: false
 hugoblox:
   ids:

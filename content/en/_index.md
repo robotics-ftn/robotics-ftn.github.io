@@ -46,55 +46,64 @@ sections:
       items:
         - name: Industrial Manipulation
           description: ABB robot programming, Robotiq grippers, scaled factory-automation cells, and industrial robotics coursework (H308).
-          icon: hero/wrench-screwdriver
+          image: research/industrial-manipulation.jpg
           gradient: from-cyan-500 to-blue-600
           status: active
           topics: [ABB, Robotiq, Factory cells]
+          url: /research/industrial-manipulation/
           cta:
-            text: GitHub
-            url: https://github.com/robotics-ftn/open_abb
+            text: Learn more
+            url: /research/industrial-manipulation/
         - name: Humanoid Locomotion
           description: Biped walking via motion primitives, dynamic balance, and online path planning on unstructured terrain.
-          icon: hero/bolt
+          image: research/humanoid-locomotion.jpg
           gradient: from-orange-500 to-amber-600
           status: active
           topics: [Biped gait, Motion primitives, Balance]
+          url: /research/humanoid-locomotion/
           cta:
-            text: IEEE T-RO paper
-            url: /publications/biped-motion-primitives-2014/
+            text: Learn more
+            url: /research/humanoid-locomotion/
         - name: Human–Robot Interaction
           description: Action anticipation, gaze dialogue models, and collaborative tasks with humanoid and industrial platforms.
-          icon: hero/users
+          image: research/human-robot-interaction.jpg
           gradient: from-fuchsia-500 to-violet-600
           status: active
           topics: [Gaze, Anticipation, Collaboration]
+          url: /research/human-robot-interaction/
           cta:
-            text: RA-L paper
-            url: /publications/action-anticipation-2018/
+            text: Learn more
+            url: /research/human-robot-interaction/
         - name: Mobile robotics
           description: Mobile platforms for navigation and field tasks, developed alongside humanoid and industrial systems at FTN.
-          icon: hero/map
+          image: research/mobile-robotics.jpg
           gradient: from-sky-500 to-indigo-600
           status: active
           topics: [Navigation, Mobile platforms, Field robotics]
+          url: /research/mobile-robotics/
+          cta:
+            text: Learn more
+            url: /research/mobile-robotics/
         - name: Dexterous hands and EOAT
           description: Underactuated tendon-driven hands, force-sensitive three-finger designs, and end-of-arm tooling on industrial cells.
-          icon: hero/hand-raised
+          image: research/dexterous-hands-eoat.jpg
           gradient: from-emerald-500 to-teal-600
           status: active
           topics: [FTN hand, Three-finger hand, EOAT]
+          url: /research/dexterous-hands-eoat/
           cta:
-            text: Three-finger hand
-            url: /publications/three-finger-hand-2026/
+            text: Learn more
+            url: /research/dexterous-hands-eoat/
         - name: Perception and tactile sensing
           description: Visual inference of object properties and force-sensitive grasping on dexterous hands.
-          icon: hero/eye
+          image: research/perception-tactile-sensing.jpg
           gradient: from-teal-500 to-emerald-600
           status: active
           topics: [Vision, Force sensing, Object properties]
+          url: /research/perception-tactile-sensing/
           cta:
-            text: ICRA 2022
-            url: /publications/icra-object-properties-2022/
+            text: Learn more
+            url: /research/perception-tactile-sensing/
     design:
       layout: cards
       css_class: "py-16"

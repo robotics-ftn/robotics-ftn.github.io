@@ -19,6 +19,7 @@ summary: Umanjena laboratorijska ćelija fabričke automatizacije sa integracijo
 tags:
   - year-2022
   - Industrial manipulation
+  - Mobile robotics
 featured: true
 weight: 4
 hugoblox:

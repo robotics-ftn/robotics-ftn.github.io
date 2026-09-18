@@ -16,49 +16,58 @@ sections:
       items:
         - name: Industrial Manipulation
           description: ABB cells, Robotiq Modbus RTU, scaled factory automation (Applied Sciences, 2022).
-          icon: hero/cog-6-tooth
+          image: research/industrial-manipulation.jpg
           gradient: from-cyan-500 to-blue-700
           status: active
+          url: /research/industrial-manipulation/
           cta:
-            text: open_abb
-            url: https://github.com/robotics-ftn/open_abb
+            text: Learn more
+            url: /research/industrial-manipulation/
         - name: Humanoid Locomotion
           description: Motion primitives for biped walking; dynamic balance with multiple contacts.
-          icon: hero/arrow-path
+          image: research/humanoid-locomotion.jpg
           gradient: from-orange-500 to-red-600
           status: active
+          url: /research/humanoid-locomotion/
           cta:
-            text: T-RO 2014
-            url: /publications/biped-motion-primitives-2014/
+            text: Learn more
+            url: /research/humanoid-locomotion/
         - name: Human–Robot Interaction
           description: Gaze dialogue model (IEEE Trans. Cybernetics, 2024) and action anticipation (RA-L, 2018).
-          icon: hero/chat-bubble-left-right
+          image: research/human-robot-interaction.jpg
           gradient: from-violet-500 to-purple-700
           status: active
+          url: /research/human-robot-interaction/
           cta:
-            text: Gaze paper
-            url: /publications/gaze-dialogue-2024/
+            text: Learn more
+            url: /research/human-robot-interaction/
         - name: Mobile robotics
           description: Mobile robot platforms for navigation and field work at the Chair of Mechatronics, Robotics and Automation.
-          icon: hero/map
+          image: research/mobile-robotics.jpg
           gradient: from-sky-500 to-indigo-700
           status: active
+          url: /research/mobile-robotics/
+          cta:
+            text: Learn more
+            url: /research/mobile-robotics/
         - name: Dexterous hands and EOAT
           description: Underactuated FTN robot hand (JIFS, 2018), force-sensitive three-finger hand (ASME JMR, 2026), and industrial end-of-arm tooling.
-          icon: hero/hand-raised
+          image: research/dexterous-hands-eoat.jpg
           gradient: from-emerald-500 to-cyan-700
           status: active
+          url: /research/dexterous-hands-eoat/
           cta:
-            text: ASME 2026
-            url: /publications/three-finger-hand-2026/
+            text: Learn more
+            url: /research/dexterous-hands-eoat/
         - name: Perception and tactile sensing
           description: Inferring object properties from visual cues (ICRA, 2022) and force sensing on the three-finger robot hand (ASME JMR, 2026).
-          icon: hero/eye
+          image: research/perception-tactile-sensing.jpg
           gradient: from-teal-500 to-emerald-700
           status: active
+          url: /research/perception-tactile-sensing/
           cta:
-            text: ICRA 2022
-            url: /publications/icra-object-properties-2022/
+            text: Learn more
+            url: /research/perception-tactile-sensing/
     design:
       layout: cards
 

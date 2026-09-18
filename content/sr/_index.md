@@ -46,55 +46,64 @@ sections:
       items:
         - name: Industrijska manipulacija
           description: Programiranje ABB robota, Robotiq hvataljke, skalirane ćelije fabričke automatizacije i nastava iz industrijske robotike (H308).
-          icon: hero/wrench-screwdriver
+          image: research/industrial-manipulation.jpg
           gradient: from-cyan-500 to-blue-600
           status: active
           topics: [ABB, Robotiq, Fabričke ćelije]
+          url: /research/industrial-manipulation/
           cta:
-            text: GitHub
-            url: https://github.com/robotics-ftn/open_abb
+            text: Saznajte više
+            url: /research/industrial-manipulation/
         - name: Humanoidna lokomocija
           description: Bipedalno hodanje pomoću primitiva kretanja, dinamički balans i online planiranje putanje na nestrukturisanom terenu.
-          icon: hero/bolt
+          image: research/humanoid-locomotion.jpg
           gradient: from-orange-500 to-amber-600
           status: active
           topics: [Bipedalni hod, Primitivi kretanja, Balans]
+          url: /research/humanoid-locomotion/
           cta:
-            text: IEEE T-RO rad
-            url: /publications/biped-motion-primitives-2014/
+            text: Saznajte više
+            url: /research/humanoid-locomotion/
         - name: Interakcija čovek–robot
           description: Model dijaloga pogledom, anticipacija akcija i kolaborativni zadaci na humanoidnim i industrijskim platformama.
-          icon: hero/users
+          image: research/human-robot-interaction.jpg
           gradient: from-fuchsia-500 to-violet-600
           status: active
           topics: [Pogled, Anticipacija, Saradnja]
+          url: /research/human-robot-interaction/
           cta:
-            text: RA-L rad
-            url: /publications/action-anticipation-2018/
+            text: Saznajte više
+            url: /research/human-robot-interaction/
         - name: Mobilna robotika
           description: Mobilne platforme za navigaciju i rad u terenu, uz humanoidne i industrijske sisteme na FTN-u.
-          icon: hero/map
+          image: research/mobile-robotics.jpg
           gradient: from-sky-500 to-indigo-600
           status: active
           topics: [Navigacija, Mobilne platforme, Terenska robotika]
+          url: /research/mobile-robotics/
+          cta:
+            text: Saznajte više
+            url: /research/mobile-robotics/
         - name: Okretne ruke i EOAT
           description: Nedovoljno aktuirane tetivne ruke, silom-osetljivi troprsti dizajni i alati na kraju ruke na industrijskim ćelijama.
-          icon: hero/hand-raised
+          image: research/dexterous-hands-eoat.jpg
           gradient: from-emerald-500 to-teal-600
           status: active
           topics: [FTN ruka, Troprsta ruka, EOAT]
+          url: /research/dexterous-hands-eoat/
           cta:
-            text: Troprsta ruka
-            url: /publications/three-finger-hand-2026/
+            text: Saznajte više
+            url: /research/dexterous-hands-eoat/
         - name: Percepcija i taktilno senziranje
           description: Vizuelno zaključivanje o svojstvima objekata i hvatanje osetljivo na silu na okretnim rukama.
-          icon: hero/eye
+          image: research/perception-tactile-sensing.jpg
           gradient: from-teal-500 to-emerald-600
           status: active
           topics: [Vid, Osetljivanje sile, Svojstva objekata]
+          url: /research/perception-tactile-sensing/
           cta:
-            text: ICRA 2022
-            url: /publications/icra-object-properties-2022/
+            text: Saznajte više
+            url: /research/perception-tactile-sensing/
     design:
       layout: cards
       css_class: "py-16"
