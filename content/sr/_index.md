@@ -76,7 +76,7 @@ sections:
             url: /research/human-robot-interaction/
         - name: Mobilna robotika
           description: Mobilne platforme za navigaciju i rad u terenu, uz humanoidne i industrijske sisteme na FTN-u.
-          image: research/mobile-robotics.jpg
+          image: research/mobile-robotics-card.jpg
           gradient: from-slate-300 to-slate-500
           status: active
           topics: [Navigacija, Mobilne platforme, Terenska robotika]

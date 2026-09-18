@@ -43,7 +43,7 @@ sections:
             url: /research/human-robot-interaction/
         - name: Mobile robotics
           description: Mobile robot platforms for navigation and field work at the Chair of Mechatronics, Robotics and Automation.
-          image: research/mobile-robotics.jpg
+          image: research/mobile-robotics-card.jpg
           gradient: from-slate-300 to-slate-500
           status: active
           url: /research/mobile-robotics/

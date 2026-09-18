@@ -43,7 +43,7 @@ sections:
             url: /research/human-robot-interaction/
         - name: Mobilna robotika
           description: Mobilne robotske platforme za navigaciju i rad u terenu na Katedri za mehatroniku, robotiku i automatizaciju.
-          image: research/mobile-robotics.jpg
+          image: research/mobile-robotics-card.jpg
           gradient: from-slate-300 to-slate-500
           status: active
           url: /research/mobile-robotics/

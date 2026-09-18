@@ -76,7 +76,7 @@ sections:
             url: /research/human-robot-interaction/
         - name: Mobile robotics
           description: Mobile platforms for navigation and field tasks, developed alongside humanoid and industrial systems at FTN.
-          image: research/mobile-robotics.jpg
+          image: research/mobile-robotics-card.jpg
           gradient: from-slate-300 to-slate-500
           status: active
           topics: [Navigation, Mobile platforms, Field robotics]

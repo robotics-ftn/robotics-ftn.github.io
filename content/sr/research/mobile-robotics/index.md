@@ -9,8 +9,8 @@ sections:
       title: Mobilna robotika
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/mobile-robotics.jpg" alt="Točkasta mobilna platforma iz skalirane ćelije fabričke automatizacije">
-          <figcaption>Mobilna platforma u skaliranoj ćeliji fabričke automatizacije (Applied Sciences, 2022).</figcaption>
+          <img src="/media/research/mobile-robotics.jpg" alt="Točkasti mobilni robot na takmičarskom terenu sa naslaganim konzervama">
+          <figcaption>Mobilni robot na takmičarskom terenu sa naslaganim konzervama.</figcaption>
         </figure>
 
         Mobilne platforme na FTN-u razvijaju se zajedno sa industrijskim ćelijama — točkaste baze koje prenose delove i alate u skaliranom fabričkom rasporedu.

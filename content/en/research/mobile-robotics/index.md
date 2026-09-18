@@ -9,8 +9,8 @@ sections:
       title: Mobile Robotics
       text: |
         <figure class="rl-theme-figure">
-          <img src="/media/research/mobile-robotics.jpg" alt="Wheeled mobile platform from the scaled factory-automation cell">
-          <figcaption>Mobile platform in the scaled factory-automation cell (Applied Sciences, 2022).</figcaption>
+          <img src="/media/research/mobile-robotics.jpg" alt="Wheeled mobile robot on a competition arena with stacked cans">
+          <figcaption>Mobile robot on a competition field with stacked cans.</figcaption>
         </figure>
 
         Mobile platforms at FTN are developed together with industrial cells — wheeled bases that carry parts and tools in a scaled factory layout, rather than as a separate software stack.
