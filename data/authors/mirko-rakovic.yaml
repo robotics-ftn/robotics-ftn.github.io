@@ -15,7 +15,7 @@ bio: |
 
   Principal investigator on projects including Meta-Cobots, a voice-controlled logistics system (H2020 L4MS), a three-finger HRC hand (Innovation Fund of Serbia), ACTICIPATE (MSCA-IF), and assistive robotics for children (III44008). Associate editor of the International Journal of Advanced Robotic Systems; review editor for humanoid robotics at Frontiers in Robotics and AI.
 
-  [Curriculum vitae (PDF)](/media/cv/mirko-rakovic.pdf) · [Google Scholar](https://scholar.google.com/citations?user=hSUzJK0AAAAJ)
+  [Curriculum vitae (PDF)](/media/cv/mirko-rakovic.pdf) · [Google Scholar](https://scholar.google.com/citations?user=hSUzJK0AAAAJ) · [ORCID](https://orcid.org/0000-0002-8818-2739)
 education:
   - area: PhD in Robotics
     institution: Faculty of Technical Sciences, University of Novi Sad
@@ -32,6 +32,8 @@ links:
     label: FTN email
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=hSUzJK0AAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-8818-2739
   - icon: brands/github
     url: https://github.com/robotics-ftn
 interests:

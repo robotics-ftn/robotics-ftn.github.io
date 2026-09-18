@@ -25,5 +25,5 @@ hugoblox:
     doi: 10.1109/TCYB.2022.3222077
 links:
   - type: pdf
-    url: https://doi.org/10.1109/TCYB.2022.3222077
+    url: /media/publications/gaze-dialogue-2024.pdf
 ---

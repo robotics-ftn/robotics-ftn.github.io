@@ -22,5 +22,5 @@ hugoblox:
     doi: 10.1109/ICRA46639.2022.9811725
 links:
   - type: pdf
-    url: https://doi.org/10.1109/ICRA46639.2022.9811725
+    url: /media/publications/icra-object-properties-2022.pdf
 ---

@@ -26,5 +26,5 @@ hugoblox:
     doi: 10.3233/JIFS-17879
 links:
   - type: pdf
-    url: https://doi.org/10.3233/JIFS-17879
+    url: /media/publications/ftn-robot-hand-2018.pdf
 ---
