@@ -13,7 +13,7 @@ bio: |
 
   Research covers task-space control and task prioritization with quadratic programming, whole-body motion synthesis, multi-contact stability, gait generation and disturbance compensation, and robot kinematics, dynamics and simulation — including recent work on Solo12 quadruped CoM planning. Assistant professor (special appointment) at the Nakamura & Yamamoto Lab, University of Tokyo (March 2019–April 2020). Lectures Industrial Robotics (H308), motion capture and analysis, product development, Advanced Robotics, and non-industrial robotics and automation.
 
-  [Curriculum vitae (PDF)](/media/cv/milutin-nikolic.pdf)
+  [Curriculum vitae (PDF)](/media/cv/milutin-nikolic.pdf) · [Google Scholar](https://scholar.google.com/citations?user=q0wFhEgAAAAJ)
 education:
   - area: PhD in Mechatronics
     institution: Faculty of Technical Sciences, University of Novi Sad
@@ -28,6 +28,8 @@ links:
   - icon: at-symbol
     url: mailto:milutinn@uns.ac.rs
     label: FTN email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=q0wFhEgAAAAJ
   - icon: link
     url: https://www.milutinnikolic.com
     label: Personal site
