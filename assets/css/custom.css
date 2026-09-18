@@ -209,6 +209,37 @@ article[class*="rounded"]:hover,
   background: var(--rl-focus-bg);
 }
 
+/* Theme thumbnails: keep a light wash, but no coloured (cyan/emerald) tint */
+.hbx-block-focus-areas .h-48.overflow-hidden {
+  background-image: none !important;
+  background-color: #e2e8f0;
+}
+
+html.dark .hbx-block-focus-areas .h-48.overflow-hidden {
+  background-color: #334155;
+}
+
+.hbx-block-focus-areas .h-48 img {
+  opacity: 1;
+}
+
+.hbx-block-focus-areas .h-48::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+  transition: background-color 0.35s ease, opacity 0.35s ease;
+}
+
+html.dark .hbx-block-focus-areas .h-48::after {
+  background: rgba(15, 23, 42, 0.22);
+}
+
+.hbx-block-focus-areas .group:hover .h-48::after {
+  opacity: 0.35;
+}
+
 /* Publications citations */
 .hbx-view-citation,
 [class*="citation"] {
