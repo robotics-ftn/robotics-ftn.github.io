@@ -35,7 +35,7 @@ sections:
             <article class="rl-pub-row">
               <div class="rl-pub-body">
                 <h3 class="rl-pub-title">Srđan Savić</h3>
-                <p class="rl-pub-authors">E-adresa:</p>
+                <p class="rl-pub-authors">E-adresa: <a href="mailto:savics@uns.ac.rs">savics@uns.ac.rs</a></p>
                 <p class="rl-pub-venue">Konsultacije:</p>
               </div>
             </article>
