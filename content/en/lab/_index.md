@@ -8,7 +8,7 @@ sections:
     content:
       title: Lab & Hardware
       text: |
-        The Robotics Research group at FTN is **temporarily housed** in MI G3-1, G3-2, and MI 25 (workshop) per the public FTN Mehatronika page. Heads of the group: prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić. Lab technicians: Predrag Oros and Tanja Berisavljević.
+        The Robotics Research group at FTN is **temporarily housed** in MI G3-1, G3-2, MI 124, and MI 25 (workshop) per the public FTN Mehatronika page. Heads of the group: prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić. Lab technicians: Predrag Oros and Tanja Berisavljević.
 
   - block: markdown
     content:

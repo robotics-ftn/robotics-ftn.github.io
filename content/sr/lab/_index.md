@@ -8,7 +8,7 @@ sections:
     content:
       title: Laboratorija i hardver
       text: |
-        Istraživačka grupa za robotiku na FTN-u je **privremeno smeštena** u prostorijama MI G3-1, G3-2 i MI 25 (radionica), prema javnoj stranici Katedre za mehatroniku na FTN-u. Rukovodioci grupe: prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić. Laboratorijski tehničari: Predrag Oros i Tanja Berisavljević.
+        Istraživačka grupa za robotiku na FTN-u je **privremeno smeštena** u prostorijama MI G3-1, G3-2, MI 124 i MI 25 (radionica), prema javnoj stranici Katedre za mehatroniku na FTN-u. Rukovodioci grupe: prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić. Laboratorijski tehničari: Predrag Oros i Tanja Berisavljević.
 
   - block: markdown
     content:

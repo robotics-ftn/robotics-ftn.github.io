@@ -54,7 +54,7 @@ sections:
           - Chair of Mechatronics, Robotics and Automation
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Serbia
-          - "Rooms: MI G3-1, G3-2, MI 25 (workshop) — temporary location"
+          - "Rooms: MI G3-1, G3-2, MI 124, MI 25 (workshop) — temporary location"
       social: []
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

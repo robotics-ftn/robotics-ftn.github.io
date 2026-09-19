@@ -54,7 +54,7 @@ sections:
           - Katedra za mehatroniku, robotiku i automatizaciju
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Srbija
-          - "Prostorije: MI G3-1, G3-2, MI 25 (radionica) — privremena lokacija"
+          - "Prostorije: MI G3-1, G3-2, MI 124, MI 25 (radionica) — privremena lokacija"
       social: []
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:
