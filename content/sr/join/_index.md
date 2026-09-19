@@ -1,6 +1,6 @@
 ---
 title: Pridružite se
-summary: Kontakt, lokacija i istraživačke teme na Robotics@FTN.
+summary: Kontakt i lokacija Istraživačke grupe za robotiku na FTN-u.
 type: landing
 
 sections:
@@ -8,27 +8,47 @@ sections:
     content:
       title: Pridružite se Robotics@FTN
       text: |
-        Istraživačka grupa za robotiku na FTN-u poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike. **Zvanični oglasi za otvorene pozicije nisu pronađeni** na javnim FTN stranicama u trenutku izrade sajta — obratite se grupi direktno radi razgovora o temama.
-
-        ### Istraživačke teme (iz javnih FTN istraživanja)
-
-        1. **Lokomocija i primitivi kretanja** — nestrukturisan teren, dinamički balans
-        2. **Interakcija čovek–robot** — dijalog pogledom, anticipacija akcija, kolaborativna manipulacija
-        3. **Okretne ruke i EOAT** — FTN robot ruka, silom-osetljiva troprsta ruka, alati na kraju ruke
-        4. **Robotska manipulacija** — ABB ćelije, Robotiq integracija, fabrička automatizacija
-        5. **Mobilna robotika** — mobilne platforme za navigaciju i rad u terenu
-        6. **Percepcija i taktilno senziranje** — vizuelna svojstva objekata, hvatanje osetljivo na silu
-        7. **Digitalizacija pokreta** — snimanje i analiza pokreta (uz Laboratoriju za snimanje i analizu pokreta)
+        Istraživačka grupa za robotiku na FTN-u poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike. **Zvanični oglasi za otvorene pozicije nisu pronađeni** na javnim FTN stranicama u trenutku izrade sajta — obratite se jednom od rukovodilaca grupe.
 
         <div class="rl-gap-note">Placeholder: formalna obaveštenja o slobodnim mestima i rokovi za prijave još nisu objavljeni na ovom sajtu. Rokove upisa potvrdite sa grupom.</div>
+
+        ### Rukovodioci
+
+        Kontakt troje rukovodilaca. E-adresa i konsultacije stoje samo ako su već na ovom sajtu ili u CV-ju; prazno polje znači da nisu objavljeni.
+
+        <div class="rl-pubs rl-join-heads not-prose">
+          <div class="rl-pubs-list">
+            <article class="rl-pub-row">
+              <div class="rl-pub-body">
+                <h3 class="rl-pub-title">Mirko Raković</h3>
+                <p class="rl-pub-authors">E-adresa: <a href="mailto:rakovicm@uns.ac.rs">rakovicm@uns.ac.rs</a></p>
+                <p class="rl-pub-venue">Konsultacije:</p>
+              </div>
+            </article>
+            <article class="rl-pub-row">
+              <div class="rl-pub-body">
+                <h3 class="rl-pub-title">Milutin Nikolić</h3>
+                <p class="rl-pub-authors">E-adresa: <a href="mailto:milutinn@uns.ac.rs">milutinn@uns.ac.rs</a></p>
+                <p class="rl-pub-venue">Konsultacije:</p>
+              </div>
+            </article>
+            <article class="rl-pub-row">
+              <div class="rl-pub-body">
+                <h3 class="rl-pub-title">Srđan Savić</h3>
+                <p class="rl-pub-authors">E-adresa:</p>
+                <p class="rl-pub-venue">Konsultacije:</p>
+              </div>
+            </article>
+          </div>
+        </div>
 
   - block: contact-info
     id: contact
     content:
-      title: Lokacija i kontakt
+      title: Lokacija
       subtitle: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
       visit_title: Laboratorija
-      connect_title: Javite nam se
+      connect_title: Takođe
       address:
         lines:
           - Istraživačka grupa za robotiku na FTN-u
@@ -36,11 +56,6 @@ sections:
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Srbija
           - "Prostorije: MI G3-1, G3-2, MI 25 (radionica) — privremena lokacija"
-      office_hours:
-        - "Prof. Raković, soba 119 (javna FTN stranica)"
-        - "Telefon katedre: +381 21 485 2167"
-      email: rakovicm@uns.ac.rs
-      phone: "+381 21 485 2164"
       social:
         - icon: brands/github
           url: https://github.com/robotics-ftn
@@ -48,9 +63,9 @@ sections:
           url: https://scholar.google.com/citations?user=hSUzJK0AAAAJ
       prospective:
         title: Budući studenti
-        text: Pošaljite CV, uverenje o položenim ispitima i kratak motivacioni tekst. Kontakt GitHub organizacije je takođe robotics.ftn@gmail.com.
+        text: Pošaljite CV, uverenje o položenim ispitima i kratak motivacioni tekst jednom od rukovodilaca iznad. Kontakt GitHub organizacije je takođe robotics.ftn@gmail.com.
         button:
-          text: Pišite grupi
+          text: Pišite Mirku Rakoviću
           url: mailto:rakovicm@uns.ac.rs
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

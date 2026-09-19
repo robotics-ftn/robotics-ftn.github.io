@@ -1,6 +1,6 @@
 ---
 title: Join Us
-summary: Contact, location, and research topics at Robotics@FTN.
+summary: Contact and location for the Robotics Research group at FTN.
 type: landing
 
 sections:
@@ -8,27 +8,47 @@ sections:
     content:
       title: Join Robotics@FTN
       text: |
-        The Robotics Research group at FTN welcomes motivated MSc and PhD candidates in locomotion, manipulation, HRI, and industrial robotics. **No official open-position listings** were found on public FTN pages at build time — contact the group directly to discuss topics.
-
-        ### Research topics (from public FTN research)
-
-        1. **Locomotion & motion primitives** — unstructured terrain, dynamic balance
-        2. **Human–robot interaction** — gaze dialogue, action anticipation, collaborative manipulation
-        3. **Dexterous hands and EOAT** — FTN robot hand, three-finger force-sensitive hand, end-of-arm tooling
-        4. **Robot manipulation** — ABB cells, Robotiq integration, factory automation
-        5. **Mobile robotics** — mobile platforms for navigation and field work
-        6. **Perception and tactile sensing** — visual object properties, force-sensitive grasping
-        7. **Motion digitization** — motion capture and analysis (with Motion Capture Lab)
+        The Robotics Research group at FTN welcomes motivated MSc and PhD candidates in locomotion, manipulation, HRI, and industrial robotics. **No official open-position listings** were found on public FTN pages at build time — contact a head of the group directly.
 
         <div class="rl-gap-note">Placeholder: formal vacancy announcements and application deadlines are not yet published on this site. Confirm intake periods with the group.</div>
+
+        ### Heads
+
+        Contact the three heads. Email and office hours are shown only when they already appear on this site or a CV; empty fields mean none is published.
+
+        <div class="rl-pubs rl-join-heads not-prose">
+          <div class="rl-pubs-list">
+            <article class="rl-pub-row">
+              <div class="rl-pub-body">
+                <h3 class="rl-pub-title">Mirko Raković</h3>
+                <p class="rl-pub-authors">Email: <a href="mailto:rakovicm@uns.ac.rs">rakovicm@uns.ac.rs</a></p>
+                <p class="rl-pub-venue">Office hours:</p>
+              </div>
+            </article>
+            <article class="rl-pub-row">
+              <div class="rl-pub-body">
+                <h3 class="rl-pub-title">Milutin Nikolić</h3>
+                <p class="rl-pub-authors">Email: <a href="mailto:milutinn@uns.ac.rs">milutinn@uns.ac.rs</a></p>
+                <p class="rl-pub-venue">Office hours:</p>
+              </div>
+            </article>
+            <article class="rl-pub-row">
+              <div class="rl-pub-body">
+                <h3 class="rl-pub-title">Srđan Savić</h3>
+                <p class="rl-pub-authors">Email:</p>
+                <p class="rl-pub-venue">Office hours:</p>
+              </div>
+            </article>
+          </div>
+        </div>
 
   - block: contact-info
     id: contact
     content:
-      title: Location & Contact
+      title: Location
       subtitle: Faculty of Technical Sciences, University of Novi Sad
       visit_title: Laboratory
-      connect_title: Reach us
+      connect_title: Also
       address:
         lines:
           - Robotics Research group at FTN
@@ -36,11 +56,6 @@ sections:
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Serbia
           - "Rooms: MI G3-1, G3-2, MI 25 (workshop) — temporary location"
-      office_hours:
-        - "Prof. Raković, room 119 (public FTN page)"
-        - "Chair phone: +381 21 485 2167"
-      email: rakovicm@uns.ac.rs
-      phone: "+381 21 485 2164"
       social:
         - icon: brands/github
           url: https://github.com/robotics-ftn
@@ -48,9 +63,9 @@ sections:
           url: https://scholar.google.com/citations?user=hSUzJK0AAAAJ
       prospective:
         title: Prospective students
-        text: Email a CV, transcript, and short statement. GitHub org contact also listed as robotics.ftn@gmail.com.
+        text: Email a CV, transcript, and short statement to a head listed above. GitHub org contact also listed as robotics.ftn@gmail.com.
         button:
-          text: Email the group
+          text: Email Mirko Raković
           url: mailto:rakovicm@uns.ac.rs
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

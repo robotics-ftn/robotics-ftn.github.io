@@ -376,8 +376,19 @@ section[id="section-team-showcase"] .grid > .group .flex.gap-3 {
   max-width: 920px;
 }
 
-.rl-teaching .rl-pub-row {
+.rl-teaching .rl-pub-row,
+.rl-join-heads .rl-pub-row {
   grid-template-columns: minmax(0, 1fr);
+}
+
+.prose:has(.rl-join-heads) {
+  max-width: 920px;
+}
+
+.rl-join-heads .rl-pub-authors a {
+  color: var(--rl-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .hbx-block-gallery img {

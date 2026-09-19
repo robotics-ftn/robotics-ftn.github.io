@@ -17,7 +17,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, DOI, and BibTeX |
 | `…/people/` | Founder, faculty, teaching assistants, students, staff, alumni |
 | `…/lab/` | MARKO, FTN hand, industrial cells |
-| `…/join/` | Contact, location, thesis topics |
+| `…/join/` | Heads’ contact (email / office hours when known) and lab location |
 
 Teaching is unpublished. `/teaching/` and `/sr/teaching/` redirect home. Course Markdown is kept in `held/teaching/` to restore later.
 
