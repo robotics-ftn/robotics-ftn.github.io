@@ -259,85 +259,97 @@ html.dark div.relative.h-48[class*="bg-gradient-to-br"]::after {
   padding-left: 1rem;
 }
 
-/* Compact, centered People directory */
-.hbx-block-team-showcase .grid.w-full {
+/* People directory: small stacked cards, centered even when a row has one person. */
+section[id="section-team-showcase"] .grid {
   display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  gap: 0.9rem 1rem;
+  flex-flow: row wrap !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  align-items: stretch !important;
+  grid-template-columns: none !important;
+  width: 100% !important;
+  gap: 0.9rem 1rem !important;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group {
+section[id="section-team-showcase"] .grid > .group {
   box-sizing: border-box;
-  flex: 0 0 11.25rem;
-  width: 11.25rem;
-  max-width: 11.25rem;
+  flex: 0 0 12rem !important;
+  width: 12rem !important;
+  max-width: 12rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group > .relative {
+section[id="section-team-showcase"] .grid > .group > .relative {
+  display: flex !important;
+  flex-direction: column !important;
   height: 100%;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group a.aspect-square {
-  display: block;
-  aspect-ratio: auto !important;
-  width: 4.75rem;
-  height: 4.75rem;
-  margin: 0.85rem auto 0;
-  border-radius: 9999px;
+section[id="section-team-showcase"] .grid > .group a.aspect-square {
+  display: block !important;
+  flex: 0 0 auto;
+  width: 5.25rem !important;
+  height: 5.25rem !important;
+  max-width: 5.25rem !important;
+  aspect-ratio: 1 / 1 !important;
+  margin: 0.85rem auto 0 !important;
+  border-radius: 0.45rem;
   overflow: hidden;
   background: color-mix(in srgb, var(--hb-color-foreground) 6%, transparent);
 }
 
-.hbx-block-team-showcase .grid.w-full > .group a.aspect-square img {
-  width: 4.75rem;
-  height: 4.75rem;
+section[id="section-team-showcase"] .grid > .group a.aspect-square img {
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover;
   object-position: center top;
   box-shadow: none;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group a.aspect-square > div {
+section[id="section-team-showcase"] .grid > .group a.aspect-square > div {
   font-size: 1.15rem;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group .p-6 {
-  padding: 0.55rem 0.7rem 0.8rem;
+section[id="section-team-showcase"] .grid > .group .p-6 {
+  display: block !important;
+  padding: 0.55rem 0.75rem 0.85rem !important;
   text-align: center;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group h3 {
+section[id="section-team-showcase"] .grid > .group h3 {
+  display: block;
   font-size: 0.92rem;
   line-height: 1.25;
-  margin-bottom: 0.2rem;
+  margin: 0 0 0.2rem;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group .text-gray-600 {
+section[id="section-team-showcase"] .grid > .group .text-gray-600 {
+  display: block;
   margin-bottom: 0.35rem;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group .text-sm.mt-1,
-.hbx-block-team-showcase .grid.w-full > .group .line-clamp-2,
-.hbx-block-team-showcase .grid.w-full > .group .mb-4 {
+section[id="section-team-showcase"] .grid > .group .text-sm.mt-1,
+section[id="section-team-showcase"] .grid > .group .line-clamp-2,
+section[id="section-team-showcase"] .grid > .group .mb-4 {
   display: none;
 }
 
-.hbx-block-team-showcase .grid.w-full > .group .flex.gap-3 {
+section[id="section-team-showcase"] .grid > .group .flex.gap-3 {
   justify-content: center;
 }
 
 @media (max-width: 640px) {
-  .hbx-block-team-showcase .grid.w-full > .group {
-    flex-basis: 9.5rem;
-    width: 9.5rem;
-    max-width: 9.5rem;
+  section[id="section-team-showcase"] .grid > .group {
+    flex-basis: 10rem !important;
+    width: 10rem !important;
+    max-width: 10rem !important;
   }
 
-  .hbx-block-team-showcase .grid.w-full > .group a.aspect-square,
-  .hbx-block-team-showcase .grid.w-full > .group a.aspect-square img {
-    width: 4.1rem;
-    height: 4.1rem;
+  section[id="section-team-showcase"] .grid > .group a.aspect-square {
+    width: 4.5rem !important;
+    height: 4.5rem !important;
+    max-width: 4.5rem !important;
   }
 }
 
