@@ -48,7 +48,6 @@ sections:
       title: Lokacija
       subtitle: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
       visit_title: Laboratorija
-      connect_title: Takođe
       address:
         lines:
           - Istraživačka grupa za robotiku na FTN-u
@@ -56,17 +55,7 @@ sections:
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Srbija
           - "Prostorije: MI G3-1, G3-2, MI 25 (radionica) — privremena lokacija"
-      social:
-        - icon: brands/github
-          url: https://github.com/robotics-ftn
-        - icon: academicons/google-scholar
-          url: https://scholar.google.com/citations?user=hSUzJK0AAAAJ
-      prospective:
-        title: Budući studenti
-        text: Pošaljite CV, uverenje o položenim ispitima i kratak motivacioni tekst jednom od rukovodilaca iznad. Kontakt GitHub organizacije je takođe robotics.ftn@gmail.com.
-        button:
-          text: Pišite Mirku Rakoviću
-          url: mailto:rakovicm@uns.ac.rs
+      social: []
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:
       css_class: "bg-slate-950/50"

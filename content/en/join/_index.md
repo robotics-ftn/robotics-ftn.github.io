@@ -48,7 +48,6 @@ sections:
       title: Location
       subtitle: Faculty of Technical Sciences, University of Novi Sad
       visit_title: Laboratory
-      connect_title: Also
       address:
         lines:
           - Robotics Research group at FTN
@@ -56,17 +55,7 @@ sections:
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Serbia
           - "Rooms: MI G3-1, G3-2, MI 25 (workshop) — temporary location"
-      social:
-        - icon: brands/github
-          url: https://github.com/robotics-ftn
-        - icon: academicons/google-scholar
-          url: https://scholar.google.com/citations?user=hSUzJK0AAAAJ
-      prospective:
-        title: Prospective students
-        text: Email a CV, transcript, and short statement to a head listed above. GitHub org contact also listed as robotics.ftn@gmail.com.
-        button:
-          text: Email Mirko Raković
-          url: mailto:rakovicm@uns.ac.rs
+      social: []
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:
       css_class: "bg-slate-950/50"
