@@ -10,8 +10,6 @@ sections:
       text: |
         Istraživačka grupa za robotiku na FTN-u poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike. **Zvanični oglasi za otvorene pozicije nisu pronađeni** na javnim FTN stranicama u trenutku izrade sajta — obratite se jednom od rukovodilaca grupe.
 
-        <div class="rl-gap-note">Placeholder: formalna obaveštenja o slobodnim mestima i rokovi za prijave još nisu objavljeni na ovom sajtu. Rokove upisa potvrdite sa grupom.</div>
-
         ### Rukovodioci
 
         Kontakt troje rukovodilaca. E-adresa i konsultacije stoje samo ako su već na ovom sajtu ili u CV-ju; prazno polje znači da nisu objavljeni.

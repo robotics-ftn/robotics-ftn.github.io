@@ -10,8 +10,6 @@ sections:
       text: |
         The Robotics Research group at FTN welcomes motivated MSc and PhD candidates in locomotion, manipulation, HRI, and industrial robotics. **No official open-position listings** were found on public FTN pages at build time — contact a head of the group directly.
 
-        <div class="rl-gap-note">Placeholder: formal vacancy announcements and application deadlines are not yet published on this site. Confirm intake periods with the group.</div>
-
         ### Heads
 
         Contact the three heads. Email and office hours are shown only when they already appear on this site or a CV; empty fields mean none is published.
