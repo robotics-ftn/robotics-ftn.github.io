@@ -268,6 +268,19 @@ html.dark .hbx-block-team-showcase img {
   box-shadow: 0 0 0 2px rgba(34, 211, 238, 0.2), 0 12px 30px rgba(0, 0, 0, 0.4);
 }
 
+/* Center each People section's cards (incomplete rows stay centered). */
+.hbx-block-team-showcase .grid.w-full {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hbx-block-team-showcase .grid.w-full > .group {
+  box-sizing: border-box;
+  flex: 0 1 min(100%, 18.5rem);
+  width: min(100%, 18.5rem);
+}
+
 /* Gallery / lab hardware */
 .rl-lab-equip {
   width: 100%;
