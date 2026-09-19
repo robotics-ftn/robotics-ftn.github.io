@@ -1,15 +1,15 @@
 schema: hugoblox/author/v1
 slug: tanja-berisavljevic
-weight: 41
+weight: 29
 name:
   display: Tanja Berisavljević
   given: Tanja
   family: Berisavljević
-role: Lab technician · Robotics Research group at FTN
+role: PhD student · also a lab technician
 bio: |
-  Lab technician at the Robotics Research group at FTN, Faculty of Technical Sciences.
+  PhD student at the Robotics Research group at FTN, Faculty of Technical Sciences. Also a lab technician.
 affiliations:
   - name: Faculty of Technical Sciences, University of Novi Sad
     url: https://ftn.uns.ac.rs/
 user_groups:
-  - Staff
+  - PhD Students
