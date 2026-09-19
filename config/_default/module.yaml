@@ -31,3 +31,8 @@ mounts:
   # (Hugo otherwise only emits processed _hu_*.webp hashes).
   - source: assets/media
     target: static/media
+  # Teaching is unpublished; these static HTML files redirect /teaching/ home.
+  - source: static/teaching
+    target: static/teaching
+  - source: static/sr/teaching
+    target: static/sr/teaching

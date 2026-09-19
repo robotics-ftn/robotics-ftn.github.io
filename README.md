@@ -19,6 +19,8 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | `…/lab/` | MARKO, FTN hand, industrial cells |
 | `…/join/` | Contact, location, thesis topics |
 
+Teaching is unpublished. `/teaching/` and `/sr/teaching/` redirect home. Course Markdown is kept in `held/teaching/` to restore later.
+
 ## Prerequisites
 
 - Hugo Extended ≥ 0.162.0

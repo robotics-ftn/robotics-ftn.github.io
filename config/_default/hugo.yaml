@@ -26,6 +26,13 @@ cascade:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
+  # Teaching is held as draft Markdown only — do not emit /teaching/ pages.
+  - target:
+      path: '{/teaching,/teaching/**,/sr/teaching,/sr/teaching/**}'
+    draft: true
+    build:
+      render: never
+      list: never
 
 ############################
 ## ADVANCED
