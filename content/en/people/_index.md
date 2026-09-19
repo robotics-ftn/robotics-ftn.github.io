@@ -19,11 +19,10 @@ sections:
       sort_ascending: true
     design:
       show_role: true
-      show_organizations: true
-      show_interests: true
-      max_interests: 4
+      show_organizations: false
+      show_interests: false
       show_social: true
-      max_columns: 1
+      max_columns: 3
 
   - block: team-showcase
     content:
@@ -35,9 +34,8 @@ sections:
       sort_ascending: true
     design:
       show_role: true
-      show_organizations: true
-      show_interests: true
-      max_interests: 4
+      show_organizations: false
+      show_interests: false
       show_social: true
       max_columns: 3
 
