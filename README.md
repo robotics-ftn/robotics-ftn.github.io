@@ -16,7 +16,6 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | `…/research/` | Research themes; each card opens a theme page with paper figures and related publications |
 | `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, DOI, and BibTeX |
 | `…/people/` | Founder, faculty, teaching assistants, students, staff, alumni |
-| `…/teaching/` | BSc and MSc course list from the official FTN catalogs |
 | `…/lab/` | MARKO, FTN hand, industrial cells |
 | `…/join/` | Contact, location, thesis topics |
 
