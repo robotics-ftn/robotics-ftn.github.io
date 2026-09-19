@@ -19,7 +19,7 @@ en:
       footer:
         text: "Chair of Mechatronics, Robotics and Automation · Trg Dositeja Obradovića 6, Novi Sad"
       copyright:
-        notice: "© {year} {name}. Content from public FTN sources unless noted."
+        notice: "© {year} {name}."
       search:
         suggestions:
           - "humanoid"
@@ -64,7 +64,7 @@ sr:
       footer:
         text: "Katedra za mehatroniku, robotiku i automatizaciju · Trg Dositeja Obradovića 6, Novi Sad"
       copyright:
-        notice: "© {year} {name}. Sadržaj preuzet iz javnih FTN izvora, osim ako nije drugačije naznačeno."
+        notice: "© {year} {name}."
       search:
         suggestions:
           - "humanoid"

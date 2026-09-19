@@ -45,7 +45,7 @@ hugoblox:
     text: ""
 
   copyright:
-    notice: "© {year} {name}. Content from public FTN sources unless noted."
+    notice: "© {year} {name}."
     license:
       type: cc
       allow_derivatives: false
@@ -95,4 +95,4 @@ hugoblox:
     address_format: en-us
 
   pro:
-    hide_attribution: false
+    hide_attribution: true
