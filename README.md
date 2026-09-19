@@ -14,7 +14,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | --- | --- |
 | `/` or `/sr/` | Cinematic hero, research pillars, featured publications |
 | `…/research/` | Research themes; each card opens a theme page with paper figures and related publications |
-| `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, DOI, and BibTeX |
+| `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, `paper | pdf | cite` (publisher, hosted PDF when present, BibTeX) |
 | `…/people/` | Founder, faculty, teaching assistants, students, staff, alumni |
 | `…/lab/` | MARKO, FTN hand, industrial cells |
 | `…/join/` | Heads’ contact (email / office hours when known) and lab location |

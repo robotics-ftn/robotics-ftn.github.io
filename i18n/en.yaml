@@ -1,6 +1,9 @@
 - id: pub_paper
   translation: paper
 
+- id: pub_pdf
+  translation: pdf
+
 - id: pub_cite
   translation: cite
 

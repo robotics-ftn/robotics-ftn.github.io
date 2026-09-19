@@ -60,6 +60,9 @@
 - id: pub_paper
   translation: rad
 
+- id: pub_pdf
+  translation: pdf
+
 - id: pub_cite
   translation: citiraj
 
