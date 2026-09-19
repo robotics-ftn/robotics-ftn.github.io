@@ -15,8 +15,8 @@ sections:
       title: Oprema
       text: |
         <div class="rl-pubs rl-lab-equip not-prose">
-          <section class="rl-pubs-year-group" aria-labelledby="lab-robots">
-            <h2 class="rl-pubs-year" id="lab-robots">Roboti</h2>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-arms">
+            <h2 class="rl-pubs-year" id="lab-arms">Robotski manipulatori</h2>
             <div class="rl-pubs-list">
               <article class="rl-pub-row">
                 <div class="rl-pub-media">
@@ -47,40 +47,106 @@ sections:
               </article>
             </div>
           </section>
-          <section class="rl-pubs-year-group" aria-labelledby="lab-hands">
-            <h2 class="rl-pubs-year" id="lab-hands">Ruke i alati</h2>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-legged">
+            <h2 class="rl-pubs-year" id="lab-legged">Hodajući i humanoidni roboti</h2>
             <div class="rl-pubs-list">
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">FTN robot ruka</h3>
-                  <p class="rl-pub-authors">Nedovoljno aktuirana ruka sa tetivnim pogonom; 5 DC motora na dlanu; fuzzy kontrola položaj–brzina.</p>
+                  <h3 class="rl-pub-title">Solo 12</h3>
+                  <p class="rl-pub-authors">Četvoronožni robot.</p>
                 </div>
               </article>
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">Robotiq hvataljke</h3>
-                  <p class="rl-pub-authors">Modbus RTU kontrola preko <code>robotiq_modbusrtu</code>.</p>
+                  <h3 class="rl-pub-title">Humanoidni robot MARKO</h3>
+                  <p class="rl-pub-authors">Humanoidni robot.</p>
                 </div>
               </article>
             </div>
           </section>
-          <section class="rl-pubs-year-group" aria-labelledby="lab-humanoids">
-            <h2 class="rl-pubs-year" id="lab-humanoids">Humanoidi i pokret</h2>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-mobile">
+            <h2 class="rl-pubs-year" id="lab-mobile">Mobilni roboti</h2>
             <div class="rl-pubs-list">
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">Humanoid MARKO</h3>
-                  <p class="rl-pub-authors">33-DOF antropomorfna platforma za istraživanje asistivne terapije; proprioceptivno osećanje, kamere, mikrofon.</p>
+                  <h3 class="rl-pub-title">Mobilni manipulator Malisha</h3>
+                  <p class="rl-pub-authors">Mobilni manipulator.</p>
                 </div>
               </article>
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">Motion capture</h3>
-                  <p class="rl-pub-authors"><a href="https://mehatronika.ftn.uns.ac.rs/laboratorije/">Laboratorija za snimanje i analizu pokreta</a> (prof. dr Srđan Savić).</p>
+                  <h3 class="rl-pub-title">Kebot</h3>
+                  <p class="rl-pub-authors">Mobilni robot.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-hands">
+            <h2 class="rl-pubs-year" id="lab-hands">Ruke i EOAT</h2>
+            <div class="rl-pubs-list">
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Troprsta ruka</h3>
+                  <p class="rl-pub-authors">Troprsta robotska ruka.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Robotiq dvoprsta ruka</h3>
+                  <p class="rl-pub-authors">Dvoprsta hvataljka.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Dve xArm ruke</h3>
+                  <p class="rl-pub-authors">Ruke namenjene xArm manipulatorima.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Različite hvataljke</h3>
+                  <p class="rl-pub-authors">Dodatne hvataljke.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-perception">
+            <h2 class="rl-pubs-year" id="lab-perception">Percepcija i snimanje pokreta</h2>
+            <div class="rl-pubs-list">
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Vicon sistem za snimanje pokreta</h3>
+                  <p class="rl-pub-authors">Sistem za snimanje pokreta.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Dve Pupil Core naočare za praćenje pogleda</h3>
+                  <p class="rl-pub-authors">Naočare za praćenje pogleda.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Različite kamere</h3>
+                  <p class="rl-pub-authors">Kamere za percepciju.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Različiti senzori sile</h3>
+                  <p class="rl-pub-authors">Senzori sile.</p>
                 </div>
               </article>
             </div>

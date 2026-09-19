@@ -15,8 +15,8 @@ sections:
       title: Equipment
       text: |
         <div class="rl-pubs rl-lab-equip not-prose">
-          <section class="rl-pubs-year-group" aria-labelledby="lab-robots">
-            <h2 class="rl-pubs-year" id="lab-robots">Robots</h2>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-arms">
+            <h2 class="rl-pubs-year" id="lab-arms">Robotic arms</h2>
             <div class="rl-pubs-list">
               <article class="rl-pub-row">
                 <div class="rl-pub-media">
@@ -47,40 +47,106 @@ sections:
               </article>
             </div>
           </section>
-          <section class="rl-pubs-year-group" aria-labelledby="lab-hands">
-            <h2 class="rl-pubs-year" id="lab-hands">Hands and tooling</h2>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-legged">
+            <h2 class="rl-pubs-year" id="lab-legged">Legged and humanoid robots</h2>
             <div class="rl-pubs-list">
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">FTN robot hand</h3>
-                  <p class="rl-pub-authors">Underactuated tendon-driven hand; 5 palm-mounted DC motors; fuzzy position–velocity control.</p>
+                  <h3 class="rl-pub-title">Solo 12</h3>
+                  <p class="rl-pub-authors">Quadruped robot.</p>
                 </div>
               </article>
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">Robotiq grippers</h3>
-                  <p class="rl-pub-authors">Modbus RTU control via <code>robotiq_modbusrtu</code>.</p>
+                  <h3 class="rl-pub-title">MARKO humanoid robot</h3>
+                  <p class="rl-pub-authors">Humanoid robot.</p>
                 </div>
               </article>
             </div>
           </section>
-          <section class="rl-pubs-year-group" aria-labelledby="lab-humanoids">
-            <h2 class="rl-pubs-year" id="lab-humanoids">Humanoids and motion</h2>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-mobile">
+            <h2 class="rl-pubs-year" id="lab-mobile">Mobile robots</h2>
             <div class="rl-pubs-list">
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">Humanoid MARKO</h3>
-                  <p class="rl-pub-authors">33-DOF anthropomorphic platform for assistive therapy research; proprioceptive sensing, cameras, microphone.</p>
+                  <h3 class="rl-pub-title">Malisha mobile manipulator</h3>
+                  <p class="rl-pub-authors">Mobile manipulator.</p>
                 </div>
               </article>
               <article class="rl-pub-row">
                 <div class="rl-pub-media is-empty" aria-hidden="true"></div>
                 <div class="rl-pub-body">
-                  <h3 class="rl-pub-title">Motion capture</h3>
-                  <p class="rl-pub-authors"><a href="https://mehatronika.ftn.uns.ac.rs/laboratorije/">Motion Capture and Analysis Laboratory</a> (prof. dr Srđan Savić).</p>
+                  <h3 class="rl-pub-title">Kebot</h3>
+                  <p class="rl-pub-authors">Mobile robot.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-hands">
+            <h2 class="rl-pubs-year" id="lab-hands">Hands and EOAT</h2>
+            <div class="rl-pubs-list">
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Three-finger hand</h3>
+                  <p class="rl-pub-authors">Three-finger robotic hand.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Robotiq 2-finger hand</h3>
+                  <p class="rl-pub-authors">Two-finger gripper.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Two xArm hands</h3>
+                  <p class="rl-pub-authors">Hands for the xArm arms.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Various grippers</h3>
+                  <p class="rl-pub-authors">Additional grippers.</p>
+                </div>
+              </article>
+            </div>
+          </section>
+          <section class="rl-pubs-year-group" aria-labelledby="lab-perception">
+            <h2 class="rl-pubs-year" id="lab-perception">Perception and motion capture</h2>
+            <div class="rl-pubs-list">
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Vicon motion capture system</h3>
+                  <p class="rl-pub-authors">Motion capture system.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Two Pupil Core gaze-tracking glasses</h3>
+                  <p class="rl-pub-authors">Gaze-tracking glasses.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Various cameras</h3>
+                  <p class="rl-pub-authors">Cameras for perception work.</p>
+                </div>
+              </article>
+              <article class="rl-pub-row">
+                <div class="rl-pub-media is-empty" aria-hidden="true"></div>
+                <div class="rl-pub-body">
+                  <h3 class="rl-pub-title">Various force sensors</h3>
+                  <p class="rl-pub-authors">Force sensors.</p>
                 </div>
               </article>
             </div>
