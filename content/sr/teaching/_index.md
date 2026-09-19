@@ -3,7 +3,7 @@ title: Nastava
 summary: Predmeti na osnovnim i master studijama FTN-a na kojima predaju Mirko Raković, Milutin Nikolić ili Srđan Savić.
 type: landing
 draft: true
-_build:
+build:
   render: never
   list: never
 

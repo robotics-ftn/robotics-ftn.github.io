@@ -3,7 +3,7 @@ title: Teaching
 summary: FTN BSc and MSc courses taught by Mirko Raković, Milutin Nikolić, or Srđan Savić.
 type: landing
 draft: true
-_build:
+build:
   render: never
   list: never
 
