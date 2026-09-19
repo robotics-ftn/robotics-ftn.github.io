@@ -12,8 +12,6 @@ sections:
 
         ### Heads
 
-        Contact the three heads. Email and office hours are shown only when they already appear on this site or a CV; empty fields mean none is published.
-
         <div class="rl-pubs rl-join-heads not-prose">
           <div class="rl-pubs-list">
             <article class="rl-pub-row">

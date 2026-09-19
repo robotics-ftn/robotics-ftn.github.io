@@ -12,8 +12,6 @@ sections:
 
         ### Rukovodioci
 
-        Kontakt troje rukovodilaca. E-adresa i konsultacije stoje samo ako su već na ovom sajtu ili u CV-ju; prazno polje znači da nisu objavljeni.
-
         <div class="rl-pubs rl-join-heads not-prose">
           <div class="rl-pubs-list">
             <article class="rl-pub-row">
