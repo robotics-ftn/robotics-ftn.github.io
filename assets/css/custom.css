@@ -280,6 +280,21 @@ html.dark .hbx-block-team-showcase img {
   max-width: 920px;
 }
 
+.rl-teaching {
+  width: 100%;
+  max-width: 920px;
+  margin: 0;
+  padding: 0;
+}
+
+.prose:has(.rl-teaching) {
+  max-width: 920px;
+}
+
+.rl-teaching .rl-pub-row {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .hbx-block-gallery img {
   border: 1px solid var(--rl-card-border);
   transition: transform 0.35s ease, box-shadow 0.35s ease;
