@@ -1,4 +1,7 @@
 {{- $item := . -}}
+{{- if reflect.IsMap . -}}
+  {{- with index . "item" }}{{ $item = . }}{{ end -}}
+{{- end -}}
 {{- $year := $item.Date.Format "2006" -}}
 {{- $pub := partial "functions/resolve_publication.html" $item -}}
 {{- $slug := path.Base (strings.TrimSuffix "/" $item.File.Dir) -}}
@@ -30,39 +33,9 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- $paper_url := "" -}}
-{{- $pdf_url := "" -}}
-{{- with $item.Params.hugoblox -}}
-  {{- with .ids -}}
-    {{- with .doi -}}
-      {{- if or (hasPrefix . "https://") (hasPrefix . "http://") -}}
-        {{- $paper_url = . -}}
-      {{- else -}}
-        {{- $paper_url = printf "https://doi.org/%s" . -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-{{- range $item.Params.links -}}
-  {{- if and .url (or (hasPrefix .url "/media/") (hasPrefix .url "/preprints/")) -}}
-    {{- if eq .type "pdf" -}}
-      {{- $pdf_url = .url -}}
-    {{- end -}}
-  {{- else if and .url (or (hasPrefix .url "https://") (hasPrefix .url "http://")) -}}
-    {{- if not $paper_url -}}
-      {{- if or (eq .type "doi") (eq .type "url") (eq .type "paper") (hasPrefix .url "https://doi.org/") (hasPrefix .url "http://doi.org/") -}}
-        {{- $paper_url = .url -}}
-      {{- else if and (eq .type "pdf") (not (strings.HasSuffix .url ".pdf")) -}}
-        {{- $paper_url = .url -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-{{- if not $pdf_url -}}
-  {{- with resources.Get (printf "media/publications/%s.pdf" $slug) -}}
-    {{- $pdf_url = .RelPermalink -}}
-  {{- end -}}
-{{- end -}}
+{{- $urls := partial "functions/pub-urls.html" $item -}}
+{{- $paper_url := $urls.paper -}}
+{{- $pdf_url := $urls.pdf -}}
 {{- $cite := $item.Resources.GetMatch "cite.bib" -}}
 {{- $video_url := "" -}}
 {{- $code_url := "" -}}
@@ -91,12 +64,12 @@
     <p class="rl-pub-links">
       {{- $need_sep := false -}}
       {{- if $paper_url -}}
-        <a href="{{ $paper_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "pub_paper" | default "paper" }}</a>
+        <a class="rl-pub-link-paper" href="{{ $paper_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "pub_paper" | default "paper" }}</a>
         {{- $need_sep = true -}}
       {{- end -}}
       {{- if $pdf_url -}}
         {{- if $need_sep }}<span class="rl-pub-sep" aria-hidden="true"></span>{{ end -}}
-        <a href="{{ $pdf_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "pub_pdf" | default "pdf" }}</a>
+        <a class="rl-pub-link-pdf" href="{{ $pdf_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "pub_pdf" | default "pdf" }}</a>
         {{- $need_sep = true -}}
       {{- end -}}
       {{- if $cite -}}

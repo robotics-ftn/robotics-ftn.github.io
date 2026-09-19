@@ -1,0 +1,60 @@
+{{- /* Resolve publisher URL and hosted PDF for a publication page. */ -}}
+{{- $item := . -}}
+{{- if reflect.IsMap . -}}
+  {{- with index . "item" }}{{ $item = . }}{{ end -}}
+{{- end -}}
+{{- $slug := "" -}}
+{{- with $item.File -}}
+  {{- $slug = path.Base (strings.TrimSuffix "/" .Dir) -}}
+{{- end -}}
+{{- $paper_url := "" -}}
+{{- $pdf_url := "" -}}
+{{- with $item.Params.hugoblox -}}
+  {{- with .ids -}}
+    {{- with .doi -}}
+      {{- if or (hasPrefix . "https://") (hasPrefix . "http://") -}}
+        {{- $paper_url = . -}}
+      {{- else -}}
+        {{- $paper_url = printf "https://doi.org/%s" . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $item.Params.links -}}
+  {{- $url := .url | default "" -}}
+  {{- if and $url (or (hasPrefix $url "/media/") (hasPrefix $url "/preprints/")) -}}
+    {{- if eq .type "pdf" -}}
+      {{- $pdf_url = $url -}}
+    {{- end -}}
+  {{- else if and $url (or (hasPrefix $url "https://") (hasPrefix $url "http://")) -}}
+    {{- if not $paper_url -}}
+      {{- if or (eq .type "doi") (eq .type "url") (eq .type "paper") (hasPrefix $url "https://doi.org/") (hasPrefix $url "http://doi.org/") -}}
+        {{- $paper_url = $url -}}
+      {{- else if and (eq .type "pdf") (not (strings.HasSuffix $url ".pdf")) -}}
+        {{- $paper_url = $url -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $pdf_url -}}
+  {{- with $item.Resources.GetMatch "*.pdf" -}}
+    {{- $pdf_url = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $pdf_url -}}
+  {{- with $slug -}}
+    {{- with resources.Get (printf "media/publications/%s.pdf" .) -}}
+      {{- $pdf_url = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if and (not $pdf_url) $slug -}}
+  {{- $asset_pdf := printf "assets/media/publications/%s.pdf" $slug -}}
+  {{- $static_pdf := printf "static/media/publications/%s.pdf" $slug -}}
+  {{- if os.FileExists $asset_pdf -}}
+    {{- $pdf_url = printf "/media/publications/%s.pdf" $slug -}}
+  {{- else if os.FileExists $static_pdf -}}
+    {{- $pdf_url = printf "/media/publications/%s.pdf" $slug -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "paper" $paper_url "pdf" $pdf_url) -}}

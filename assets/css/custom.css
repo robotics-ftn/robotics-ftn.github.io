@@ -659,6 +659,11 @@ body:has(.rl-pubs) .page-body {
   font: inherit;
   cursor: pointer;
   text-decoration: none;
+  display: inline;
+}
+
+.rl-pub-link-pdf {
+  font-weight: 600;
 }
 
 .rl-pub-links a:hover,

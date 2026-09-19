@@ -1,0 +1,24 @@
+{{- $item := . -}}
+{{- if reflect.IsMap . -}}
+  {{- with index . "item" }}{{ $item = . }}{{ end -}}
+{{- end -}}
+{{- $urls := partial "functions/pub-urls.html" $item -}}
+{{- $paper_url := $urls.paper -}}
+{{- $pdf_url := $urls.pdf -}}
+{{- $cite := $item.Resources.GetMatch "cite.bib" -}}
+<p class="rl-pub-links">
+  {{- $need_sep := false -}}
+  {{- if $paper_url -}}
+    <a class="rl-pub-link-paper" href="{{ $paper_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "pub_paper" | default "paper" }}</a>
+    {{- $need_sep = true -}}
+  {{- end -}}
+  {{- if $pdf_url -}}
+    {{- if $need_sep }}<span class="rl-pub-sep" aria-hidden="true"></span>{{ end -}}
+    <a class="rl-pub-link-pdf" href="{{ $pdf_url | safeURL }}" target="_blank" rel="noopener">{{ i18n "pub_pdf" | default "pdf" }}</a>
+    {{- $need_sep = true -}}
+  {{- end -}}
+  {{- if $cite -}}
+    {{- if $need_sep }}<span class="rl-pub-sep" aria-hidden="true"></span>{{ end -}}
+    <button class="js-cite-clipboard rl-pub-link-cite" type="button" data-filename="{{ $cite.RelPermalink }}">{{ i18n "pub_cite" | default "cite" }}</button>
+  {{- end -}}
+</p>
