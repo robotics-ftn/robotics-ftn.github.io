@@ -6,7 +6,10 @@
 {{- $media_kind := "image" -}}
 {{- $page_featured := ($item.Resources.ByType "image").GetMatch "*featured*" -}}
 {{- if reflect.IsResource $page_featured -}}
-  {{- $media = $page_featured -}}
+  {{- $feat_ext := path.Ext $page_featured.Name | lower -}}
+  {{- if not (in (slice ".gif" ".webp.gif") $feat_ext) -}}
+    {{- $media = $page_featured -}}
+  {{- end -}}
 {{- end -}}
 {{- if not $media -}}
   {{- range $ext := slice "jpg" "jpeg" "png" "webp" -}}
@@ -22,8 +25,8 @@
   {{- with $image_params.filename -}}
     {{- $media = resources.Get (path.Join "media" .) -}}
     {{- $ext := path.Ext . | lower -}}
-    {{- if in (slice ".mp4" ".webm" ".ogg") $ext -}}
-      {{- $media_kind = "video" -}}
+    {{- if in (slice ".mp4" ".webm" ".ogg" ".gif") $ext -}}
+      {{- $media = false -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
