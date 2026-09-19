@@ -8,7 +8,22 @@ sections:
     content:
       title: Tim
       text: |
-        Istraživačkom grupom za robotiku na FTN-u ravnopravno rukovode **prof. dr Milutin Nikolić**, **prof. dr Mirko Raković** i **prof. dr Srđan Savić**. Grupu je osnovao **prof. emeritus dr Branislav Borovac**.
+        Istraživačkom grupom za robotiku na FTN-u ravnopravno rukovode **prof. dr Mirko Raković**, **prof. dr Milutin Nikolić** i **prof. dr Srđan Savić**. Grupu je osnovao **prof. emeritus dr Branislav Borovac**.
+
+  - block: team-showcase
+    content:
+      title: Osnivač
+      user_groups:
+        - Osnivač
+      sort_by: weight
+      sort_ascending: true
+    design:
+      show_role: true
+      show_organizations: true
+      show_interests: true
+      max_interests: 4
+      show_social: true
+      max_columns: 1
 
   - block: team-showcase
     content:
