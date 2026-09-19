@@ -132,7 +132,8 @@ jobs:
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        # Org Pages root (not a project subpath). Keep the trailing slash.
+        hugo --minify --baseURL "https://robotics-ftn.github.io/"
 
     - name: Generate Pagefind search index (if applicable)
       run: |
