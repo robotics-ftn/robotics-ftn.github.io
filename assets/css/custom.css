@@ -273,9 +273,9 @@ section[id="section-team-showcase"] .grid {
 
 section[id="section-team-showcase"] .grid > .group {
   box-sizing: border-box;
-  flex: 0 0 12rem !important;
-  width: 12rem !important;
-  max-width: 12rem !important;
+  flex: 0 0 14.5rem !important;
+  width: 14.5rem !important;
+  max-width: 14.5rem !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
@@ -289,9 +289,9 @@ section[id="section-team-showcase"] .grid > .group > .relative {
 section[id="section-team-showcase"] .grid > .group a.aspect-square {
   display: block !important;
   flex: 0 0 auto;
-  width: 5.25rem !important;
-  height: 5.25rem !important;
-  max-width: 5.25rem !important;
+  width: 10rem !important;
+  height: 10rem !important;
+  max-width: 10rem !important;
   aspect-ratio: 1 / 1 !important;
   margin: 0.85rem auto 0 !important;
   border-radius: 0.45rem;
@@ -341,15 +341,15 @@ section[id="section-team-showcase"] .grid > .group .flex.gap-3 {
 
 @media (max-width: 640px) {
   section[id="section-team-showcase"] .grid > .group {
-    flex-basis: 10rem !important;
-    width: 10rem !important;
-    max-width: 10rem !important;
+    flex-basis: 12rem !important;
+    width: 12rem !important;
+    max-width: 12rem !important;
   }
 
   section[id="section-team-showcase"] .grid > .group a.aspect-square {
-    width: 4.5rem !important;
-    height: 4.5rem !important;
-    max-width: 4.5rem !important;
+    width: 8rem !important;
+    height: 8rem !important;
+    max-width: 8rem !important;
   }
 }
 
