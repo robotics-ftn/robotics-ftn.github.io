@@ -12,16 +12,19 @@ publishDate: "2016-11-15T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE-RAS International Conference on Humanoid Robots (Humanoids)"
+  pages: "57-62"
 peer_reviewed: true
-summary: Biped walking and stair climbing with reconfigurable adaptive motion primitives (Humanoids 2016).
+summary: "Biped walking and stair climbing with reconfigurable adaptive motion primitives (Humanoids 2016)."
 tags:
   - year-2016
   - Locomotion
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/HUMANOIDS.2016.7803254
+    doi: 10.1109/humanoids.2016.7803254
 links:
   - type: pdf
     url: /media/publications/humanoids-stairs-2016.pdf
+  - type: url
+    url: https://doi.org/10.1109/humanoids.2016.7803254
 ---

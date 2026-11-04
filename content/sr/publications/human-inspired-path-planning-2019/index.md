@@ -6,14 +6,15 @@ authors:
   - José Santos-Victor
   - milutin-nikolic
   - branislav-borovac
-date: "2019-01-01T00:00:00Z"
-publishDate: "2019-01-01T00:00:00Z"
+date: "2019-06-04T00:00:00Z"
+publishDate: "2019-06-04T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Frontiers in Neurorobotics"
   volume: 13
+  pages: "36"
 peer_reviewed: true
-summary: Onlajn planiranje putanje i realizacija bipednog hoda (Frontiers in Neurorobotics, 2019).
+summary: "Onlajn planiranje putanje i realizacija bipednog hoda (Frontiers in Neurorobotics, 2019)."
 tags:
   - year-2019
   - Locomotion
@@ -22,6 +23,6 @@ hugoblox:
   ids:
     doi: 10.3389/fnbot.2019.00036
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.3389/fnbot.2019.00036
 ---

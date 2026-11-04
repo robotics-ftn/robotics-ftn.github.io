@@ -1,5 +1,10 @@
 ---
 title: "Low-cost real-time human motion capturing system"
+authors:
+  - milutin-nikolic
+  - lazar-milic
+  - M. Studen
+  - mirko-rakovic
 date: "2022-01-01T00:00:00Z"
 publishDate: "2022-01-01T00:00:00Z"
 publication_types: ["paper-conference"]

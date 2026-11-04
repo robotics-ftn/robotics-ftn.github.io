@@ -13,6 +13,7 @@ publishDate: "2024-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "495-502"
 peer_reviewed: true
 summary: "Challenges in Polystyrene Mold Making for Clay Panels Using Robotic Hotwire Carving (International Conference on Robotics in Alpe-Adria-Danube Region (RAAD), 2024)."
 tags:

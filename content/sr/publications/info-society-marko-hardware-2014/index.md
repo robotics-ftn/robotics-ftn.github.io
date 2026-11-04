@@ -1,7 +1,13 @@
 ---
 title: "Mechanical and Control Hardware Design of Humanoid Robot Marko"
-date: "2014-01-01T00:00:00Z"
-publishDate: "2014-01-01T00:00:00Z"
+authors:
+  - branislav-borovac
+  - mirko-rakovic
+  - srdjan-savic
+  - milutin-nikolic
+  - aleksandar-batinica
+date: "2014-10-06T00:00:00Z"
+publishDate: "2014-10-06T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "Information Society 2014"

@@ -12,6 +12,7 @@ publishDate: "2023-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "132-140"
 peer_reviewed: true
 summary: "Physical education exercises validation through child-humanoid robot interaction (International Conference on Robotics in Alpe-Adria-Danube Region (RAAD), 2023)."
 tags:

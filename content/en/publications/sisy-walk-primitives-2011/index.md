@@ -3,11 +3,12 @@ title: "Online Humanoid Robot Walk Generation Using Primitives"
 authors:
   - branislav-borovac
   - mirko-rakovic
-date: "2011-01-01T00:00:00Z"
-publishDate: "2011-01-01T00:00:00Z"
+date: "2011-09-01T00:00:00Z"
+publishDate: "2011-09-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Symposium on Intelligent Systems and Informatics (SISY)"
+  pages: "421-426"
 peer_reviewed: true
 summary: "Online Humanoid Robot Walk Generation Using Primitives (IEEE International Symposium on Intelligent Systems and Informatics (SISY), 2011)."
 tags:

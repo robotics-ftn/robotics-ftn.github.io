@@ -4,11 +4,12 @@ authors:
   - Dimitrije Čabrilo
   - aleksandar-kicic
   - milutin-nikolic
-date: "2026-01-01T00:00:00Z"
-publishDate: "2026-01-01T00:00:00Z"
+date: "2026-06-01T00:00:00Z"
+publishDate: "2026-06-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electrical, Electronic and Computing Engineering (IcETRAN)"
+  pages: "1-6"
 peer_reviewed: true
 summary: "Comparative Analysis of Motion Control Architectures for Trajectory Tracking on a Differential-Drive Mobile Robot (International Conference on Electrical, Electronic and Computing Engineering (IcETRAN), 2026)."
 tags:

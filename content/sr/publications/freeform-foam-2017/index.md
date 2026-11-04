@@ -12,8 +12,9 @@ publication_types: ["article-journal"]
 publication:
   name: "Automation in Construction"
   volume: 74
+  pages: "28-38"
 peer_reviewed: true
-summary: Robotska izrada slobodnih pena-struktura sa panelima (Automation in Construction, 2017).
+summary: "Robotska izrada slobodnih pena-struktura sa panelima (Automation in Construction, 2017)."
 tags:
   - year-2017
   - Robotic fabrication
@@ -24,4 +25,6 @@ hugoblox:
 links:
   - type: pdf
     url: /media/publications/freeform-foam-2017.pdf
+  - type: url
+    url: https://doi.org/10.1016/j.autcon.2016.11.003
 ---

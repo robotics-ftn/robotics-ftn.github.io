@@ -4,11 +4,12 @@ authors:
   - milutin-nikolic
   - branislav-borovac
   - mirko-rakovic
-date: "2014-01-01T00:00:00Z"
-publishDate: "2014-01-01T00:00:00Z"
+date: "2014-09-01T00:00:00Z"
+publishDate: "2014-09-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "1-6"
 peer_reviewed: true
 summary: "Simulation of foot-ground contact for bipedal robots (International Conference on Robotics in Alpe-Adria-Danube Region (RAAD), 2014)."
 tags:

@@ -14,6 +14,9 @@ publishDate: "2020-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "JSME Conference on Robotics and Mechatronics (Robomec)"
+  volume: 2020
+  issue: 0
+  pages: "1A1-M06"
 peer_reviewed: true
 summary: "Expression of cooperative motions in team sports based on the motion data of each player (JSME Conference on Robotics and Mechatronics (Robomec), 2020)."
 tags:

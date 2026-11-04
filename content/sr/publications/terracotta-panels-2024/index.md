@@ -12,8 +12,9 @@ publication_types: ["article-journal"]
 publication:
   name: "Computers & Graphics"
   volume: 119
+  pages: "103905"
 peer_reviewed: true
-summary: Kalupi sečeni robotskim hotwire-om iz sivih slika za terakota panele (Computers & Graphics, 2024).
+summary: "Kalupi sečeni robotskim hotwire-om iz sivih slika za terakota panele (Computers & Graphics, 2024)."
 tags:
   - year-2024
   - Robotic fabrication
@@ -22,6 +23,6 @@ hugoblox:
   ids:
     doi: 10.1016/j.cag.2024.103905
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1016/j.cag.2024.103905
 ---

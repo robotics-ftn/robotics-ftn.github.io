@@ -9,8 +9,9 @@ publishDate: "2022-05-23T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Conference on Robotics and Automation (ICRA)"
+  pages: "10375-10381"
 peer_reviewed: true
-summary: Procena punoće posude iz vizuelnih znakova čoveka (ICRA 2022).
+summary: "Procena punoće posude iz vizuelnih znakova čoveka (ICRA 2022)."
 tags:
   - year-2022
   - Human-robot interaction
@@ -19,8 +20,10 @@ featured: true
 weight: 5
 hugoblox:
   ids:
-    doi: 10.1109/ICRA46639.2022.9811725
+    doi: 10.1109/icra46639.2022.9811725
 links:
   - type: pdf
     url: /media/publications/icra-object-properties-2022.pdf
+  - type: url
+    url: https://doi.org/10.1109/icra46639.2022.9811725
 ---

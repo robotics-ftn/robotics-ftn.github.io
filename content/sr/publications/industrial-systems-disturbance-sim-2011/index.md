@@ -1,7 +1,11 @@
 ---
 title: "Disturbance compensation of standing humanoid robot – Simulation"
-date: "2011-01-01T00:00:00Z"
-publishDate: "2011-01-01T00:00:00Z"
+authors:
+  - branislav-borovac
+  - milutin-nikolic
+  - mirko-rakovic
+date: "2011-09-14T00:00:00Z"
+publishDate: "2011-09-14T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "Industrial Systems 2011"

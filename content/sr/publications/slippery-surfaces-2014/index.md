@@ -9,8 +9,9 @@ publishDate: "2014-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "ROMANSY 20 — CISM-IFToMM Symposium on Theory and Practice of Robots and Manipulators"
+  pages: "189-196"
 peer_reviewed: true
-summary: Upravljanje prioritetom zadataka za hod po klizavim površinama (ROMANSY 2014).
+summary: "Upravljanje prioritetom zadataka za hod po klizavim površinama (ROMANSY 2014)."
 tags:
   - year-2014
   - Locomotion
@@ -19,6 +20,6 @@ hugoblox:
   ids:
     doi: 10.1007/978-3-319-07058-2_22
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1007/978-3-319-07058-2_22
 ---

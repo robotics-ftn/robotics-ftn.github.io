@@ -12,6 +12,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "MATEC Web of Conferences"
+  volume: 121
+  pages: "8005"
 peer_reviewed: true
 summary: "Assistive Humanoid Robot MARKO: Development of the Neck Mechanism (MATEC Web of Conferences, 2017)."
 tags:

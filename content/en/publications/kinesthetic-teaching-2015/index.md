@@ -10,8 +10,9 @@ publishDate: "2015-09-17T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Symposium on Intelligent Systems and Informatics (SISY)"
+  pages: "241-246"
 peer_reviewed: true
-summary: Task-priority whole-body control for kinesthetic teaching of a free-standing humanoid (SISY 2015).
+summary: "Task-priority whole-body control for kinesthetic teaching of a free-standing humanoid (SISY 2015)."
 tags:
   - year-2015
   - Locomotion
@@ -19,8 +20,10 @@ tags:
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/SISY.2015.7325387
+    doi: 10.1109/sisy.2015.7325387
 links:
   - type: pdf
     url: /media/publications/kinesthetic-teaching-2015.pdf
+  - type: url
+    url: https://doi.org/10.1109/sisy.2015.7325387
 ---

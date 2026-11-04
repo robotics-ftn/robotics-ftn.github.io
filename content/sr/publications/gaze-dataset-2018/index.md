@@ -12,8 +12,9 @@ publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electromechanics and Robotics (ERZR)"
   volume: 161
+  pages: "3002"
 peer_reviewed: true
-summary: Skup podataka pogleda glave i očiju tokom dijadnih zadataka za modelovanje pogleda robota (ERZR / MATEC, 2018).
+summary: "Skup podataka pogleda glave i očiju tokom dijadnih zadataka za modelovanje pogleda robota (ERZR / MATEC, 2018)."
 tags:
   - year-2018
   - Human-robot interaction
@@ -24,4 +25,6 @@ hugoblox:
 links:
   - type: pdf
     url: /media/publications/gaze-dataset-2018.pdf
+  - type: url
+    url: https://doi.org/10.1051/matecconf/201816103002
 ---

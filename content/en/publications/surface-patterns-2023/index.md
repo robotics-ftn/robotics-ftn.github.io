@@ -12,8 +12,9 @@ publication:
   name: "Nexus Network Journal"
   volume: 25
   issue: 4
+  pages: "887-902"
 peer_reviewed: true
-summary: Architectural surface patterns from image sampling and robotic fabrication (Nexus Network Journal, 2023).
+summary: "Architectural surface patterns from image sampling and robotic fabrication (Nexus Network Journal, 2023)."
 tags:
   - year-2023
   - Robotic fabrication
@@ -22,6 +23,6 @@ hugoblox:
   ids:
     doi: 10.1007/s00004-023-00739-8
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1007/s00004-023-00739-8
 ---

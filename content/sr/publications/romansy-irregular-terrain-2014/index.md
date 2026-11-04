@@ -10,6 +10,7 @@ publishDate: "2014-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "ROMANSY"
+  pages: "265-273"
 peer_reviewed: true
 summary: "Biped Walking on Irregular Terrain Using Motion Primitives (ROMANSY, 2014)."
 tags:

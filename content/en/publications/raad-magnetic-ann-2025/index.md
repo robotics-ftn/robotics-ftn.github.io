@@ -10,8 +10,9 @@ publishDate: "2025-06-18T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "568-576"
 peer_reviewed: true
-summary: ANN estimation of 2D position from magnetic sensors (RAAD 2025).
+summary: "ANN estimation of 2D position from magnetic sensors (RAAD 2025)."
 tags:
   - year-2025
   - Perception and tactile sensing
@@ -20,6 +21,6 @@ hugoblox:
   ids:
     doi: 10.1007/978-3-032-02106-9_63
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1007/978-3-032-02106-9_63
 ---

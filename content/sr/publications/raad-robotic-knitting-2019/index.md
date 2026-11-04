@@ -6,11 +6,12 @@ authors:
   - Bojan Tepavčević
   - mirko-rakovic
   - jovica-tasevski
-date: "2019-01-01T00:00:00Z"
-publishDate: "2019-01-01T00:00:00Z"
+date: "2019-05-08T00:00:00Z"
+publishDate: "2019-05-08T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "179-187"
 peer_reviewed: true
 summary: "Robotic Knitting in String Art as a Tool for Creative Design Processes (International Conference on Robotics in Alpe-Adria-Danube Region (RAAD), 2019)."
 tags:

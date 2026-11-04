@@ -10,6 +10,7 @@ publishDate: "2018-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "ECCV Workshops"
+  pages: "197-212"
 peer_reviewed: true
 summary: "Action Alignment from Gaze Cues in Human-Human and Human-Robot Interaction (ECCV Workshops, 2018)."
 tags:

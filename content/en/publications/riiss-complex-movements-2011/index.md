@@ -4,11 +4,12 @@ authors:
   - branislav-borovac
   - mirko-rakovic
   - milutin-nikolic
-date: "2011-01-01T00:00:00Z"
-publishDate: "2011-01-01T00:00:00Z"
+date: "2011-04-01T00:00:00Z"
+publishDate: "2011-04-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "2011 IEEE Workshop on Robotic Intelligence In Informationally Structured Space"
+  pages: "99-106"
 peer_reviewed: true
 summary: "Biologicaly Inspired On-line Generation of Complex Movements Using Primitives (2011 IEEE Workshop on Robotic Intelligence In Informationally Structured Space, 2011)."
 tags:

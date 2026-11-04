@@ -10,16 +10,19 @@ publishDate: "2018-05-21T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Conference on Robotics and Automation (ICRA)"
+  pages: "1-6"
 peer_reviewed: true
-summary: RNN predikcija nizova akcija u saradnji čovek–robot (ICRA 2018).
+summary: "RNN predikcija nizova akcija u saradnji čovek–robot (ICRA 2018)."
 tags:
   - year-2018
   - Human-robot interaction
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/ICRA.2018.8460924
+    doi: 10.1109/icra.2018.8460924
 links:
   - type: pdf
     url: /media/publications/icra-anticipation-rnn-2018.pdf
+  - type: url
+    url: https://doi.org/10.1109/icra.2018.8460924
 ---

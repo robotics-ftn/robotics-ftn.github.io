@@ -9,16 +9,19 @@ publishDate: "2019-07-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE EUROCON"
+  pages: "1-6"
 peer_reviewed: true
-summary: Biološki inspirisan kontroler postavljanja i predaje za humanoida u dijadnom scenariju (EUROCON 2019).
+summary: "Biološki inspirisan kontroler postavljanja i predaje za humanoida u dijadnom scenariju (EUROCON 2019)."
 tags:
   - year-2019
   - Human-robot interaction
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/EUROCON.2019.8861629
+    doi: 10.1109/eurocon.2019.8861629
 links:
   - type: pdf
     url: /media/publications/eurocon-dyadic-controller-2019.pdf
+  - type: url
+    url: https://doi.org/10.1109/eurocon.2019.8861629
 ---

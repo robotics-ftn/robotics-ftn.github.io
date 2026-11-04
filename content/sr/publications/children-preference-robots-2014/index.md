@@ -10,16 +10,17 @@ publishDate: "2014-11-18T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE-RAS International Conference on Humanoid Robots (Humanoids)"
+  pages: "360-365"
 peer_reviewed: true
-summary: Preferencije dece prema izgledu i stavovi roditelja prema asistivnim robotima (Humanoids 2014).
+summary: "Preferencije dece prema izgledu i stavovi roditelja prema asistivnim robotima (Humanoids 2014)."
 tags:
   - year-2014
   - Human-robot interaction
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/HUMANOIDS.2014.7041385
+    doi: 10.1109/humanoids.2014.7041385
 links:
-  - type: pdf
-    url: https://doi.org/10.1109/HUMANOIDS.2014.7041385
+  - type: url
+    url: https://doi.org/10.1109/humanoids.2014.7041385
 ---

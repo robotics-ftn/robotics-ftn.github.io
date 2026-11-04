@@ -1,7 +1,10 @@
 ---
 title: "Biped locomotion: history and perspectives"
-date: "2015-01-01T00:00:00Z"
-publishDate: "2015-01-01T00:00:00Z"
+authors:
+  - branislav-borovac
+  - mirko-rakovic
+date: "2015-06-19T00:00:00Z"
+publishDate: "2015-06-19T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "ICET 2015"

@@ -12,16 +12,19 @@ publication:
   name: "Thermal Science"
   volume: 20
   issue: 2
+  pages: "549-561"
 peer_reviewed: true
-summary: Hybrid motion control for leader–follower humanoid cooperation (Thermal Science, 2016).
+summary: "Hybrid motion control for leader–follower humanoid cooperation (Thermal Science, 2016)."
 tags:
   - year-2016
   - Locomotion
 featured: false
 hugoblox:
   ids:
-    doi: 10.2298/TSCI151005037S
+    doi: 10.2298/tsci151005037s
 links:
   - type: pdf
     url: /media/publications/hybrid-motion-control-2016.pdf
+  - type: url
+    url: https://doi.org/10.2298/tsci151005037s
 ---

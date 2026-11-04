@@ -10,8 +10,9 @@ publishDate: "2009-01-01T00:00:00Z"
 publication_types: ["chapter"]
 publication:
   name: "Research and Education in Robotics — EUROBOT 2009, Springer"
+  pages: "158-172"
 peer_reviewed: true
-summary: Poglavlje o generisanju složenih pokreta humanoida pomoću primitiva (EUROBOT 2009).
+summary: "Poglavlje o generisanju složenih pokreta humanoida pomoću primitiva (EUROBOT 2009)."
 tags:
   - year-2009
   - Locomotion
@@ -20,6 +21,6 @@ hugoblox:
   ids:
     doi: 10.1007/978-3-642-16370-8_14
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1007/978-3-642-16370-8_14
 ---

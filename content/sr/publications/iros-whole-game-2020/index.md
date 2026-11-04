@@ -12,15 +12,16 @@ publishDate: "2020-10-24T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+  pages: "10256-10261"
 peer_reviewed: true
-summary: Arhitektura snimanja pokreta cele utakmice u timskim sportovima (IROS 2020).
+summary: "Arhitektura snimanja pokreta cele utakmice u timskim sportovima (IROS 2020)."
 tags:
   - year-2020
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/IROS45743.2020.9341009
+    doi: 10.1109/iros45743.2020.9341009
 links:
-  - type: pdf
-    url: https://doi.org/10.1109/IROS45743.2020.9341009
+  - type: url
+    url: https://doi.org/10.1109/iros45743.2020.9341009
 ---

@@ -13,8 +13,9 @@ publishDate: "2022-01-01T00:00:00Z"
 publication_types: ["chapter"]
 publication:
   name: "Machine and Industrial Design in Mechanical Engineering (KOD 2021), Springer"
+  pages: "69-76"
 peer_reviewed: true
-summary: Assistive robotics with MARKO for children with developmental disorders (KOD 2021).
+summary: "Assistive robotics with MARKO for children with developmental disorders (KOD 2021)."
 tags:
   - year-2022
   - Human-robot interaction
@@ -23,6 +24,6 @@ hugoblox:
   ids:
     doi: 10.1007/978-3-030-88465-9_4
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1007/978-3-030-88465-9_4
 ---

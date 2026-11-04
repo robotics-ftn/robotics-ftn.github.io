@@ -9,6 +9,7 @@ publishDate: "2009-01-01T00:00:00Z"
 publication_types: ["chapter"]
 publication:
   name: "Research and Education in Robotics — EUROBOT, Springer"
+  pages: "42-53"
 peer_reviewed: true
 summary: "Comparison of PID and Fuzzy Logic Controllers in Humanoid Robot Control of Small Disturbances (Research and Education in Robotics — EUROBOT, Springer, 2009)."
 tags:

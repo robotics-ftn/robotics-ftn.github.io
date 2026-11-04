@@ -11,16 +11,19 @@ publishDate: "2016-08-29T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Symposium on Intelligent Systems and Informatics (SISY)"
+  pages: "31-38"
 peer_reviewed: true
-summary: Opšti model humanoida za planiranje kretanja u tvrdom realnom vremenu (SISY 2016).
+summary: "Opšti model humanoida za planiranje kretanja u tvrdom realnom vremenu (SISY 2016)."
 tags:
   - year-2016
   - Locomotion
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/SISY.2016.7601514
+    doi: 10.1109/sisy.2016.7601514
 links:
   - type: pdf
     url: /media/publications/sisy-realtime-planning-2016.pdf
+  - type: url
+    url: https://doi.org/10.1109/sisy.2016.7601514
 ---

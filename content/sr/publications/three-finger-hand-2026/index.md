@@ -11,8 +11,11 @@ publishDate: "2026-07-28T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "ASME Journal of Mechanisms and Robotics"
+  volume: 18
+  issue: 10
+  pages: "101001"
 peer_reviewed: true
-summary: Sila-osetljiva podaktuirana troprsta robotska ruka (ASME J. Mechanisms and Robotics, 2026).
+summary: "Sila-osetljiva podaktuirana troprsta robotska ruka (ASME J. Mechanisms and Robotics, 2026)."
 tags:
   - year-2026
   - Dexterous hands
@@ -23,6 +26,6 @@ hugoblox:
   ids:
     doi: 10.1115/1.4072408
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1115/1.4072408
 ---

@@ -4,11 +4,12 @@ authors:
   - Viktor Salaj
   - lazar-milic
   - mirko-rakovic
-date: "2025-01-01T00:00:00Z"
-publishDate: "2025-01-01T00:00:00Z"
+date: "2025-06-09T00:00:00Z"
+publishDate: "2025-06-09T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electrical, Electronic and Computing Engineering (IcETRAN)"
+  pages: "1-4"
 peer_reviewed: true
 summary: "Combining Object Detection and Reinforcement Learning for Vision-Guided Robotic Mini-Golf (International Conference on Electrical, Electronic and Computing Engineering (IcETRAN), 2025)."
 tags:

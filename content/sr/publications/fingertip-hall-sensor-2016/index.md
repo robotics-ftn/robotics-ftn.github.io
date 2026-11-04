@@ -11,8 +11,9 @@ publishDate: "2016-06-30T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "88-95"
 peer_reviewed: true
-summary: Hallov 3-osni senzor sile na vrhovima prstiju robotske ruke (RAAD 2016).
+summary: "Hallov 3-osni senzor sile na vrhovima prstiju robotske ruke (RAAD 2016)."
 tags:
   - year-2016
   - Dexterous hands
@@ -24,4 +25,6 @@ hugoblox:
 links:
   - type: pdf
     url: /media/publications/fingertip-hall-sensor-2016.pdf
+  - type: url
+    url: https://doi.org/10.1007/978-3-319-49058-8_10
 ---

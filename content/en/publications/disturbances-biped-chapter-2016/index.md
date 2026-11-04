@@ -10,8 +10,9 @@ publishDate: "2016-01-01T00:00:00Z"
 publication_types: ["chapter"]
 publication:
   name: "Complex Systems: Relationships between Control, Communications and Computing, Springer"
+  pages: "285-312"
 peer_reviewed: true
-summary: Book chapter on coping with disturbances in biped locomotion (Springer, 2016).
+summary: "Book chapter on coping with disturbances in biped locomotion (Springer, 2016)."
 tags:
   - year-2016
   - Locomotion
@@ -22,4 +23,6 @@ hugoblox:
 links:
   - type: pdf
     url: /media/publications/disturbances-biped-chapter-2016.pdf
+  - type: url
+    url: https://doi.org/10.1007/978-3-319-28860-4_13
 ---

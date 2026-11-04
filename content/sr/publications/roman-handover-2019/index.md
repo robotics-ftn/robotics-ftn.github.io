@@ -9,16 +9,19 @@ publishDate: "2019-10-14T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+  pages: "1-6"
 peer_reviewed: true
-summary: Sprezanje pokreta ruku davalaca i primalaca pri predaji predmeta čovek–robot (RO-MAN 2019).
+summary: "Sprezanje pokreta ruku davalaca i primalaca pri predaji predmeta čovek–robot (RO-MAN 2019)."
 tags:
   - year-2019
   - Human-robot interaction
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/RO-MAN46459.2019.8956352
+    doi: 10.1109/ro-man46459.2019.8956352
 links:
   - type: pdf
     url: /media/publications/roman-handover-2019.pdf
+  - type: url
+    url: https://doi.org/10.1109/ro-man46459.2019.8956352
 ---

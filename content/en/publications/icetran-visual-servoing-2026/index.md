@@ -5,11 +5,12 @@ authors:
   - Darko Lukić
   - igor-babic
   - mirko-rakovic
-date: "2026-01-01T00:00:00Z"
-publishDate: "2026-01-01T00:00:00Z"
+date: "2026-06-01T00:00:00Z"
+publishDate: "2026-06-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electrical, Electronic and Computing Engineering (IcETRAN)"
+  pages: "1-5"
 peer_reviewed: true
 summary: "Self-supervised visual servoing for object-model-free robot arm alignment via autonomous spiral data collection (International Conference on Electrical, Electronic and Computing Engineering (IcETRAN), 2026)."
 tags:

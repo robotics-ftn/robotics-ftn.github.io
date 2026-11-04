@@ -7,11 +7,12 @@ authors:
   - mirko-rakovic
   - Dejan Mitov
   - branislav-borovac
-date: "2016-01-01T00:00:00Z"
-publishDate: "2016-01-01T00:00:00Z"
+date: "2016-11-29T00:00:00Z"
+publishDate: "2016-11-29T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "568-575"
 peer_reviewed: true
 summary: "Fabrication of Digital Anamorphic Sculptures with Industrial Robot (International Conference on Robotics in Alpe-Adria-Danube Region (RAAD), 2016)."
 tags:

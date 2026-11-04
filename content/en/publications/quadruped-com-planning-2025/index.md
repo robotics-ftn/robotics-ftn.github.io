@@ -10,10 +10,11 @@ publishDate: "2025-04-23T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Actuators"
-  volume: "14"
-  issue: "5"
+  volume: 14
+  issue: 5
+  pages: "202"
 peer_reviewed: true
-summary: Feasible CoM planning for quasi-static quadruped walking, validated on Solo12 (Actuators, 2025).
+summary: "Feasible CoM planning for quasi-static quadruped walking, validated on Solo12 (Actuators, 2025)."
 tags:
   - year-2025
   - Locomotion
@@ -22,6 +23,6 @@ hugoblox:
   ids:
     doi: 10.3390/act14050202
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.3390/act14050202
 ---

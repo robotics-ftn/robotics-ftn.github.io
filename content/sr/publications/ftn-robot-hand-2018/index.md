@@ -8,23 +8,26 @@ authors:
   - S. Naik
   - branislav-borovac
   - Achim Gottscheber
-date: "2018-01-01T00:00:00Z"
-publishDate: "2018-01-01T00:00:00Z"
+date: "2018-02-02T00:00:00Z"
+publishDate: "2018-02-02T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Journal of Intelligent & Fuzzy Systems"
   volume: 34
   issue: 4
+  pages: "2723-2736"
 peer_reviewed: true
-summary: Fuzzy upravljanje podaktuirane FTN robotske ruke (JIFS, 2018).
+summary: "Fuzzy upravljanje podaktuirane FTN robotske ruke (JIFS, 2018)."
 tags:
   - year-2018
   - Dexterous hands
 featured: false
 hugoblox:
   ids:
-    doi: 10.3233/JIFS-17879
+    doi: 10.3233/jifs-17879
 links:
   - type: pdf
     url: /media/publications/ftn-robot-hand-2018.pdf
+  - type: url
+    url: https://doi.org/10.3233/jifs-17879
 ---

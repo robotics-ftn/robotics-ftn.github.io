@@ -13,7 +13,7 @@ publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electrical, Electronic and Computing Engineering (IcETRAN)"
 peer_reviewed: true
-summary: Tendon-driven underactuated adaptive hand with Hall-effect force sensors (IcETRAN 2016).
+summary: "Tendon-driven underactuated adaptive hand with Hall-effect force sensors (IcETRAN 2016)."
 tags:
   - year-2016
   - Dexterous hands

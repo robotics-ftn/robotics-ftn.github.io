@@ -11,16 +11,19 @@ publishDate: "2017-12-05T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Conference on Robotics and Biomimetics (ROBIO)"
+  pages: "1967-1972"
 peer_reviewed: true
-summary: Generalizing compliant movement primitives across bimanual task variations (ROBIO 2017).
+summary: "Generalizing compliant movement primitives across bimanual task variations (ROBIO 2017)."
 tags:
   - year-2017
   - Robot manipulation
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/ROBIO.2017.8324707
+    doi: 10.1109/robio.2017.8324707
 links:
   - type: pdf
     url: /media/publications/robio-cmp-2017.pdf
+  - type: url
+    url: https://doi.org/10.1109/robio.2017.8324707
 ---

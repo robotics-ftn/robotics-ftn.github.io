@@ -14,16 +14,19 @@ publication:
   name: "IEEE Robotics and Automation Letters"
   volume: 3
   issue: 4
+  pages: "4132-4139"
 peer_reviewed: true
-summary: Action anticipation for human–robot cooperation (IEEE RA-L, 2018).
+summary: "Action anticipation for human–robot cooperation (IEEE RA-L, 2018)."
 tags:
   - year-2018
   - Human-robot interaction
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/LRA.2018.2861569
+    doi: 10.1109/lra.2018.2861569
 links:
   - type: pdf
     url: /media/publications/action-anticipation-2018.pdf
+  - type: url
+    url: https://doi.org/10.1109/lra.2018.2861569
 ---

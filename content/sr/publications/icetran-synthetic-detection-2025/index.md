@@ -4,11 +4,12 @@ authors:
   - jovan-vasic
   - lazar-milic
   - mirko-rakovic
-date: "2025-01-01T00:00:00Z"
-publishDate: "2025-01-01T00:00:00Z"
+date: "2025-06-09T00:00:00Z"
+publishDate: "2025-06-09T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electrical, Electronic and Computing Engineering (IcETRAN)"
+  pages: "1-5"
 peer_reviewed: true
 summary: "Real-Time Object Detection for Mobile Robot Manipulation Trained on Synthetic Data From Unreal Engine (International Conference on Electrical, Electronic and Computing Engineering (IcETRAN), 2025)."
 tags:

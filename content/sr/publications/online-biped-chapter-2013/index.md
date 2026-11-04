@@ -9,8 +9,9 @@ publishDate: "2013-01-01T00:00:00Z"
 publication_types: ["chapter"]
 publication:
   name: "Intelligent Systems: Models and Applications, Springer"
+  pages: "93-114"
 peer_reviewed: true
-summary: Poglavlje o onlajn generisanju bipednog kretanja u nestrukturisanom okruženju (Springer, 2013).
+summary: "Poglavlje o onlajn generisanju bipednog kretanja u nestrukturisanom okruženju (Springer, 2013)."
 tags:
   - year-2013
   - Locomotion
@@ -19,6 +20,6 @@ hugoblox:
   ids:
     doi: 10.1007/978-3-642-33959-2_6
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1007/978-3-642-33959-2_6
 ---

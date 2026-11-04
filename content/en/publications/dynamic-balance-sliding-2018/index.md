@@ -4,15 +4,16 @@ authors:
   - milutin-nikolic
   - branislav-borovac
   - mirko-rakovic
-date: "2018-01-01T00:00:00Z"
-publishDate: "2018-01-01T00:00:00Z"
+date: "2017-04-11T00:00:00Z"
+publishDate: "2017-04-11T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Multibody System Dynamics"
   volume: 42
   issue: 2
+  pages: "197-218"
 peer_reviewed: true
-summary: Balance and anti-sliding control with multiple spatial contacts (Multibody System Dynamics, 2018).
+summary: "Balance and anti-sliding control with multiple spatial contacts (Multibody System Dynamics, 2018)."
 tags:
   - year-2018
   - Locomotion
@@ -23,4 +24,6 @@ hugoblox:
 links:
   - type: pdf
     url: /media/publications/dynamic-balance-sliding-2018.pdf
+  - type: url
+    url: https://doi.org/10.1007/s11044-017-9572-9
 ---

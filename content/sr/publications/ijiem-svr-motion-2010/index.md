@@ -4,11 +4,14 @@ authors:
   - mirko-rakovic
   - branislav-borovac
   - milutin-nikolic
-date: "2010-01-01T00:00:00Z"
-publishDate: "2010-01-01T00:00:00Z"
+date: "2010-03-30T00:00:00Z"
+publishDate: "2010-03-30T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "International Journal of Industrial Engineering and Management"
+  volume: 1
+  issue: 1
+  pages: "1-8"
 peer_reviewed: true
 summary: "Support vector Regression for Approximation and Generation of Motion in Humanoid Robots (International Journal of Industrial Engineering and Management, 2010)."
 tags:

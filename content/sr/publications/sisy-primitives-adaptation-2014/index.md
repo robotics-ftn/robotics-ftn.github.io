@@ -5,11 +5,12 @@ authors:
   - branislav-borovac
   - srdjan-savic
   - milutin-nikolic
-date: "2014-01-01T00:00:00Z"
-publishDate: "2014-01-01T00:00:00Z"
+date: "2014-09-01T00:00:00Z"
+publishDate: "2014-09-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Symposium on Intelligent Systems and Informatics (SISY)"
+  pages: "233-237"
 peer_reviewed: true
 summary: "Parameters Adaptation of Motion Primitives for Achieving more Efficient Humanoid Walk (IEEE International Symposium on Intelligent Systems and Informatics (SISY), 2014)."
 tags:

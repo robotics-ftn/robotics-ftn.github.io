@@ -3,15 +3,18 @@ title: "Nonlinear Motion Control of Humanoid Robot Upper-body for Manipulation T
 authors:
   - srdjan-savic
   - mirko-rakovic
-  - M. Penčić
+  - Marko Penčić
   - branislav-borovac
 date: "2014-01-01T00:00:00Z"
 publishDate: "2014-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "Facta Universitatis, Series: Automatic Control and Robotics"
+  volume: 13
+  issue: 1
+  pages: "1-14"
 peer_reviewed: true
-summary: Nonlinear control of a humanoid upper body for manipulation (Facta Universitatis, 2014).
+summary: "Nonlinear control of a humanoid upper body for manipulation (Facta Universitatis, 2014)."
 tags:
   - year-2014
   - Control systems

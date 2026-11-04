@@ -11,8 +11,9 @@ publication:
   name: "Nexus Network Journal"
   volume: 25
   issue: 4
+  pages: "849-866"
 peer_reviewed: true
-summary: Robotsko hotwire sečenje poroznih arhitektonskih struktura (Nexus Network Journal, 2023).
+summary: "Robotsko hotwire sečenje poroznih arhitektonskih struktura (Nexus Network Journal, 2023)."
 tags:
   - year-2023
   - Robotic fabrication
@@ -21,6 +22,6 @@ hugoblox:
   ids:
     doi: 10.1007/s00004-023-00747-8
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1007/s00004-023-00747-8
 ---

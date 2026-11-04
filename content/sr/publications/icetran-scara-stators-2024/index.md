@@ -6,11 +6,12 @@ authors:
   - Dušan Jovanović
   - andrej-cilag
   - mirko-rakovic
-date: "2024-01-01T00:00:00Z"
-publishDate: "2024-01-01T00:00:00Z"
+date: "2024-06-03T00:00:00Z"
+publishDate: "2024-06-03T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electrical, Electronic and Computing Engineering (IcETRAN)"
+  pages: "1-6"
 peer_reviewed: true
 summary: "Development of Robot Cell with SCARA Robot for Handling Motor Stators (International Conference on Electrical, Electronic and Computing Engineering (IcETRAN), 2024)."
 tags:

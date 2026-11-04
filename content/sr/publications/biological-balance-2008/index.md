@@ -8,23 +8,24 @@ authors:
   - M. Popovic
   - A. Hofmann
   - Veljko Potkonjak
-date: "2008-01-01T00:00:00Z"
-publishDate: "2008-01-01T00:00:00Z"
+date: "2008-12-01T00:00:00Z"
+publishDate: "2008-12-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "International Journal of Humanoid Robotics"
   volume: 5
   issue: 4
+  pages: "639-678"
 peer_reviewed: true
-summary: Biološki principi izbora upravljanja za očuvanje dinamičkog balansa humanoida (IJHR, 2008).
+summary: "Biološki principi izbora upravljanja za očuvanje dinamičkog balansa humanoida (IJHR, 2008)."
 tags:
   - year-2008
   - Locomotion
 featured: false
 hugoblox:
   ids:
-    doi: 10.1142/S0219843608001601
+    doi: 10.1142/s0219843608001601
 links:
-  - type: pdf
-    url: https://doi.org/10.1142/S0219843608001601
+  - type: url
+    url: https://doi.org/10.1142/s0219843608001601
 ---

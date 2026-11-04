@@ -14,8 +14,9 @@ publication:
   name: "Applied Sciences"
   volume: 12
   issue: 3
+  pages: "1228"
 peer_reviewed: true
-summary: Scaled factory-automation cell with industrial robot integration (Applied Sciences, 2022).
+summary: "Scaled factory-automation cell with industrial robot integration (Applied Sciences, 2022)."
 tags:
   - year-2022
   - Robot manipulation
@@ -26,6 +27,6 @@ hugoblox:
   ids:
     doi: 10.3390/app12031228
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.3390/app12031228
 ---

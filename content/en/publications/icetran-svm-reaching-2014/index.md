@@ -1,7 +1,12 @@
 ---
 title: "SVM Regression-Based Computed Torque Control of Humanoid Robot Reaching Task"
-date: "2014-01-01T00:00:00Z"
-publishDate: "2014-01-01T00:00:00Z"
+authors:
+  - srdjan-savic
+  - mirko-rakovic
+  - milutin-nikolic
+  - branislav-borovac
+date: "2014-06-02T00:00:00Z"
+publishDate: "2014-06-02T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Electrical, Electronic and Computing Engineering (IcETRAN)"

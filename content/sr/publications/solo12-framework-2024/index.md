@@ -9,16 +9,17 @@ publishDate: "2024-05-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE 25th International Conference of Young Professionals in Electron Devices and Materials (EDM)"
+  pages: "2540-2544"
 peer_reviewed: true
-summary: Softverski okvir za simulaciju i upravljanje četvoronožnim robotom Solo12 (IEEE EDM 2024).
+summary: "Softverski okvir za simulaciju i upravljanje četvoronožnim robotom Solo12 (IEEE EDM 2024)."
 tags:
   - year-2024
   - Locomotion
 featured: false
 hugoblox:
   ids:
-    doi: 10.1109/EDM61683.2024.10615056
+    doi: 10.1109/edm61683.2024.10615056
 links:
-  - type: pdf
-    url: https://doi.org/10.1109/EDM61683.2024.10615056
+  - type: url
+    url: https://doi.org/10.1109/edm61683.2024.10615056
 ---

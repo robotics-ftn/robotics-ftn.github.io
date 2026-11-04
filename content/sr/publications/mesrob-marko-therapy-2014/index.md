@@ -1,7 +1,12 @@
 ---
 title: "Design and control of humanoid robot MARKO: an assistant in therapy for children"
-date: "2014-01-01T00:00:00Z"
-publishDate: "2014-01-01T00:00:00Z"
+authors:
+  - branislav-borovac
+  - mirko-rakovic
+  - srdjan-savic
+  - milutin-nikolic
+date: "2014-07-10T00:00:00Z"
+publishDate: "2014-07-10T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "MESROB 2014"

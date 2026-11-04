@@ -8,11 +8,12 @@ authors:
   - branislav-borovac
   - Aleksandra Mikov
   - Rastislava Krasnik
-date: "2017-01-01T00:00:00Z"
-publishDate: "2017-01-01T00:00:00Z"
+date: "2017-09-01T00:00:00Z"
+publishDate: "2017-09-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "2017 8th IEEE International Conference on Cognitive Infocommunications (CogInfoCom)"
+  pages: "253-258"
 peer_reviewed: true
 summary: "Pilot Corpus of Child-Robot Interaction in Therapeutic Setting (2017 8th IEEE International Conference on Cognitive Infocommunications (CogInfoCom), 2017)."
 tags:

@@ -1,5 +1,11 @@
 ---
 title: "Development of the Lower Body of Assistive Humanoid Robot MARKO"
+authors:
+  - Marko Penčić
+  - srdjan-savic
+  - Maja Čavić
+  - branislav-borovac
+  - Zhenli Lu
 date: "2016-01-01T00:00:00Z"
 publishDate: "2016-01-01T00:00:00Z"
 publication_types: ["paper-conference"]

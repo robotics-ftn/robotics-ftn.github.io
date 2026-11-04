@@ -6,23 +6,24 @@ authors:
   - mirko-rakovic
   - Veljko Potkonjak
   - M. Milinović
-date: "2008-01-01T00:00:00Z"
-publishDate: "2008-01-01T00:00:00Z"
+date: "2008-03-01T00:00:00Z"
+publishDate: "2008-03-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "International Journal of Humanoid Robotics"
   volume: 5
   issue: 1
+  pages: "119-156"
 peer_reviewed: true
-summary: Sinteza hoda i upravljanje humanoida pri malim poremećajima (IJHR, 2008).
+summary: "Sinteza hoda i upravljanje humanoida pri malim poremećajima (IJHR, 2008)."
 tags:
   - year-2008
   - Locomotion
 featured: false
 hugoblox:
   ids:
-    doi: 10.1142/S0219843608001339
+    doi: 10.1142/s0219843608001339
 links:
-  - type: pdf
-    url: https://doi.org/10.1142/S0219843608001339
+  - type: url
+    url: https://doi.org/10.1142/s0219843608001339
 ---

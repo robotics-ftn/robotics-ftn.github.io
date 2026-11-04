@@ -11,6 +11,7 @@ publishDate: "2025-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Robotics in Alpe-Adria-Danube Region (RAAD)"
+  pages: "138-146"
 peer_reviewed: true
 summary: "Robot Learning to Catch Objects in Flight using an LSTM Deep Neural Network (International Conference on Robotics in Alpe-Adria-Danube Region (RAAD), 2025)."
 tags:

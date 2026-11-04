@@ -1,5 +1,11 @@
 ---
 title: "Dual BLDC Motor Driver for Arm of Humanoid Robot MARKO"
+authors:
+  - aleksandar-batinica
+  - srdjan-savic
+  - milutin-nikolic
+  - mirko-rakovic
+  - branislav-borovac
 date: "2015-01-01T00:00:00Z"
 publishDate: "2015-01-01T00:00:00Z"
 publication_types: ["paper-conference"]

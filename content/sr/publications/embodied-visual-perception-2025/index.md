@@ -12,9 +12,11 @@ publishDate: "2025-06-21T00:00:00Z"
 publication_types: ["article-journal"]
 publication:
   name: "CAAI Transactions on Intelligence Technology"
-  volume: "10"
+  volume: 10
+  issue: 4
+  pages: "945-958"
 peer_reviewed: true
-summary: Pregled utelovljene vizuelne percepcije za manipulaciju robotima (CAAI Trans. Intelligence Technology, 2025).
+summary: "Pregled utelovljene vizuelne percepcije za manipulaciju robotima (CAAI Trans. Intelligence Technology, 2025)."
 tags:
   - year-2025
   - Robot manipulation
@@ -24,6 +26,6 @@ hugoblox:
   ids:
     doi: 10.1049/cit2.70022
 links:
-  - type: pdf
+  - type: url
     url: https://doi.org/10.1049/cit2.70022
 ---

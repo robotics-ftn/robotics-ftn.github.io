@@ -9,6 +9,7 @@ publishDate: "2024-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "OTEH 2024"
+  pages: "301-306"
 peer_reviewed: true
 summary: "Uwb Sensor Performance in UGV “Follow Me” Applications With Obstacle Interference (OTEH 2024, 2024)."
 tags:

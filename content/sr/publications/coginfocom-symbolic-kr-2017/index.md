@@ -6,11 +6,12 @@ authors:
   - Dragisa Mišković
   - jovica-tasevski
   - Nemanja Macek
-date: "2017-01-01T00:00:00Z"
-publishDate: "2017-01-01T00:00:00Z"
+date: "2017-09-01T00:00:00Z"
+publishDate: "2017-09-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "2017 8th IEEE International Conference on Cognitive Infocommunications (CogInfoCom)"
+  pages: "315-320"
 peer_reviewed: true
 summary: "Cognitively-Inspired Symbolic Framework for Knowledge Representation (2017 8th IEEE International Conference on Cognitive Infocommunications (CogInfoCom), 2017)."
 tags:
