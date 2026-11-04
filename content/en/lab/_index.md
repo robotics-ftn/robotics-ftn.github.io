@@ -6,9 +6,8 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Lab & Hardware
       text: |
-        The Robotics Research group at FTN is **temporarily housed** in MI G3-1, G3-2, MI 124, and MI 25 (workshop) per the public FTN Mehatronika page. Heads of the group: prof. dr Milutin Nikolić, prof. dr Mirko Raković, and prof. dr Srđan Savić. Lab technicians: Predrag Oros and Tanja Berisavljević.
+        The Robotics Research group at FTN is **temporarily housed** in MI G3-1, MI G3-2, MI 124, and MI 25 (workshop) per the public [FTN Mehatronika](https://mehatronika.ftn.uns.ac.rs/) page. Heads of the group: [prof. dr Mirko Raković](/authors/mirko-rakovic/), [prof. dr Milutin Nikolić](/authors/milutin-nikolic/), and [prof. dr Srđan Savić](/authors/srdjan-savic/). Lab technicians: Predrag Oros and Tanja Berisavljević.
 
   - block: markdown
     content:
@@ -24,7 +23,7 @@ sections:
                 </div>
                 <div class="rl-pub-body">
                   <h3 class="rl-pub-title">Two ABB IRB140 robotic arms</h3>
-                  <p class="rl-pub-authors">Orange and white IRB 140 manipulators used for teaching and experiments; programmed via <code>open_abb</code>.</p>
+                  <p class="rl-pub-authors">Orange and white IRB 140 manipulators used for teaching and experiments.</p>
                 </div>
               </article>
               <article class="rl-pub-row">
@@ -152,4 +151,15 @@ sections:
             </div>
           </section>
         </div>
+
+  - block: cta-card
+    content:
+      title: Explore our research first
+      text: Browse publications and open-source projects before reaching out.
+      button:
+        text: View Research
+        url: /research/
+    design:
+      card:
+        css_class: 'bg-gradient-to-r from-cyan-600 to-orange-500 text-white shadow-xl'
 ---

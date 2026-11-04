@@ -4,7 +4,7 @@ authors:
   - E. Kenderesi
   - mirko-rakovic
   - milutin-nikolic
-  - M. Gnjatović
+  - Milan Gnjatović
   - branislav-borovac
 date: "2012-09-01T00:00:00Z"
 publishDate: "2012-09-01T00:00:00Z"

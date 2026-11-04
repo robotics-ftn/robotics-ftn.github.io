@@ -6,7 +6,6 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Team
       text: |
         The Robotics Research group at FTN is headed equally by **prof. dr Mirko Raković**, **prof. dr Milutin Nikolić**, and **prof. dr Srđan Savić**. The group was established by **prof. emeritus dr Branislav Borovac**.
 

@@ -6,9 +6,8 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Laboratorija i hardver
       text: |
-        Istraživačka grupa za robotiku na FTN-u je **privremeno smeštena** u prostorijama MI G3-1, G3-2, MI 124 i MI 25 (radionica), prema javnoj stranici Katedre za mehatroniku na FTN-u. Rukovodioci grupe: prof. dr Milutin Nikolić, prof. dr Mirko Raković i prof. dr Srđan Savić. Laboratorijski tehničari: Predrag Oros i Tanja Berisavljević.
+        Istraživačka grupa za robotiku na FTN-u je **privremeno smeštena** u prostorijama MI G3-1, MI G3-2, MI 124 i MI 25 (radionica), prema javnoj stranici [Katedre za mehatroniku na FTN-u](https://mehatronika.ftn.uns.ac.rs/). Rukovodioci grupe: [prof. dr Mirko Raković](/sr/authors/mirko-rakovic/), [prof. dr Milutin Nikolić](/sr/authors/milutin-nikolic/) i [prof. dr Srđan Savić](/sr/authors/srdjan-savic/). Laboratorijski tehničari: Predrag Oros i Tanja Berisavljević.
 
   - block: markdown
     content:
@@ -24,7 +23,7 @@ sections:
                 </div>
                 <div class="rl-pub-body">
                   <h3 class="rl-pub-title">Dva ABB IRB140 robotska manipulatora</h3>
-                  <p class="rl-pub-authors">Narandžasti i beli IRB 140 manipulatori za nastavu i eksperimente; programiranje preko <code>open_abb</code>.</p>
+                  <p class="rl-pub-authors">Narandžasti i beli IRB 140 manipulatori za nastavu i eksperimente.</p>
                 </div>
               </article>
               <article class="rl-pub-row">
@@ -152,4 +151,15 @@ sections:
             </div>
           </section>
         </div>
+
+  - block: cta-card
+    content:
+      title: Prvo pogledajte naša istraživanja
+      text: Pregledajte publikacije i projekte otvorenog koda pre nego što nam se obratite.
+      button:
+        text: Istraživanja
+        url: /research/
+    design:
+      card:
+        css_class: 'bg-gradient-to-r from-cyan-600 to-orange-500 text-white shadow-xl'
 ---

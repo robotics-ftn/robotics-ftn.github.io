@@ -6,7 +6,6 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Tim
       text: |
         Istraživačkom grupom za robotiku na FTN-u ravnopravno rukovode **prof. dr Mirko Raković**, **prof. dr Milutin Nikolić** i **prof. dr Srđan Savić**. Grupu je osnovao **prof. emeritus dr Branislav Borovac**.
 

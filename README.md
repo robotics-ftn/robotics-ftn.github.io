@@ -17,9 +17,15 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, `paper | pdf | cite` (publisher, hosted PDF when present, BibTeX) |
 | `…/people/` | Founder, faculty, teaching assistants, students, staff, alumni |
 | `…/lab/` | MARKO, FTN hand, industrial cells |
-| `…/join/` | Heads’ contact (email / office hours when known) and lab location |
+| `…/join/` | Heads’ contact (email) and lab location |
 
 Teaching is unpublished. `/teaching/` and `/sr/teaching/` redirect home. Course Markdown is kept in `held/teaching/` to restore later.
+
+## Brand
+
+Header and hero use the **Robotics@FTN** lockup (`assets/media/logo.svg`, `assets/media/logo.png`, `assets/media/hero/logo.png`). The full name **Robotics Research group at FTN** is used in body copy.
+
+A square org-ready mark is at `assets/media/brand/org-avatar.png` (existing logo on a slate square). GitHub org avatars have to be set in GitHub org settings; this environment cannot upload it.
 
 ## Prerequisites
 

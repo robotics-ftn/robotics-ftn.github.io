@@ -7,10 +7,12 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: Robotics Research group at FTN · Novi Sad
+      eyebrow: Robotics@FTN · Novi Sad
       title: '[Robots that move, grasp, and collaborate] with people'
       text: |
         We build humanoid platforms, dexterous hands, robot manipulation, and mobile robotics — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences.
+
+        The Robotics Research group at FTN is part of the [Chair of Mechatronics, Robotics and Automation](https://mehatronika.ftn.uns.ac.rs/) at the [Faculty of Technical Sciences](https://ftn.uns.ac.rs/). Open-source code from the group is on [github.com/robotics-ftn](https://github.com/robotics-ftn).
       announcement:
         badge:
           text: FTN
@@ -42,13 +44,12 @@ sections:
     content:
       title: Research Pillars
       subtitle: Manipulation · Locomotion · Interaction · Mobile · Hands · Perception
-      text: Grouped by themes from the Chair of Mechatronics, Robotics and Automation at FTN and the public robotics-ftn code organization.
+      text: Research themes of the Robotics Research group at FTN.
       items:
         - name: Robot manipulation
           description: ABB robot programming, Robotiq grippers, scaled factory-automation cells, and industrial robotics coursework (H308).
           image: research/robot-manipulation.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [ABB, Robotiq, Factory cells]
           url: /research/robot-manipulation/
           cta:
@@ -58,7 +59,6 @@ sections:
           description: Biped walking via motion primitives, dynamic balance, and online path planning on unstructured terrain.
           image: research/locomotion-card.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Biped gait, Motion primitives, Balance]
           url: /research/locomotion/
           cta:
@@ -68,7 +68,6 @@ sections:
           description: Action anticipation, gaze dialogue models, and collaborative tasks with humanoid and industrial platforms.
           image: research/human-robot-interaction.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Gaze, Anticipation, Collaboration]
           url: /research/human-robot-interaction/
           cta:
@@ -78,7 +77,6 @@ sections:
           description: Mobile platforms for navigation and field tasks, developed alongside humanoid and industrial systems at FTN.
           image: research/mobile-robotics-card.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Navigation, Mobile platforms, Field robotics]
           url: /research/mobile-robotics/
           cta:
@@ -88,7 +86,6 @@ sections:
           description: Underactuated tendon-driven hands, force-sensitive three-finger designs, and end-of-arm tooling on industrial cells.
           image: research/dexterous-hands-eoat-card.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [FTN hand, Three-finger hand, EOAT]
           url: /research/dexterous-hands-eoat/
           cta:
@@ -98,7 +95,6 @@ sections:
           description: Visual inference of object properties and force-sensitive grasping on dexterous hands.
           image: research/perception-tactile-sensing.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Vision, Force sensing, Object properties]
           url: /research/perception-tactile-sensing/
           cta:
@@ -112,6 +108,8 @@ sections:
     id: featured-publications
     content:
       title: Featured Publications
+      text: '[All publications](/publications/)'
+      page_type: publications
       count: 5
       sort_by: Weight
       sort_ascending: true
@@ -119,6 +117,10 @@ sections:
         folders:
           - publications
         featured_only: true
+      archive:
+        enable: true
+        text: All publications
+        link: /publications/
     design:
       view: citation
       columns: 1
@@ -134,5 +136,5 @@ sections:
         url: /join/
     design:
       card:
-        css_class: 'bg-gradient-to-br from-cyan-600 via-slate-900 to-orange-600 text-white shadow-2xl ring-1 ring-cyan-400/30'
+        css_class: 'bg-gradient-to-r from-cyan-600 to-orange-500 text-white shadow-xl'
 ---

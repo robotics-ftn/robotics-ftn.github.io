@@ -1,7 +1,7 @@
 ---
 title: "Implementation of Robots Integration in Scaled Laboratory Environment for Factory Automation"
 authors:
-  - D. Mišković
+  - Dragiša Mišković
   - lazar-milic
   - andrej-cilag
   - tanja-berisavljevic

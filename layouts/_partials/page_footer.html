@@ -1,0 +1,11 @@
+<div class="max-w-prose print:hidden">
+  {{ partial "tags" . }}
+  {{ partial "components/page_sharer" . }}
+  {{/* Publication pages: authors are already listed in the byline; skip extra bios. */}}
+  {{ if ne .Type "publications" }}
+    {{ partial "page_author" . }}
+  {{ end }}
+  {{ partial "components/next-in-series" . }}
+  {{ partial "page_related" . }}
+  {{ partial "comments" . }}
+</div>

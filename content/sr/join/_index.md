@@ -6,7 +6,6 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Pridružite se Robotics@FTN
       text: |
         Istraživačka grupa za robotiku na FTN-u poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike.
 
@@ -16,23 +15,20 @@ sections:
           <div class="rl-pubs-list">
             <article class="rl-pub-row">
               <div class="rl-pub-body">
-                <h3 class="rl-pub-title">Mirko Raković</h3>
+                <h3 class="rl-pub-title"><a href="/sr/authors/mirko-rakovic/">prof. dr Mirko Raković</a></h3>
                 <p class="rl-pub-authors">E-adresa: <a href="mailto:rakovicm@uns.ac.rs">rakovicm@uns.ac.rs</a></p>
-                <p class="rl-pub-venue">Konsultacije:</p>
               </div>
             </article>
             <article class="rl-pub-row">
               <div class="rl-pub-body">
-                <h3 class="rl-pub-title">Milutin Nikolić</h3>
+                <h3 class="rl-pub-title"><a href="/sr/authors/milutin-nikolic/">prof. dr Milutin Nikolić</a></h3>
                 <p class="rl-pub-authors">E-adresa: <a href="mailto:milutinn@uns.ac.rs">milutinn@uns.ac.rs</a></p>
-                <p class="rl-pub-venue">Konsultacije:</p>
               </div>
             </article>
             <article class="rl-pub-row">
               <div class="rl-pub-body">
-                <h3 class="rl-pub-title">Srđan Savić</h3>
+                <h3 class="rl-pub-title"><a href="/sr/authors/srdjan-savic/">prof. dr Srđan Savić</a></h3>
                 <p class="rl-pub-authors">E-adresa: <a href="mailto:savics@uns.ac.rs">savics@uns.ac.rs</a></p>
-                <p class="rl-pub-venue">Konsultacije:</p>
               </div>
             </article>
           </div>
@@ -50,7 +46,7 @@ sections:
           - Katedra za mehatroniku, robotiku i automatizaciju
           - Trg Dositeja Obradovića 6
           - 21102 Novi Sad, Srbija
-          - "Prostorije: MI G3-1, G3-2, MI 124, MI 25 (radionica) — privremena lokacija"
+          - "Prostorije: MI G3-1, MI G3-2, MI 124, MI 25 (radionica) — privremena lokacija"
       social: []
       map_url: https://maps.google.com/?q=Faculty+of+Technical+Sciences+Novi+Sad
     design:

@@ -385,8 +385,16 @@ section[id="section-team-showcase"] .grid > .group .flex.gap-3 {
   max-width: 920px;
 }
 
-.rl-join-heads .rl-pub-authors a {
+.rl-join-heads .rl-pub-authors a,
+.rl-join-heads .rl-pub-title a {
   color: var(--rl-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+#featured-publications p a {
+  color: var(--rl-accent);
+  font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
@@ -782,6 +790,16 @@ html.dark .rl-theme-figure figcaption {
   letter-spacing: 0.01em;
   color: color-mix(in srgb, var(--hb-color-foreground) 62%, transparent);
   padding-top: 0.18rem;
+}
+
+.rl-project-status {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--hb-color-foreground) 48%, transparent);
 }
 
 .rl-project-title {

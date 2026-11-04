@@ -7,10 +7,12 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: Istraživačka grupa za robotiku na FTN-u · Novi Sad
+      eyebrow: Robotika@FTN · Novi Sad
       title: '[Roboti koji se kreću, hvataju i sarađuju] sa ljudima'
       text: |
         Razvijamo humanoidne platforme, okretne ruke, robotsku manipulaciju i mobilnu robotiku — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka.
+
+        Istraživačka grupa za robotiku na FTN-u deo je [Katedre za mehatroniku, robotiku i automatizaciju](https://mehatronika.ftn.uns.ac.rs/) na [Fakultetu tehničkih nauka](https://ftn.uns.ac.rs/). Kod otvorenog koda grupe je na [github.com/robotics-ftn](https://github.com/robotics-ftn).
       announcement:
         badge:
           text: FTN
@@ -42,13 +44,12 @@ sections:
     content:
       title: Istraživački stubovi
       subtitle: Manipulacija · Lokomocija · Interakcija · Mobilna · Ruke · Percepcija
-      text: Grupisano po temama Katedre za mehatroniku, robotiku i automatizaciju na FTN-u i javne robotics-ftn organizacije na GitHub-u.
+      text: Istraživačke teme Istraživačke grupe za robotiku na FTN-u.
       items:
         - name: Robotska manipulacija
           description: Programiranje ABB robota, Robotiq hvataljke, skalirane ćelije fabričke automatizacije i nastava iz industrijske robotike (H308).
           image: research/robot-manipulation.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [ABB, Robotiq, Fabričke ćelije]
           url: /research/robot-manipulation/
           cta:
@@ -58,7 +59,6 @@ sections:
           description: Bipedalno hodanje pomoću primitiva kretanja, dinamički balans i online planiranje putanje na nestrukturisanom terenu.
           image: research/locomotion-card.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Bipedalni hod, Primitivi kretanja, Balans]
           url: /research/locomotion/
           cta:
@@ -68,7 +68,6 @@ sections:
           description: Model dijaloga pogledom, anticipacija akcija i kolaborativni zadaci na humanoidnim i industrijskim platformama.
           image: research/human-robot-interaction.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Pogled, Anticipacija, Saradnja]
           url: /research/human-robot-interaction/
           cta:
@@ -78,7 +77,6 @@ sections:
           description: Mobilne platforme za navigaciju i rad u terenu, uz humanoidne i industrijske sisteme na FTN-u.
           image: research/mobile-robotics-card.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Navigacija, Mobilne platforme, Terenska robotika]
           url: /research/mobile-robotics/
           cta:
@@ -88,7 +86,6 @@ sections:
           description: Nedovoljno aktuirane tetivne ruke, silom-osetljivi troprsti dizajni i alati na kraju ruke na industrijskim ćelijama.
           image: research/dexterous-hands-eoat-card.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [FTN ruka, Troprsta ruka, EOAT]
           url: /research/dexterous-hands-eoat/
           cta:
@@ -98,7 +95,6 @@ sections:
           description: Vizuelno zaključivanje o svojstvima objekata i hvatanje osetljivo na silu na okretnim rukama.
           image: research/perception-tactile-sensing.jpg
           gradient: from-slate-300 to-slate-500
-          status: active
           topics: [Vid, Osetljivanje sile, Svojstva objekata]
           url: /research/perception-tactile-sensing/
           cta:
@@ -112,6 +108,8 @@ sections:
     id: featured-publications
     content:
       title: Istaknute publikacije
+      text: '[Sve publikacije](/sr/publications/)'
+      page_type: publications
       count: 5
       sort_by: Weight
       sort_ascending: true
@@ -119,6 +117,10 @@ sections:
         folders:
           - publications
         featured_only: true
+      archive:
+        enable: true
+        text: Sve publikacije
+        link: /publications/
     design:
       view: citation
       columns: 1
@@ -134,5 +136,5 @@ sections:
         url: /join/
     design:
       card:
-        css_class: 'bg-gradient-to-br from-cyan-600 via-slate-900 to-orange-600 text-white shadow-2xl ring-1 ring-cyan-400/30'
+        css_class: 'bg-gradient-to-r from-cyan-600 to-orange-500 text-white shadow-xl'
 ---
