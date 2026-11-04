@@ -1,7 +1,21 @@
 role: Asistent · student doktorskih studija
 bio: |
-  Asistent i student doktorskih studija u Istraživačkoj grupi za robotiku na FTN-u, Fakultet tehničkih nauka.
+  Asistent i student doktorskih studija mehatronike na Katedri za mehatroniku, robotiku i automatizaciju, Fakultet tehničkih nauka, Univerzitet u Novom Sadu. Diplomirao (2019) i masterirao (2020) iz mehatronike na istom fakultetu. Istraživački interesi: robotika, mehatronika, ugrađeni sistemi i programiranje.
+
+  [Google Scholar](https://scholar.google.com/citations?user=dsbv17cAAAAJ) · [ORCID](https://orcid.org/0000-0002-7185-5853)
+education:
+  - area: Master iz mehatronike
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2020
+  - area: Diplomirani inženjer mehatronike
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2019
 affiliations:
   - name: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+interests:
+  - Robotika
+  - Mehatronika
+  - Ugrađeni sistemi
+  - Programiranje
 user_groups:
   - Saradnici u nastavi

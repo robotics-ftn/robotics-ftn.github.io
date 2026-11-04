@@ -5,14 +5,17 @@ name:
   display: Predrag Oros
   given: Predrag
   family: Oros
-role: Lab technician · Robotics Research group at FTN
+role: Laboratory technician
 bio: |
-  Lab technician listed on the public FTN Mechatronika laboratory page for the Robotics Research group at FTN.
+  Electrical and laboratory technician at the Faculty of Technical Sciences, University of Novi Sad, employed there since 2011, with more than 25 years of professional experience in industrial automation, electrical maintenance, and the implementation of automation systems.
+
+  Work includes more than 50 industrial process-automation projects and over 30 non-industrial projects. Technical expertise covers process automation, industrial and mobile robotics (AGVs), pneumatics and hydraulics, drone modification, mechanical systems, Vicon motion capture, CNC machining, 3D printing, and 3D printer maintenance. Previous technical positions at Victoria Oil, CAM d.o.o., and CAM Engineering d.o.o.; since 2024 also a part-time technician at Sigmoid d.o.o., Novi Sad. Supports development, implementation, testing, and maintenance of experimental setups and robotic and automated systems in research projects.
 affiliations:
-  - name: Robotics Research group at FTN
-    url: https://mehatronika.ftn.uns.ac.rs/laboratorija-za-robotiku-i-mehatroniku/
-links:
-  - icon: at-symbol
-    url: mailto:mehatronika@uns.ac.rs
+  - name: Faculty of Technical Sciences, University of Novi Sad
+    url: https://ftn.uns.ac.rs/
+interests:
+  - Industrial automation
+  - Industrial and mobile robotics
+  - Motion capture
 user_groups:
   - Staff

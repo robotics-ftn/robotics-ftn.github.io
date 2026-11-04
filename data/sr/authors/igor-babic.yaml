@@ -1,7 +1,25 @@
 role: Asistent · student doktorskih studija
 bio: |
-  Asistent i student doktorskih studija u Istraživačkoj grupi za robotiku na FTN-u, Fakultet tehničkih nauka.
+  Asistent na Katedri za mehatroniku, robotiku i automatizaciju, Fakultet tehničkih nauka, Univerzitet u Novom Sadu. Diplomirao iz mehatronike 2022. i masterirao 2023. na istom fakultetu; zaposlen na fakultetu od 2022. i student doktorskih studija mehatronike.
+
+  U nastavi: Industrijska robotika, Osnove razvoja proizvoda, Osnovi medicinske robotike i sistemi i uređaji za rehabilitaciju. Istraživanja: industrijska robotika, upravljanje robotima, robotski manipulatorski sistemi i automatizacija. Iskustvo sa industrijskim robotima ABB, Mitsubishi, Stäubli i CLOOS, kao i sa PLC programiranjem, industrijskom automatizacijom i CAD/CAM. Koautor radova na konferencijama RAAD i IcETRAN.
+
+  Učestvovao na EUROBOT-u kao takmičar i organizator. Godine 2025. bio je sudija na WorldSkills Srbija u mehatronici.
+
+  [Google Scholar](https://scholar.google.com/citations?user=Jktb9psAAAAJ) · [ORCID](https://orcid.org/0000-0002-2081-4066)
+education:
+  - area: Master iz mehatronike
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2023
+  - area: Diplomirani inženjer mehatronike
+    institution: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+    year: 2022
 affiliations:
   - name: Fakultet tehničkih nauka, Univerzitet u Novom Sadu
+interests:
+  - Industrijska robotika
+  - Upravljanje robotima
+  - Robotski manipulatorski sistemi
+  - Automatizacija
 user_groups:
   - Saradnici u nastavi

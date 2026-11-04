@@ -7,9 +7,22 @@ name:
   family: Apostolović
 role: Junior Teaching Assistant · MSc student
 bio: |
-  Junior teaching assistant and MSc student at the Robotics Research group at FTN, Faculty of Technical Sciences.
+  Junior teaching assistant at the Chair of Mechatronics, Robotics and Automation, Department of Industrial Engineering and Management, Faculty of Technical Sciences, University of Novi Sad. Work focuses on tactile sensors and force measurement systems, robotic hands and manipulators, and mobile robotics.
+
+  B.S. in Mechatronics (240 ECTS, 2024) from FTN. Since 2024 he has been pursuing an M.S. in Electrical and Computer Engineering, Artificial Intelligence and Machine Learning – Robotics track. Competed in EUROBOT, first place in 2022 and second place in 2024. Co-author of “Force-Sensitive Underactuated Three-Finger Robot Hand” (Journal of Mechanisms and Robotics, 2026) and “Classification of Contact Type Based on the Magnetic Field Data for Tactile Sensor” (RAAD 2026, Bratislava). Since 2025 he has served on the national organizing committee of EUROBOT Serbia.
+education:
+  - area: M.S. in Electrical and Computer Engineering (AI and Machine Learning – Robotics)
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2024–
+  - area: B.S. in Mechatronics
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2024
 affiliations:
   - name: Faculty of Technical Sciences, University of Novi Sad
     url: https://ftn.uns.ac.rs/
+interests:
+  - Tactile sensors and force measurement
+  - Robotic hands and manipulators
+  - Mobile robotics
 user_groups:
   - Teaching Assistants

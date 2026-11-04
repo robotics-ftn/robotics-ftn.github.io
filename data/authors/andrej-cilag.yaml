@@ -7,9 +7,32 @@ name:
   family: Čilag
 role: Teaching Assistant · PhD student
 bio: |
-  Teaching assistant and PhD student at the Robotics Research group at FTN, Faculty of Technical Sciences.
+  Teaching assistant and PhD student in mechatronics at the Chair of Mechatronics, Robotics and Automation, Faculty of Technical Sciences, University of Novi Sad. B.S. (2019) and M.S. (2020) in mechatronics from the same faculty. Research interests: robotics, mechatronics, embedded systems, and programming.
+
+  [Google Scholar](https://scholar.google.com/citations?user=dsbv17cAAAAJ) · [ORCID](https://orcid.org/0000-0002-7185-5853)
+education:
+  - area: M.S. in Mechatronics
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2020
+  - area: B.S. in Mechatronics
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2019
 affiliations:
   - name: Faculty of Technical Sciences, University of Novi Sad
     url: https://ftn.uns.ac.rs/
+links:
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=dsbv17cAAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-7185-5853
+  - icon: brands/github
+    url: https://github.com/andrejchilag
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/andrej-%C4%8Dilag-68377021a/
+interests:
+  - Robotics
+  - Mechatronics
+  - Embedded systems
+  - Programming
 user_groups:
   - Teaching Assistants

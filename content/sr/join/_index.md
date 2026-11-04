@@ -8,7 +8,7 @@ sections:
     content:
       title: Pridružite se Robotics@FTN
       text: |
-        Istraživačka grupa za robotiku na FTN-u poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike. **Zvanični oglasi za otvorene pozicije nisu pronađeni** na javnim FTN stranicama u trenutku izrade sajta — obratite se jednom od rukovodilaca grupe.
+        Istraživačka grupa za robotiku na FTN-u poziva motivisane kandidate za master i doktorske studije iz lokomocije, manipulacije, HRI-ja i industrijske robotike.
 
         ### Rukovodioci
 

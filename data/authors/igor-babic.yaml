@@ -7,9 +7,34 @@ name:
   family: Babić
 role: Teaching Assistant · PhD student
 bio: |
-  Teaching assistant and PhD student at the Robotics Research group at FTN, Faculty of Technical Sciences.
+  Teaching assistant at the Chair of Mechatronics, Robotics and Automation, Faculty of Technical Sciences, University of Novi Sad. B.S. in Mechatronics (2022) and M.S. (2023) from the same faculty; employed at FTN since 2022 and currently a PhD student in mechatronics.
+
+  Teaching includes Industrial Robotics, Fundamentals of Product Development, Basics of Medical Robotics, and Rehabilitation Systems and Devices. Research interests: industrial robotics, robot control, robotic manipulators, and automation systems. Experience with industrial robots from ABB, Mitsubishi, Stäubli, and CLOOS, as well as PLC programming, industrial automation, and CAD/CAM. Co-author of papers at RAAD and IcETRAN.
+
+  Involved in EUROBOT as a competitor and organizer. In 2025 he served as a referee at WorldSkills Serbia in Mechatronics.
+
+  [Google Scholar](https://scholar.google.com/citations?user=Jktb9psAAAAJ) · [ORCID](https://orcid.org/0000-0002-2081-4066)
+education:
+  - area: M.S. in Mechatronics
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2023
+  - area: B.S. in Mechatronics
+    institution: Faculty of Technical Sciences, University of Novi Sad
+    year: 2022
 affiliations:
   - name: Faculty of Technical Sciences, University of Novi Sad
     url: https://ftn.uns.ac.rs/
+links:
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=Jktb9psAAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-2081-4066
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/igor-babi%C4%87-1aa15627b/
+interests:
+  - Industrial robotics
+  - Robot control
+  - Robotic manipulators
+  - Automation systems
 user_groups:
   - Teaching Assistants
