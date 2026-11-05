@@ -1,0 +1,90 @@
+{{- $lang := .Lang -}}
+{{- $wid := .Params.work_id | default .File.ContentBaseName -}}
+{{- $work := partial "research/find-work.html" $wid -}}
+{{- $theme := false -}}
+{{- if $work -}}
+  {{- $theme = partial "research/find-theme.html" (index $work.themes 0) -}}
+{{- end -}}
+<div class="rl-research">
+  <nav class="rl-crumbs" aria-label="Breadcrumb">
+    {{- with site.GetPage "/research" -}}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- end -}}
+    {{- if $theme -}}
+    <span>/</span>
+    {{- with site.GetPage (printf "/research/%s" $theme.id) -}}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- end -}}
+    {{- end -}}
+    <span>/</span>
+    <span>{{ .Title }}</span>
+  </nav>
+  <h1 class="rl-research-h">{{ .Title }}</h1>
+  {{- if $work -}}
+  <div class="rl-work-meta rl-work-meta-lead">
+    {{- if eq $work.status "ongoing" -}}
+      <span class="rl-badge is-status is-on">{{ i18n "research_ongoing" }}</span>
+    {{- else if eq $work.status "completed" -}}
+      <span class="rl-badge is-status">{{ i18n "research_completed" }}</span>
+    {{- end -}}
+    {{- with $work.years -}}<span class="rl-work-years">{{ . }}</span>{{- end -}}
+    {{- range $work.fund -}}<span class="rl-badge">{{ . }}</span>{{- end -}}
+  </div>
+  <div class="rl-work-page">
+    <div class="rl-work-page-main">
+      {{ partial "research/media.html" (dict "work" $work "lang" $lang "variant" "page") }}
+      {{- $sum := partial "research/text.html" (dict "lang" $lang "obj" $work.summary) -}}
+      {{- with $sum -}}<p>{{ . }}</p>{{- end -}}
+      {{- with .Content -}}<div class="rl-work-body-md">{{ . }}</div>{{- end -}}
+    </div>
+    <aside class="rl-work-aside">
+      {{- if or $work.people $work.ext -}}
+      <section>
+        <p class="rl-lbl">{{ i18n "research_people" }}</p>
+        <div class="rl-people">
+          {{- range $work.people -}}{{ partial "research/avatar.html" . }}{{- end -}}
+          {{- with $work.ext -}}<div class="rl-ext">{{ i18n "research_with" }} {{ delimit . ", " }}</div>{{- end -}}
+        </div>
+      </section>
+      {{- end -}}
+      {{- with $work.papers -}}
+      <section class="rl-work-papers">
+        <p class="rl-lbl">{{ i18n "research_papers" }}</p>
+        {{ partial "research/papers.html" (dict "slugs" .) }}
+      </section>
+      {{- end -}}
+      {{- with $work.links -}}
+      <section>
+        <p class="rl-lbl">{{ i18n "research_links" }}</p>
+        <div class="rl-work-links">
+          {{- range . -}}
+          <a href="{{ .url }}" target="_blank" rel="noopener">{{ i18n .label_id }}</a>
+          {{- end -}}
+        </div>
+      </section>
+      {{- end -}}
+      {{- if $theme -}}
+        {{- $related := slice -}}
+        {{- range site.Data.research.works -}}
+          {{- if and (in .themes $theme.id) (ne .id $work.id) -}}
+            {{- $related = $related | append . -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if $related -}}
+        <section>
+          <p class="rl-lbl">{{ i18n "research_more_in" }} {{ partial "research/text.html" (dict "lang" $lang "obj" $theme.name) }}</p>
+          <div class="rl-work-papers">
+            <ul>
+              {{- range first 3 $related -}}
+                {{- $href := partial "research/work-href.html" (dict "work" .) -}}
+                <li><a href="{{ $href }}">{{ partial "research/text.html" (dict "lang" $lang "obj" .title) }}</a></li>
+              {{- end -}}
+            </ul>
+          </div>
+        </section>
+        {{- end -}}
+      {{- end -}}
+    </aside>
+  </div>
+  {{- end -}}
+</div>

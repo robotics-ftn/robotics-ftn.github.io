@@ -1,0 +1,14 @@
+{{- /* Permalink (and optional hash) for a work. */ -}}
+{{- $work := .work -}}
+{{- $primary := index $work.themes 0 -}}
+{{- if $work.full -}}
+  {{- with site.GetPage (printf "/research/%s/%s" $primary $work.id) -}}
+    {{- .RelPermalink -}}
+  {{- else -}}
+    {{- with site.GetPage (printf "/research/%s" $primary) -}}{{ printf "%s#%s" .RelPermalink $work.id }}{{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- with site.GetPage (printf "/research/%s" $primary) -}}
+    {{- printf "%s#%s" .RelPermalink $work.id -}}
+  {{- end -}}
+{{- end -}}

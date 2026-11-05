@@ -69,6 +69,81 @@
 - id: pub_empty
   translation: Još nema navedenih publikacija.
 
+- id: research_ongoing_highlights
+  translation: U toku
+
+- id: research_themes
+  translation: Teme
+
+- id: research_funded
+  translation: Finansirani projekti
+
+- id: research_funded_note
+  translation: svaki vodi na rad
+
+- id: research_ongoing
+  translation: U toku
+
+- id: research_completed
+  translation: Završeno
+
+- id: research_other_works
+  translation: Radovi
+
+- id: research_people
+  translation: Ljudi
+
+- id: research_papers
+  translation: Radovi
+
+- id: research_see_works
+  translation: Pogledaj radove
+
+- id: research_full_page
+  translation: Cela stranica projekta
+
+- id: research_main_entry
+  translation: Glavni unos
+
+- id: research_with
+  translation: sa
+
+- id: research_all_papers
+  translation: Svi radovi u ovoj temi
+
+- id: research_code
+  translation: Kod
+
+- id: research_datasets
+  translation: Skupovi podataka
+
+- id: research_links
+  translation: Veze
+
+- id: research_more_in
+  translation: Još u temi
+
+- id: research_play_video
+  translation: Pustite video na YouTube-u
+
+- id: research_empty_ongoing
+  translation: Nema radova u toku u ovoj temi.
+
+- id: research_empty_completed
+  translation: Nema završenih radova u ovoj temi.
+
+- id: research_empty_other
+  translation: Nema drugih radova u ovoj temi.
+
+- id: research_n_ongoing
+  translation: "{{ .Count }} u toku"
+
+- id: research_n_completed
+  translation: "{{ .Count }} završeno"
+
+- id: research_n_works
+  translation: "{{ .Count }} rada"
+
 - id: btn_preprint
   translation: Preprint
 

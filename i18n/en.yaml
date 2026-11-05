@@ -9,3 +9,78 @@
 
 - id: pub_empty
   translation: No publications listed yet.
+
+- id: research_ongoing_highlights
+  translation: Ongoing highlights
+
+- id: research_themes
+  translation: Themes
+
+- id: research_funded
+  translation: Funded projects
+
+- id: research_funded_note
+  translation: each links to its work
+
+- id: research_ongoing
+  translation: Ongoing
+
+- id: research_completed
+  translation: Completed
+
+- id: research_other_works
+  translation: Works
+
+- id: research_people
+  translation: People
+
+- id: research_papers
+  translation: Papers
+
+- id: research_see_works
+  translation: See works
+
+- id: research_full_page
+  translation: Full project page
+
+- id: research_main_entry
+  translation: Main entry
+
+- id: research_with
+  translation: with
+
+- id: research_all_papers
+  translation: All papers in this theme
+
+- id: research_code
+  translation: Code
+
+- id: research_datasets
+  translation: Datasets
+
+- id: research_links
+  translation: Links
+
+- id: research_more_in
+  translation: More in
+
+- id: research_play_video
+  translation: Play video on YouTube
+
+- id: research_empty_ongoing
+  translation: No ongoing works in this theme.
+
+- id: research_empty_completed
+  translation: No completed works in this theme.
+
+- id: research_empty_other
+  translation: No further works in this theme.
+
+- id: research_n_ongoing
+  translation: "{{ .Count }} ongoing"
+
+- id: research_n_completed
+  translation: "{{ .Count }} completed"
+
+- id: research_n_works
+  translation: "{{ .Count }} works"

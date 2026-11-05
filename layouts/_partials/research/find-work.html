@@ -1,0 +1,6 @@
+{{- $id := . -}}
+{{- $found := false -}}
+{{- range site.Data.research.works -}}
+  {{- if eq .id $id -}}{{ $found = . }}{{- end -}}
+{{- end -}}
+{{- return $found -}}

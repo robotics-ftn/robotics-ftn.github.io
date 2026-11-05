@@ -1,0 +1,47 @@
+{{- $work := .work -}}
+{{- $lang := .lang -}}
+{{- $variant := .variant | default "row" -}}
+{{- if $work.video -}}
+  {{- $cap := partial "research/text.html" (dict "lang" $lang "obj" $work.video_caption) -}}
+  {{- if eq $variant "highlight" -}}
+  <span class="rl-work-media is-video is-hl">
+    <span class="rl-play" aria-hidden="true"></span>
+  </span>
+  {{- else -}}
+  <a class="rl-work-media is-video" href="https://www.youtube.com/watch?v={{ $work.video }}" target="_blank" rel="noopener" aria-label="{{ i18n "research_play_video" }}">
+    <span class="rl-play" aria-hidden="true"></span>
+    {{- with $cap -}}
+    <span class="rl-work-media-cap">{{ . }}</span>
+    {{- end -}}
+  </a>
+  {{- end -}}
+{{- else -}}
+  {{- $items := $work.media -}}
+  {{- $frames := slice -}}
+  {{- range $items -}}
+    {{- $alt := partial "research/text.html" (dict "lang" $lang "obj" .alt) -}}
+    {{- $res := false -}}
+    {{- with .file -}}
+      {{- $res = resources.Get (printf "media/%s" .) -}}
+    {{- end -}}
+    {{- if $res -}}
+      {{- $frames = $frames | append (dict "res" $res "alt" $alt) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $frames) 1 -}}
+  <div class="rl-work-media-grid">
+    {{- range $frames -}}
+    <figure class="rl-work-media">
+      <img src="{{ .res.RelPermalink }}" alt="{{ .alt }}" width="640" height="400" loading="lazy">
+    </figure>
+    {{- end -}}
+  </div>
+  {{- else if eq (len $frames) 1 -}}
+    {{- $f := index $frames 0 -}}
+    <figure class="rl-work-media{{ if eq $variant "highlight" }} is-hl{{ end }}">
+      <img src="{{ $f.res.RelPermalink }}" alt="{{ $f.alt }}" width="640" height="400" loading="lazy">
+    </figure>
+  {{- else -}}
+    <div class="rl-work-media is-empty{{ if eq $variant "highlight" }} is-hl{{ end }}" aria-hidden="true"></div>
+  {{- end -}}
+{{- end -}}

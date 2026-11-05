@@ -1,0 +1,87 @@
+{{- $lang := .Lang -}}
+{{- $data := site.Data.research -}}
+<div class="rl-research">
+  <h1 class="rl-research-h">{{ .Title }}</h1>
+  <p class="rl-research-lede">{{ partial "research/text.html" (dict "lang" $lang "obj" $data.lede) | markdownify }}</p>
+
+  {{- $ongoing := slice -}}
+  {{- range $data.works -}}
+    {{- if eq .status "ongoing" -}}{{ $ongoing = $ongoing | append . }}{{- end -}}
+  {{- end -}}
+
+  <h2 class="rl-research-sec">{{ i18n "research_ongoing_highlights" }} <small>{{ i18n "research_n_works" (dict "Count" (len $ongoing)) }}</small></h2>
+  <div class="rl-hl-strip">
+    {{- range $ongoing -}}
+      {{- $w := . -}}
+      {{- $theme := partial "research/find-theme.html" (index $w.themes 0) -}}
+      {{- $theme_name := partial "research/text.html" (dict "lang" $lang "obj" $theme.name) -}}
+      {{- $href := partial "research/work-href.html" (dict "work" $w) -}}
+      <a class="rl-hl" href="{{ $href }}">
+        {{ partial "research/media.html" (dict "work" $w "lang" $lang "variant" "highlight") }}
+        <span>
+          <h3>{{ partial "research/text.html" (dict "lang" $lang "obj" $w.title) }}</h3>
+          <p>{{ $theme_name }}</p>
+        </span>
+      </a>
+    {{- end -}}
+  </div>
+
+  <h2 class="rl-research-sec">{{ i18n "research_themes" }}</h2>
+  <div class="rl-theme-cards">
+    {{- range $data.themes -}}
+      {{- $t := . -}}
+      {{- $n_on := 0 -}}
+      {{- $n_done := 0 -}}
+      {{- range $data.works -}}
+        {{- if in .themes $t.id -}}
+          {{- if eq .status "ongoing" -}}{{ $n_on = add $n_on 1 -}}
+          {{- else if eq .status "completed" -}}{{ $n_done = add $n_done 1 -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $url := "" -}}
+      {{- with site.GetPage (printf "/research/%s" $t.id) -}}{{ $url = .RelPermalink }}{{- end -}}
+      <div class="rl-theme-card">
+        {{- if $url -}}<a href="{{ $url }}" class="rl-theme-card-media" aria-label="{{ partial "research/text.html" (dict "lang" $lang "obj" $t.name) }}">{{- end -}}
+          {{- $img := false -}}
+          {{- with $t.image }}{{ $img = resources.Get (printf "media/%s" .) }}{{ end -}}
+          {{- if $img -}}
+          <img src="{{ $img.RelPermalink }}" alt="{{ partial "research/text.html" (dict "lang" $lang "obj" $t.alt) }}" width="640" height="320" loading="lazy">
+          {{- else -}}
+          <span class="rl-work-media is-empty" aria-hidden="true"></span>
+          {{- end -}}
+        {{- if $url -}}</a>{{- end -}}
+        <div class="rl-theme-card-in">
+          <h3>{{ if $url }}<a href="{{ $url }}">{{ end }}{{ partial "research/text.html" (dict "lang" $lang "obj" $t.name) }}{{ if $url }}</a>{{ end }}</h3>
+          <div class="rl-counts">
+            {{- if gt $n_on 0 -}}<span class="rl-chip is-on">{{ i18n "research_n_ongoing" (dict "Count" $n_on) }}</span>{{- end -}}
+            {{- if gt $n_done 0 -}}<span class="rl-chip">{{ i18n "research_n_completed" (dict "Count" $n_done) }}</span>{{- end -}}
+          </div>
+          <p>{{ partial "research/text.html" (dict "lang" $lang "obj" $t.card) }}</p>
+          {{- if $url -}}<a class="rl-theme-more" href="{{ $url }}">{{ i18n "research_see_works" }} →</a>{{- end -}}
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+
+  <h2 class="rl-research-sec" id="projects">{{ i18n "research_funded" }} <small>{{ i18n "research_funded_note" }}</small></h2>
+  <ol class="rl-grant-tl">
+    {{- range $data.grants -}}
+      {{- $g := . -}}
+      {{- $w := partial "research/find-work.html" $g.work -}}
+      {{- $href := "" -}}
+      {{- $wtitle := "" -}}
+      {{- if $w -}}
+        {{- $href = partial "research/work-href.html" (dict "work" $w) -}}
+        {{- $wtitle = partial "research/text.html" (dict "lang" $lang "obj" $w.title) -}}
+      {{- end -}}
+      <li>
+        <span class="rl-grant-yr">{{ $g.years }}</span>
+        <span>
+          <div class="rl-grant-name">{{ partial "research/text.html" (dict "lang" $lang "obj" $g.title) }}</div>
+          <div class="rl-grant-work">{{ partial "research/text.html" (dict "lang" $lang "obj" $g.funder) }}{{ if $href }} · <a href="{{ $href }}">{{ $wtitle }}</a>{{ end }}</div>
+        </span>
+      </li>
+    {{- end -}}
+  </ol>
+</div>

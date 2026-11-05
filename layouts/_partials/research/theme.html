@@ -1,0 +1,90 @@
+{{- $lang := .Lang -}}
+{{- $data := site.Data.research -}}
+{{- $tid := .Params.theme_id | default (path.Base (strings.TrimSuffix "/" .File.Dir)) -}}
+{{- $theme := partial "research/find-theme.html" $tid -}}
+{{- $works := slice -}}
+{{- range $data.works -}}
+  {{- if in .themes $tid -}}{{ $works = $works | append . }}{{- end -}}
+{{- end -}}
+{{- $ongoing := slice -}}
+{{- $completed := slice -}}
+{{- $other := slice -}}
+{{- range $works -}}
+  {{- if eq .status "ongoing" -}}{{ $ongoing = $ongoing | append . -}}
+  {{- else if eq .status "completed" -}}{{ $completed = $completed | append . -}}
+  {{- else -}}{{ $other = $other | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $paper_slugs := slice -}}
+{{- range $works -}}
+  {{- range .papers -}}{{ $paper_slugs = $paper_slugs | append . }}{{- end -}}
+{{- end -}}
+{{- with index $data.extra_papers $tid -}}
+  {{- range . -}}{{ $paper_slugs = $paper_slugs | append . }}{{- end -}}
+{{- end -}}
+{{- $paper_slugs = $paper_slugs | uniq -}}
+{{- $paper_pages := slice -}}
+{{- range $paper_slugs -}}
+  {{- with site.GetPage (printf "/publications/%s" .) -}}
+    {{- $paper_pages = $paper_pages | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $paper_pages = sort $paper_pages "Date" "desc" -}}
+
+<div class="rl-research">
+  <nav class="rl-crumbs" aria-label="Breadcrumb">
+    {{- with site.GetPage "/research" -}}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- end -}}
+    <span>/</span>
+    <span>{{ .Title }}</span>
+  </nav>
+  <h1 class="rl-research-h">{{ .Title }}</h1>
+  {{- if $theme -}}
+  <p class="rl-research-lede">{{ partial "research/text.html" (dict "lang" $lang "obj" $theme.intro) }}</p>
+  {{- end -}}
+
+  <div class="rl-status-h"><span>{{ i18n "research_ongoing" }}</span><span>{{ len $ongoing }}</span></div>
+  {{- if $ongoing -}}
+    {{- range $ongoing -}}
+      {{ partial "research/work-row.html" (dict "work" . "lang" $lang "ctx" $tid) }}
+    {{- end -}}
+  {{- else -}}
+    <p class="rl-work-empty">{{ i18n "research_empty_ongoing" }}</p>
+  {{- end -}}
+
+  <div class="rl-status-h"><span>{{ i18n "research_completed" }}</span><span>{{ len $completed }}</span></div>
+  {{- if $completed -}}
+    {{- range $completed -}}
+      {{ partial "research/work-row.html" (dict "work" . "lang" $lang "ctx" $tid) }}
+    {{- end -}}
+  {{- else -}}
+    <p class="rl-work-empty">{{ i18n "research_empty_completed" }}</p>
+  {{- end -}}
+
+  {{- if $other -}}
+  <div class="rl-status-h"><span>{{ i18n "research_other_works" }}</span><span>{{ len $other }}</span></div>
+    {{- range $other -}}
+      {{ partial "research/work-row.html" (dict "work" . "lang" $lang "ctx" $tid) }}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $paper_pages -}}
+  <details class="rl-all-papers">
+    <summary>{{ i18n "research_all_papers" }} ({{ len $paper_pages }})</summary>
+    <ol>
+      {{- range $paper_pages -}}
+        {{- $year := .Date.Format "2006" -}}
+        {{- $venue := "" -}}
+        {{- with .Params.publication -}}
+          {{- if reflect.IsMap . }}{{ $venue = .name }}{{ end -}}
+        {{- end -}}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if or $venue $year }}<span class="rl-paper-venue">{{ if $venue }}, {{ $venue }}{{ end }}{{ if $year }}, {{ $year }}{{ end }}</span>{{ end }}
+        </li>
+      {{- end -}}
+    </ol>
+  </details>
+  {{- end -}}
+</div>

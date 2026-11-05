@@ -1,0 +1,8 @@
+{{- /* Pick a language string from a map (en/sr) or pass a plain string through. */ -}}
+{{- $lang := .lang -}}
+{{- $obj := .obj -}}
+{{- if reflect.IsMap $obj -}}
+  {{- with index $obj $lang }}{{ . }}{{ else }}{{ index $obj "en" }}{{ end -}}
+{{- else -}}
+  {{- $obj -}}
+{{- end -}}

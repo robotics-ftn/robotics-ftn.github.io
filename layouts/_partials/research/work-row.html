@@ -1,0 +1,63 @@
+{{- $work := .work -}}
+{{- $lang := .lang -}}
+{{- $ctx := .ctx -}}
+{{- $title := partial "research/text.html" (dict "lang" $lang "obj" $work.title) -}}
+<article class="rl-work" id="{{ $work.id }}">
+  <div class="rl-work-media-col">
+    {{ partial "research/media.html" (dict "work" $work "lang" $lang "variant" "row") }}
+  </div>
+  <div class="rl-work-body">
+    <h3>{{ $title }}</h3>
+    {{- $has_meta := or $work.years $work.fund (and $ctx (ne (index $work.themes 0) $ctx)) -}}
+    {{- if $has_meta -}}
+    <div class="rl-work-meta">
+      {{- with $work.years -}}<span class="rl-work-years">{{ . }}</span>{{- end -}}
+      {{- range $work.fund -}}<span class="rl-badge">{{ . }}</span>{{- end -}}
+      {{- if and $ctx (ne (index $work.themes 0) $ctx) -}}
+        {{- $home := partial "research/find-theme.html" (index $work.themes 0) -}}
+        {{- if $home -}}
+          {{- $home_name := partial "research/text.html" (dict "lang" $lang "obj" $home.name) -}}
+          {{- with site.GetPage (printf "/research/%s" $home.id) -}}
+          <span class="rl-work-home">{{ i18n "research_main_entry" }}: <a href="{{ .RelPermalink }}">{{ $home_name }}</a></span>
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    </div>
+    {{- end -}}
+    {{- $sum := partial "research/text.html" (dict "lang" $lang "obj" $work.summary) -}}
+    {{- with $sum -}}
+    <p class="rl-work-sum">{{ . }}</p>
+    {{- end -}}
+    {{- with $work.papers -}}
+    <div class="rl-work-papers">
+      <p class="rl-lbl">{{ i18n "research_papers" }}</p>
+      {{ partial "research/papers.html" (dict "slugs" .) }}
+    </div>
+    {{- end -}}
+    {{- if or $work.people $work.ext -}}
+    <div>
+      <p class="rl-lbl">{{ i18n "research_people" }}</p>
+      <div class="rl-people">
+        {{- range $work.people -}}
+          {{ partial "research/avatar.html" . }}
+        {{- end -}}
+        {{- with $work.ext -}}
+        <div class="rl-ext">{{ i18n "research_with" }} {{ delimit . ", " }}</div>
+        {{- end -}}
+      </div>
+    </div>
+    {{- end -}}
+    {{- $href := partial "research/work-href.html" (dict "work" $work) -}}
+    {{- $has_links := or $work.links $work.full -}}
+    {{- if $has_links -}}
+    <div class="rl-work-links">
+      {{- range $work.links -}}
+        <a href="{{ .url }}" target="_blank" rel="noopener">{{ i18n .label_id }}</a>
+      {{- end -}}
+      {{- if $work.full -}}
+        <a href="{{ $href }}">{{ i18n "research_full_page" }} →</a>
+      {{- end -}}
+    </div>
+    {{- end -}}
+  </div>
+</article>

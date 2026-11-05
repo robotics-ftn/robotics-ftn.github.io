@@ -1,0 +1,45 @@
+{{- $slug := . -}}
+{{- $profile := index site.Data.authors $slug -}}
+{{- $given := "" -}}
+{{- $family := "" -}}
+{{- $display := $slug -}}
+{{- if $profile -}}
+  {{- with $profile.name -}}
+    {{- $given = .given -}}
+    {{- $family = .family -}}
+    {{- if and $given $family -}}
+      {{- $display = printf "%s %s" $given $family -}}
+    {{- else -}}
+      {{- $display = .display | default $slug -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $initials := "" -}}
+{{- if and $given $family -}}
+  {{- $initials = printf "%s%s" (substr $given 0 1) (substr $family 0 1) -}}
+{{- else -}}
+  {{- $initials = upper (substr $display 0 1) -}}
+{{- end -}}
+{{- $avatar := false -}}
+{{- range $ext := slice "png" "jpg" "jpeg" "webp" -}}
+  {{- if not $avatar -}}
+    {{- with resources.Get (printf "media/authors/%s.%s" $slug $ext) -}}
+      {{- $avatar = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $href := "" -}}
+{{- with site.GetPage (printf "/authors/%s" $slug) -}}
+  {{- $href = .RelPermalink -}}
+{{- end -}}
+{{- if $href -}}
+<a class="rl-av" href="{{ $href }}" title="{{ $display }}">
+{{- else -}}
+<span class="rl-av" title="{{ $display }}">
+{{- end -}}
+  {{- if $avatar -}}
+  <img src="{{ $avatar.RelPermalink }}" alt="{{ $display }}" width="34" height="34">
+  {{- else -}}
+  <span class="rl-av-initials">{{ $initials }}</span>
+  {{- end -}}
+{{- if $href -}}</a>{{- else -}}</span>{{- end -}}

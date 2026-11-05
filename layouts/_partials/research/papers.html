@@ -1,0 +1,17 @@
+{{- $slugs := .slugs | default slice -}}
+{{- if $slugs -}}
+<ul>
+  {{- range $slugs -}}
+    {{- with site.GetPage (printf "/publications/%s" .) -}}
+      {{- $year := .Date.Format "2006" -}}
+      {{- $venue := "" -}}
+      {{- with .Params.publication -}}
+        {{- if reflect.IsMap . }}{{ $venue = .name }}{{ end -}}
+      {{- end -}}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if or $venue $year }}<span class="rl-paper-venue">{{ if $venue }}, {{ $venue }}{{ end }}{{ if $year }}, {{ $year }}{{ end }}</span>{{ end }}
+      </li>
+    {{- end -}}
+  {{- end -}}
+</ul>
+{{- end -}}

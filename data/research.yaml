@@ -1,0 +1,547 @@
+# Research landing, themes, works, and grants.
+# Status is only set when known (ongoing | completed). Years omitted when unknown.
+# Papers are publication slugs that already exist on the site.
+# People are author slugs. External collaborators are names only (no author pages).
+
+lede:
+  en: "The **Robotics Research group at FTN** develops humanoid robots, dexterous hands, robot manipulation, human–robot interaction systems, and mobile robotics. The group is headed equally by **prof. dr Mirko Raković**, **prof. dr Milutin Nikolić**, and **prof. dr Srđan Savić**. Open-source code from the group is on [github.com/robotics-ftn](https://github.com/robotics-ftn)."
+  sr: "**Istraživačka grupa za robotiku na FTN-u** razvija humanoidne robote, okretne ruke, robotsku manipulaciju, sisteme interakcije čovek–robot i mobilnu robotiku. Grupom ravnopravno rukovode **prof. dr Mirko Raković**, **prof. dr Milutin Nikolić** i **prof. dr Srđan Savić**. Otvoreni kod grupe je na [github.com/robotics-ftn](https://github.com/robotics-ftn)."
+
+themes:
+  - id: robot-manipulation
+    name:
+      en: Robot manipulation
+      sr: Robotska manipulacija
+    image: research/robot-manipulation.jpg
+    alt:
+      en: Connector insertion on a circuit board
+      sr: Umetanje konektora na štampanu ploču
+    card:
+      en: Industrial arms that find, insert and assemble parts, fold clothes and learn new skills.
+      sr: Industrijske ruke koje pronalaze, umeću i sklapaju delove, presavijaju odeću i uče nove veštine.
+    intro:
+      en: We teach robot arms to do useful work with their hands — find parts with cameras, insert and assemble them, handle soft materials such as clothes, and learn new skills from demonstration or by trial and error. Our cells include ABB industrial robots, UFactory xArm7 arms and Robotiq grippers, the same hardware students use in the Industrial Robotics course (H308).
+      sr: Učimo robotske ruke da rade koristan posao — da kamerama pronađu delove, da ih umetnu i sklope, da rukuju mekim materijalima kao što je odeća, i da uče nove veštine iz demonstracije ili pokušajima. U ćelijama su industrijski roboti ABB, ruke UFactory xArm7 i hvataljke Robotiq, isti hardver koji studenti koriste na predmetu Industrijska robotika (H308).
+  - id: locomotion
+    name:
+      en: Locomotion
+      sr: Lokomocija
+    image: research/locomotion.jpg
+    alt:
+      en: Quadruped in simulation with support polygon
+      sr: Četvoronožni robot u simulaciji sa poligonom oslonca
+    card:
+      en: Two-legged and four-legged robots that walk, balance and recover from pushes.
+      sr: Dvonožni i četvoronožni roboti koji hodaju, održavaju ravnotežu i oporavljaju se od guranja.
+    intro:
+      en: We study how legged robots walk and keep their balance. Our work runs from two-legged humanoids that walk over rough ground, climb stairs and recover from pushes, to four-legged robots that plan safe steps close to the limits of their motors.
+      sr: Proučavamo kako roboti sa nogama hodaju i održavaju ravnotežu. Rad ide od dvonožnih humanoida koji hodaju po neravnom terenu, penju se uz stepenice i oporavljaju se od guranja, do četvoronožnih robota koji planiraju bezbedne korake blizu granica svojih motora.
+  - id: human-robot-interaction
+    name:
+      en: Human–Robot Interaction
+      sr: Interakcija čovek–robot
+    image: research/human-robot-interaction.jpg
+    alt:
+      en: Gaze-tracked handover with a humanoid
+      sr: Predaja predmeta humanoidu uz praćenje pogleda
+    card:
+      en: Catching, handovers, eye gaze and robots that support children in therapy.
+      sr: Hvatanje, predaja predmeta, pogled i roboti koji pomažu deci u terapiji.
+    intro:
+      en: We study how people move, look and coordinate when they act together, then build robots that read these signals and move in ways people understand. Our work covers catching, handovers, eye gaze and robots that support children in therapy, and it relies on recording human motion precisely.
+      sr: Proučavamo kako se ljudi kreću, gledaju i usklađuju kada deluju zajedno, pa gradimo robote koji te signale čitaju i kreću se na način koji je ljudima razumljiv. Rad obuhvata hvatanje, predaju predmeta, pogled i robote koji pomažu deci u terapiji, i oslanja se na precizno snimanje ljudskog pokreta.
+  - id: mobile-robotics
+    name:
+      en: Mobile robotics
+      sr: Mobilna robotika
+    image: research/mobile-robotics.jpg
+    alt:
+      en: Mobile robot on a competition field
+      sr: Mobilni robot na takmičarskom polju
+    card:
+      en: Wheeled robots that map, plan routes and pick up objects on their own.
+      sr: Točkaši koji sami mapiraju prostor, planiraju rute i pokupljaju predmete.
+    intro:
+      en: We build wheeled robots that map their surroundings, plan routes and pick up objects on their own. They range from omnidirectional lab platforms and mobile units in our scaled factory to robots built for the Eurobot competition.
+      sr: Gradimo točkaše koji mapiraju okolinu, planiraju rute i sami pokupljaju predmete. Od omnidirekcionih laboratorijskih platformi i mobilnih jedinica u umanjenoj fabrici do robota za takmičenje Eurobot.
+  - id: dexterous-hands-eoat
+    name:
+      en: Dexterous hands and EOAT
+      sr: Okretne ruke i EOAT
+    image: research/dexterous-hands-eoat-card.jpg
+    alt:
+      en: Three-finger hand stacking blocks on an ABB arm
+      sr: Troprsta ruka slaže kocke na ABB ruci
+    card:
+      en: Robot hands that grip both heavy and fragile objects, and the sensors that let them feel.
+      sr: Robotske ruke koje hvataju i teške i krhke predmete, i senzori kojji im daju osećaj dodira.
+    intro:
+      en: We design robot hands that can grip both heavy and fragile objects, and the touch sensors that let them feel contact. Underactuated designs let a few motors drive many finger joints, so the fingers wrap around an object's shape on their own. On our industrial cells we also integrate end-of-arm tools such as Robotiq grippers.
+      sr: Projektujemo robotske ruke koje mogu da zgrabе i teške i krhke predmete, i taktilne senzore kojji osećaju kontakt. Podaktuisani sklopovi malim brojem motora pokreću mnogo zglobova prstiju, pa se prsti sami obavijaju oko oblika predmeta. Na industrijskim ćelijama ugrađujemo i alate na kraju ruke, na primer hvataljke Robotiq.
+  - id: perception-tactile-sensing
+    name:
+      en: Perception and tactile sensing
+      sr: Percepcija i taktilno senziranje
+    image: research/perception-tactile-sensing.jpg
+    alt:
+      en: Vision and force sensing on a robot hand
+      sr: Vizija i merenje sile na robotskoj ruci
+    card:
+      en: Camera-based detectors, object properties from human motion, and touch sensors.
+      sr: Detektori na kamerama, osobine predmeta iz ljudskog pokreta i taktilni senzori.
+    intro:
+      en: Robots need to see and feel. We train camera-based detectors, partly on synthetic images, infer object properties from how people move, and build touch sensors that tell robot fingers where and how they are touching something.
+      sr: Roboti treba da vide i da osećaju. Obučavamo detektore na kamerama, delom na sintetskim slikama, zaključujemo osobine predmeta iz toga kako se ljudi kreću, i gradimo taktilne senzore koji prstima robota kažu gde i kako dodiruju nešto.
+
+works:
+  - id: intrinsic-xarm7
+    title:
+      en: Intrinsic challenge on xArm7
+      sr: Intrinsic izazov na xArm7
+    themes: [robot-manipulation]
+    status: ongoing
+    media:
+      - file: research/robot-manipulation.jpg
+        alt:
+          en: Connector insertion on a circuit board
+          sr: Umetanje konektora na štampanu ploču
+    summary:
+      en: We are taking on an Intrinsic AI robotics challenge with a UFactory xArm7 arm and two Intel RealSense D415 depth cameras. The robot uses the two camera views to find small parts, such as a connector on a circuit board, and to insert them precisely.
+      sr: Učestvujemo na Intrinsic AI izazovu sa robotskom rukom UFactory xArm7 i dve Intel RealSense D415 kamere dubine. Robot koristi dva pogleda kamere da pronađe sitne delove, na primer konektor na štampanoj ploči, i da ih precizno umetne.
+
+  - id: clothes-folding
+    title:
+      en: Clothes folding with an ABB robot
+      sr: Presavijanje odeće ABB robotom
+    themes: [robot-manipulation]
+    people: [andrej-cilag]
+
+  - id: robotic-mini-golf
+    title:
+      en: Vision-guided robotic mini-golf
+      sr: Robotski mini-golf vođen vizijom
+    themes: [robot-manipulation, perception-tactile-sensing]
+    years: "2025"
+    people: [lazar-milic, mirko-rakovic]
+    ext: [Viktor Salaj]
+    papers: [icetran-mini-golf-2025]
+    summary:
+      en: Can a robot arm learn to putt? A simulated xArm learns by trial and error (reinforcement learning) to hit a golf ball into the hole, while a camera-based detector finds the ball and the hole in real time. The aim is accurate ball striking on the real robot.
+      sr: Može li robotska ruka da nauči da udari loptu u rupu? Simulirani xArm učenjem potkrepljivanjem uči da pogodi loptu, dok detektor na kameri u realnom vremenu pronalazi loptu i rupu. Cilj je precizan udarac na stvarnom robotu.
+
+  - id: factory-cell
+    title:
+      en: Scaled factory automation cell
+      sr: Umanjena ćelija fabričke automatizacije
+    themes: [robot-manipulation, mobile-robotics]
+    years: "2022"
+    people: [lazar-milic, andrej-cilag, tanja-berisavljevic, mirko-rakovic]
+    ext: [Dragiša Mišković, Achim Gottscheber]
+    papers: [factory-automation-2022]
+    media:
+      - file: publications/factory-automation-2022.jpg
+        alt:
+          en: Scaled factory cell
+          sr: Umanjena fabrička ćelija
+    summary:
+      en: A small-scale factory in our lab, where robot arms, mobile robots and sensors work together under one central system. It lets students and researchers test factory automation without a full production line.
+      sr: Umanjena fabrika u laboratoriji, gde robotske ruke, mobilni roboti i senzori rade zajedno pod jednim centralnim sistemom. Studentima i istraživačima omogućava da isprobaju fabričku automatizaciju bez pune proizvodne linije.
+
+  - id: compliant-movement-primitives
+    title:
+      en: Compliant movement primitives for two arms
+      sr: Podatljive primitive kretanja za dve ruke
+    themes: [robot-manipulation]
+    status: completed
+    years: "2016–2017"
+    fund: [UNS–JSI bilateral]
+    people: [aleksandar-batinica, mirko-rakovic]
+    ext: [Bojan Nemec, Aleš Ude, Andrej Gams, José Santos-Victor]
+    papers: [humanoids-cmp-2017, robio-cmp-2017]
+    media:
+      - file: publications/humanoids-cmp-2017.jpg
+        alt:
+          en: Two arms performing a shared task
+          sr: Dve ruke na zajedničkom zadatku
+    summary:
+      en: Two robot arms carry out a shared task while staying soft when something pushes them, and keep their positions relative to each other. The method needs no model of the task and can adapt a learned motion to new situations.
+      sr: Dve robotske ruke izvode zajednički zadatak, ostaju mekane kada ih nešto gurne, i zadržavaju međusobni položaj. Metoda ne zahteva model zadatka i naučeni pokret može da prilagodi novim situacijama.
+
+  - id: robotic-fabrication
+    title:
+      en: Robotic fabrication for architecture
+      sr: Robotska fabrikacija za arhitekturu
+    themes: [robot-manipulation]
+    years: "2017–2024"
+    people: [mirko-rakovic, branislav-borovac, milutin-nikolic]
+    ext: [Marko Jovanović, Bojan Tepavčević, Vesna Stojaković, Marko Vučić]
+    papers: [freeform-foam-2017, surface-patterns-2023, porous-hotwire-2023, terracotta-panels-2024]
+    media:
+      - file: publications/freeform-foam-2017.jpg
+        alt:
+          en: Hot-wire cut foam panel
+          sr: Paneli od stiropora sečeni vrućom žicom
+    summary:
+      en: With architects, we use robots to fabricate freeform foam panels, and robotic hot-wire cutting to make porous structures and moulds for terracotta relief panels. Surface patterns are generated from images and turned into robot paths.
+      sr: Sa arhitektama robotima izrađujemo slobodnoformne panele od stiropora, a sečenjem vrućom žicom porozne strukture i kalupe za reljefne terakotne panele. Površinski obrasci se generišu iz slika i pretvaraju u putanje robota.
+
+  - id: humanoid-carrying
+    title:
+      en: Humanoid arm control for carrying objects together
+      sr: Upravljanje rukama humanoida za zajedničko nošenje predmeta
+    themes: [robot-manipulation]
+    status: completed
+    years: "2014–2016"
+    people: [srdjan-savic, mirko-rakovic, branislav-borovac, milutin-nikolic]
+    ext: [Marko Penčić]
+    papers: [nonlinear-upper-body-2014, hybrid-motion-control-2016]
+    media:
+      - file: publications/nonlinear-upper-body-2014.jpg
+        alt:
+          en: Humanoid upper body carrying an object
+          sr: Gornji deo humanoida nosi predmet
+    summary:
+      en: Control of a humanoid robot's arms and upper body so it can handle objects and carry them together with a person or another robot. The follower robot keeps its arms soft and moves along with the leader.
+      sr: Upravljanje rukama i gornjim delom humanoida da bi rukovao predmetima i nosio ih zajedno sa čovekom ili drugim robotom. Pratilac drži ruke mekim i kreće se uz vođu.
+
+  - id: voice-logistics
+    title:
+      en: Voice-controlled logistics in meat production
+      sr: Glasovno upravljana logistika u proizvodnji mesa
+    themes: [robot-manipulation]
+    status: completed
+    years: "2020–2021"
+    fund: ["H2020 L4MS 767642"]
+
+  - id: solo12
+    title:
+      en: Solo12 quadruped
+      sr: Četvoronožni robot Solo12
+    themes: [locomotion]
+    status: ongoing
+    people: [milutin-nikolic, aleksandar-kicic, srdjan-savic, mirko-rakovic]
+    ext: [Vladimir Mitić, Vladimir Sibinović, Aleksandar Lalić, Tianwei Zhang, Anastasija Golić]
+    papers: [solo12-framework-2024, solo12-friction-2024, quadruped-com-planning-2025, residual-pinn-identification-2026]
+    media:
+      - file: research/locomotion.jpg
+        alt:
+          en: Solo12 in simulation with support polygon
+          sr: Solo12 u simulaciji sa poligonom oslonca
+    summary:
+      en: We work on the Solo12 four-legged robot, from the software up. Our framework runs the same controller in several simulators or on the real robot by changing one setting. We measure and correct friction and other joint properties, and plan body motions the robot can actually follow without exceeding its motor limits.
+      sr: Radimo na četvoronožnom robotu Solo12, od softvera naviše. Isti kontroler u okviru radi u više simulatora ili na stvarnom robotu promenom jednog podešavanja. Merimo i korigujemo trenje i druge osobine zglobova, i planiramo kretanje tela koje robot stvarno može da prati bez prekoračenja granica motora.
+
+  - id: biped-primitives
+    title:
+      en: Biped walking from motion primitives
+      sr: Hod dvonošca iz primitiva kretanja
+    themes: [locomotion]
+    status: completed
+    years: "2009–2019"
+    people: [mirko-rakovic, branislav-borovac, milutin-nikolic, srdjan-savic, aleksandar-batinica]
+    ext: [Miomir Vukobratović, José Santos-Victor, Miroslav Zarić]
+    papers: [complex-movements-primitives-2009, online-biped-chapter-2013, biped-motion-primitives-2014, humanoids-stairs-2016, online-biped-primitives-2016, sisy-realtime-planning-2016, human-inspired-path-planning-2019]
+    media:
+      - file: publications/humanoids-stairs-2016.jpg
+        alt:
+          en: Biped climbing stairs
+          sr: Dvonožac se penje uz stepenice
+    summary:
+      en: Human walking can be built from a few simple movements. We compose a biped robot's walk from such building blocks, so it can change speed, direction or step length on the fly, climb stairs and switch smoothly between gaits. Later work added human-inspired path planning for walking in unknown places.
+      sr: Ljudski hod može da se složi od nekoliko jednostavnih pokreta. Hod dvonošca sastavljamo od takvih blokova, pa robot u hodu menja brzinu, smer ili dužinu koraka, penje se uz stepenice i glatko prelazi između hodova. Kasniji rad dodaje planiranje putanje inspirisano čovekom za hod u nepoznatom okruženju.
+
+  - id: dynamic-balance
+    title:
+      en: Dynamic balance and disturbance compensation
+      sr: Dinamička ravnoteža i kompenzacija poremećaja
+    themes: [locomotion]
+    status: completed
+    years: "2008–2024"
+    people: [branislav-borovac, mirko-rakovic, milutin-nikolic, srdjan-savic]
+    ext: [Miomir Vukobratović, Hugh Herr, Veljko Potkonjak, M. Popović, A. Hofmann, M. Milinović]
+    papers: [biological-balance-2008, gait-synthesis-disturbances-2008, disturbance-compensation-2011, disturbances-biped-chapter-2016, zmp-fifty-five-years-2024]
+    media:
+      - file: publications/zmp-fifty-five-years-2024.jpg
+        alt:
+          en: ZMP and support area
+          sr: ZMP i površina oslonca
+    summary:
+      en: How does a walking robot avoid falling? Building on the zero-moment point (ZMP) concept, we study how humans and humanoids react to small and large pushes, and which control choices keep them on their feet. Our 2024 review traces how ZMP has been used over 55 years.
+      sr: Kako hodajući robot da ne padne? Polazeći od koncepta tačke nultog momenta (ZMP), proučavamo kako ljudi i humanoidi reaguju na mala i velika guranja, i koji izbori upravljanja ih drže na nogama. Pregled iz 2024. prati kako se ZMP koristi 55 godina.
+
+  - id: multi-contact
+    title:
+      en: Multi-contact balance and task-priority control
+      sr: Ravnoteža pri višestrukom kontaktu i upravljanje po prioritetu zadataka
+    themes: [locomotion, human-robot-interaction]
+    status: completed
+    years: "2013–2023"
+    people: [milutin-nikolic, branislav-borovac, mirko-rakovic, srdjan-savic]
+    ext: [Milica Žigić]
+    papers: [task-prioritization-2013, slippery-surfaces-2014, kinesthetic-teaching-2015, dynamic-balance-sliding-2018, com-wrench-constraints-2023]
+    media:
+      - file: publications/dynamic-balance-sliding-2018.jpg
+        alt:
+          en: Humanoid with hand and foot contacts
+          sr: Humanoid sa kontaktima ruku i stopala
+    summary:
+      en: A humanoid often does several things at once — keeps balance, moves its hands, avoids slipping. We control the whole body by ranking these tasks, so the most important ones are never disturbed. This also covers balance when the robot touches the world with feet and hands at the same time, and teaching a standing humanoid by guiding its arms.
+      sr: Humanoid često radi više stvari odjednom — drži ravnotežu, pomera ruke, izbegava klizanje. Celim telom upravljamo rangiranjem zadataka, tako da se najvažniji nikad ne naruše. To obuhvata i ravnotežu kada robot dodiruje svet stopalima i rukama istovremeno, i podučavanje stojećeg humanoida vođenjem ruku.
+
+  - id: bimanual-catching
+    title:
+      en: Bimanual catching
+      sr: Hvatanje sa dve ruke
+    themes: [human-robot-interaction]
+    status: ongoing
+    full: true
+    video: EWSOgHXcDSg
+    video_caption:
+      en: Current simulation results
+      sr: Trenutni rezultati u simulaciji
+    people: [lazar-milic]
+    papers: [raad-lstm-catching-2025]
+    links:
+      - label_id: research_code
+        url: https://github.com/robotics-ftn
+    summary:
+      en: How do people catch a ball with both hands? We record people catching a basketball with a Vicon motion capture system, model how their two hands move together, and transfer these human-like motions to a robot. The video shows our current results in simulation.
+      sr: Kako ljudi hvataju loptu sa dve ruke? Snimamo ljude koji hvataju košarkašku loptu sistemom Vicon, modelujemo kako se dve ruke kreću zajedno, i te pokrete prenosimo na robota. Video prikazuje trenutne rezultate u simulaciji.
+
+  - id: nonverbal-cues
+    title:
+      en: Nonverbal cues in human–robot collaboration
+      sr: Neverbalni znaci u saradnji čovek–robot
+    themes: [human-robot-interaction, perception-tactile-sensing]
+    status: completed
+    years: "2018–2024"
+    fund: ["H2020-MSCA-IF ACTICIPATE"]
+    people: [mirko-rakovic, jovica-tasevski, branislav-borovac]
+    ext: [Nuno Ferreira Duarte, José Santos-Victor, Aude Billard, Jorge Marques, Moreno Coco, Paul Schydlo, Lorenzo Jamone]
+    papers: [action-anticipation-2018, icra-anticipation-rnn-2018, gaze-dataset-2018, eurocon-dyadic-controller-2019, roman-handover-2019, icra-motor-resonance-2021, icra-object-properties-2022, gaze-dialogue-2024]
+    media:
+      - file: research/human-robot-interaction.jpg
+        alt:
+          en: Gaze-tracked handover with a humanoid
+          sr: Predaja predmeta humanoidu uz praćenje pogleda
+      - file: publications/gaze-dialogue-2024.jpg
+        alt:
+          en: Gaze dialogue during a handover
+          sr: Dijalog pogledom pri predaji predmeta
+    links:
+      - label_id: research_datasets
+        url: https://github.com/robotics-ftn
+    summary:
+      en: People understand each other's intentions from where they look and how they move, long before an action ends. We recorded pairs of people passing objects with eye trackers and motion capture, modelled how gaze and arm motion are coordinated, and gave robots the same skills — predicting what a person will do, moving in a readable way, handing objects over smoothly and judging how full a cup is from how someone carries it.
+      sr: Ljudi namere jedni drugih čitaju iz toga gde gledaju i kako se kreću, mnogo pre nego što se radnja završi. Snimali smo parove ljudi koji predaju predmete, sa praćenjem pogleda i pokreta, modelovali usklađenost pogleda i ruku, i robotima dali iste veštine — predviđanje šta će čovek uraditi, čitljivo kretanje, glatku predaju predmeta i procenu koliko je čaša puna iz toga kako je neko nosi.
+
+  - id: robot-marko
+    title:
+      en: Robot MARKO for children's therapy
+      sr: Robot MARKO za terapiju dece
+    themes: [human-robot-interaction]
+    status: completed
+    years: "2011–2020"
+    fund: ["Science Fund of Serbia III44008"]
+    people: [branislav-borovac, milutin-nikolic, srdjan-savic, mirko-rakovic, predrag-oros]
+    ext: [Milan Gnjatović, Vlado Delić, Marko Penčić, Dragiša Mišković, Ivana Jerković]
+    papers: [children-preference-robots-2014, marko-rehabilitation-2015, marko-kod-2021]
+    summary:
+      en: MARKO is a child-friendly humanoid robot built to support therapists working with children with developmental disorders, including cerebral palsy. We also asked children what a helpful robot should look like and parents how they feel about assistive robots.
+      sr: MARKO je humanoid prilagođen deci, građen da pomogne terapeutima u radu sa decom sa razvojnim poremećajima, uključujući cerebralnu paralizu. Pitali smo i decu kako bi trebalo da izgleda koristan robot, i roditelje šta misle o asistentnim robotima.
+
+  - id: motion-capture
+    title:
+      en: Human motion capture systems
+      sr: Sistemi za snimanje ljudskog pokreta
+    themes: [human-robot-interaction]
+    years: "2020–2022"
+    people: [milutin-nikolic, lazar-milic, mirko-rakovic]
+    ext: [Milutin Studen, Yosuke Ikegami, Ayaka Yamada, Lei Zhang, Natsu Ooke, Yoshihiko Nakamura]
+    papers: [iros-whole-game-2020, icetran-motion-capture-2022]
+    summary:
+      en: Many of our studies start by measuring how people move. We build camera systems that capture human motion — a markerless system large enough to record a whole team sports game, and a low-cost system that works in real time.
+      sr: Mnoga naša istraživanja počinju merenjem kako se ljudi kreću. Gradimo kamerne sisteme za snimanje pokreta — sistem bez markera dovoljno veliki da snimi celu ekipnu utakmicu, i jeftin sistem koji radi u realnom vremenu.
+
+  - id: meta-cobots
+    title:
+      en: Meta-Cobots
+      sr: Meta-Cobots
+    themes: [human-robot-interaction]
+    status: completed
+    years: "2021–2022"
+    fund: [Epic MegaGrant]
+    summary:
+      en: Human–robot interaction in a synthetic environment.
+      sr: Interakcija čovek–robot u sintetskom okruženju.
+
+  - id: gaze-estimation-3d
+    title:
+      en: Deep learning for 3D gaze estimation
+      sr: Duboko učenje za 3D procenu pogleda
+    themes: [human-robot-interaction]
+    status: completed
+    years: "2018"
+    fund: [NVIDIA GPU grant]
+
+  - id: eurobot-2025
+    title:
+      en: Eurobot 2025 competition robot
+      sr: Takmičarski robot Eurobot 2025
+    themes: [mobile-robotics, perception-tactile-sensing]
+    status: completed
+    years: "2025"
+    people: [jovan-vasic, lazar-milic, mirko-rakovic]
+    papers: [icetran-synthetic-detection-2025]
+    media:
+      - file: research/mobile-robotics.jpg
+        alt:
+          en: Mobile robot on the competition field
+          sr: Mobilni robot na takmičarskom polju
+    summary:
+      en: For Eurobot 2025 we built a mobile robot that finds and picks up game objects on its own. Its camera-based detector (YOLO) was trained mainly on images generated in a virtual copy of the game table in Unreal Engine, under many lighting conditions and object positions, and it reliably detects the objects the robot must handle.
+      sr: Za Eurobot 2025 smo napravili mobilnog robota koji sam pronalazi i pokuplja predmete igre. Detektor na kameri (YOLO) obučen je uglavnom na slikama iz virtuelne kopije stola u Unreal Engine-u, pri različitim osvetljenjima i položajima, i pouzdano prepoznaje predmete koje robot mora da uhvati.
+
+  - id: omni-slam
+    title:
+      en: Omnidirectional four-wheel robot and SLAM
+      sr: Omnidirekcioni četvorotočkaš i SLAM
+    themes: [mobile-robotics]
+    status: completed
+    years: "2022"
+    people: [lazar-milic, milutin-nikolic, mirko-rakovic]
+    ext: [Slaven Petković, Dragiša Mišković]
+    papers: [icetran-slam-omni-2022]
+    summary:
+      en: On our four-wheel robot that can move in any direction, we compared methods that let a robot build a map of a room and track its own position in it at the same time (SLAM).
+      sr: Na četvorotočkašu koji može da se kreće u bilo kom pravcu poredili smo metode kojima robot istovremeno pravi mapu prostorije i prati sopstveni položaj u njoj (SLAM).
+
+  - id: route-planning
+    title:
+      en: Route planning with evolutionary algorithms
+      sr: Planiranje ruta evolucionim algoritmima
+    themes: [mobile-robotics]
+    years: "2025"
+    people: [jelena-curcic, milutin-nikolic, srdjan-savic]
+    ext: [Željko Kanović]
+    papers: [raad-tsp-mobile-2025]
+    summary:
+      en: When time is short, a robot cannot visit every place it could earn points. We use evolutionary algorithms, which improve a population of candidate routes step by step, to choose which places to visit and in what order to collect the most value within the time limit.
+      sr: Kada je vreme kratko, robot ne može da obiđe svako mesto na kom bi osvojio poene. Evolucionim algoritmima, koji korak po korak poboljšavaju populaciju kandidatskih ruta, biramo koja mesta obići i kojjim redom da u vremenskom limitu skupimo najviše vrednosti.
+
+  - id: three-finger-hand
+    title:
+      en: Force-sensitive three-finger hand
+      sr: Troprsta ruka osetljiva na silu
+    themes: [dexterous-hands-eoat, perception-tactile-sensing]
+    years: "2019–2026"
+    fund: [Innovation Fund of Serbia]
+    people: [srdjan-savic, andrej-cilag, srdjan-apostolovic, milutin-nikolic, mirko-rakovic]
+    papers: [three-finger-hand-2026]
+    media:
+      - file: research/dexterous-hands-eoat-card.jpg
+        alt:
+          en: Three-finger hand stacking blocks on an ABB arm
+          sr: Troprsta ruka slaže kocke na ABB ruci
+    summary:
+      en: A three-finger robot hand that can grip firmly and also handle delicate materials. Four motors drive ten joints, and an extra rotation at the base of the thumb lets the thumb be repositioned for different grasps. Force sensing tells the hand how hard it is pressing.
+      sr: Troprsta robotska ruka koja može čvrsto da zgrabi i da rukuje nežnim materijalima. Četiri motora pokreću deset zglobova, a dodatna rotacija u bazi palca pomera palac za različite hvatove. Senzor sile kaže ruci koliko jako pritiska.
+
+  - id: ftn-hand
+    title:
+      en: Underactuated FTN robot hand
+      sr: Podaktuisana FTN robotska ruka
+    themes: [dexterous-hands-eoat, perception-tactile-sensing]
+    status: completed
+    years: "2016–2018"
+    people: [mirko-rakovic, srdjan-savic, milutin-nikolic, branislav-borovac, aleksandar-batinica]
+    ext: [Marko Penčić, Slobodan Dudić, Miroslav Beronja, Govind Anil, Živorad Mihajlović, Siddhata Naik, Achim Gottscheber]
+    papers: [underactuated-adaptive-hand-2016, fingertip-hall-sensor-2016, ftn-robot-hand-2018]
+    media:
+      - file: publications/ftn-robot-hand-2018.jpg
+        alt:
+          en: Tendon-driven FTN hand
+          sr: FTN ruka vođena tetivama
+    summary:
+      en: A tendon-driven robot hand designed for the humanoid robot MARKO. Its fingers adapt to an object's shape, sensors in the fingertips measure contact force in three directions, and a fuzzy logic controller drives each finger's motor smoothly.
+      sr: Robotska ruka vođena tetivama, projektovana za humanoida MARKO. Prsti se prilagođavaju obliku predmeta, senzori u vrhovima mere silu kontakta u tri pravca, a fuzzy regulator glatko pokreće motor svakog prsta.
+
+  - id: magnetic-tactile
+    title:
+      en: Magnetic tactile sensing
+      sr: Magnetsko taktilno senziranje
+    themes: [dexterous-hands-eoat, perception-tactile-sensing]
+    years: "2025–2026"
+    people: [srdjan-apostolovic, mirko-rakovic, milutin-nikolic]
+    ext: [Vladimir Sibinović, Vladimir Mitić]
+    papers: [raad-magnetic-ann-2025, raad-contact-classification-2026]
+    media:
+      - file: publications/raad-contact-classification-2026.jpg
+        alt:
+          en: Magnetic touch sensor array
+          sr: Niz magnetskih taktilnih senzora
+    summary:
+      en: A touch sensor array reads changes in a magnetic field when something presses on it. From these readings we estimate where the contact is, using a neural network, and classify what kind of contact it is (a point, a line or a whole surface) in real time.
+      sr: Niz taktilnih senzora čita promene magnetskog polja kada nešto pritisne. Iz tih očitavanja neuronskom mrežom procenjujemo gde je kontakt, i u realnom vremenu klasifikujemo kakav je (tačka, linija ili cela površina).
+
+extra_papers:
+  perception-tactile-sensing:
+    - embodied-visual-perception-2025
+
+grants:
+  - years: "2021–2022"
+    title:
+      en: Meta-Cobots
+      sr: Meta-Cobots
+    funder:
+      en: Epic MegaGrant
+      sr: Epic MegaGrant
+    work: meta-cobots
+  - years: "2020–2021"
+    title:
+      en: Voice-controlled logistics in meat production
+      sr: Glasovno upravljana logistika u proizvodnji mesa
+    funder:
+      en: H2020 L4MS 767642
+      sr: H2020 L4MS 767642
+    work: voice-logistics
+  - years: "2019–2021"
+    title:
+      en: Three-Finger HRC Robotic Hand
+      sr: Troprsta HRC robotska ruka
+    funder:
+      en: Innovation Fund of Serbia
+      sr: Fond za inovacionu delatnost Republike Srbije
+    work: three-finger-hand
+  - years: "2018"
+    title:
+      en: Deep learning for 3D gaze estimation
+      sr: Duboko učenje za 3D procenu pogleda
+    funder:
+      en: NVIDIA GPU grant
+      sr: NVIDIA GPU grant
+    work: gaze-estimation-3d
+  - years: "2017–2018"
+    title:
+      en: "ACTICIPATE: Action Understanding in Human and Robot Dyadic Interaction"
+      sr: "ACTICIPATE: razumevanje akcija u dijadnoj interakciji čovek–robot"
+    funder:
+      en: "H2020-MSCA-IF-2016, 752611"
+      sr: "H2020-MSCA-IF-2016, 752611"
+    work: nonverbal-cues
+  - years: "2016–2017"
+    title:
+      en: Control of bimanual physical HRI for rehabilitation and industrial services
+      sr: Upravljanje bimanuelnom fizičkom interakcijom čovek–robot za rehabilitaciju i industriju
+    funder:
+      en: Bilateral UNS–JSI
+      sr: Bilateralni UNS–JSI
+    work: compliant-movement-primitives
+  - years: "2011–2020"
+    title:
+      en: Robot as Assistive Technology for Children with Developmental Disorders
+      sr: Robot kao asistentna tehnologija za decu sa razvojnim poremećajima
+    funder:
+      en: Science Fund of Serbia, III44008
+      sr: Fond za nauku Republike Srbije, III44008
+    work: robot-marko
