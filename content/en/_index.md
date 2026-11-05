@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       eyebrow: Robotics@FTN · Novi Sad
-      title: '[Robots that move, grasp, and collaborate] with people'
+      title: '[Robots that move, manipulate objects, and collaborate] with people'
       text: "We build humanoid platforms, dexterous hands, robot manipulation, and mobile robotics — from biped locomotion primitives to gaze-driven human–robot interaction — tested on hardware at the Faculty of Technical Sciences. The Robotics Research group at FTN is part of the [Chair of Mechatronics, Robotics and Automation](https://mehatronika.ftn.uns.ac.rs/) at the [Faculty of Technical Sciences](https://ftn.uns.ac.rs/). Open-source code from the group is on [github.com/robotics-ftn](https://github.com/robotics-ftn)."
       primary_action:
         text: Explore Research
