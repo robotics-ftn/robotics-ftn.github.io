@@ -386,8 +386,8 @@ works:
 
   - id: eurobot-2025
     title:
-      en: Eurobot 2025 competition robot
-      sr: Takmičarski robot Eurobot 2025
+      en: Eurobot competition robot
+      sr: Takmičarski robot Eurobot
     themes: [mobile-robotics, perception-tactile-sensing]
     status: completed
     years: "2025"
@@ -399,8 +399,8 @@ works:
           en: Mobile robot on the competition field
           sr: Mobilni robot na takmičarskom polju
     summary:
-      en: For Eurobot 2025 we built a mobile robot that finds and picks up game objects on its own. Its camera-based detector (YOLO) was trained mainly on images generated in a virtual copy of the game table in Unreal Engine, under many lighting conditions and object positions, and it reliably detects the objects the robot must handle.
-      sr: Za Eurobot 2025 smo napravili mobilnog robota koji sam pronalazi i pokuplja predmete igre. Detektor na kameri (YOLO) obučen je uglavnom na slikama iz virtuelne kopije stola u Unreal Engine-u, pri različitim osvetljenjima i položajima, i pouzdano prepoznaje predmete koje robot mora da uhvati.
+      en: For the Eurobot competition we built a mobile robot that finds and picks up game objects on its own. Its camera-based detector (YOLO) was trained mainly on images generated in a virtual copy of the game table in Unreal Engine, under many lighting conditions and object positions, and it reliably detects the objects the robot must handle.
+      sr: Za takmičenje Eurobot smo napravili mobilnog robota koji sam pronalazi i pokuplja predmete igre. Detektor na kameri (YOLO) obučen je uglavnom na slikama iz virtuelne kopije stola u Unreal Engine-u, pri različitim osvetljenjima i položajima, i pouzdano prepoznaje predmete koje robot mora da uhvati.
 
   - id: omni-slam
     title:
