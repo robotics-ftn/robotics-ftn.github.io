@@ -172,6 +172,16 @@ html.dark .rl-hero-cinematic img {
 }
 
 /* High-contrast CTAs */
+.hbx-block-hero p a {
+  color: var(--rl-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.hbx-block-hero p a:hover {
+  color: var(--rl-accent-2);
+}
+
 .hbx-block-hero a[class*="rounded-full"],
 .hbx-block-cta-card a,
 a[class*="from-primary"] {

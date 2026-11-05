@@ -9,18 +9,7 @@ sections:
     content:
       eyebrow: Robotika@FTN · Novi Sad
       title: '[Roboti koji se kreću, hvataju i sarađuju] sa ljudima'
-      text: |
-        Razvijamo humanoidne platforme, okretne ruke, robotsku manipulaciju i mobilnu robotiku — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka.
-
-        Istraživačka grupa za robotiku na FTN-u deo je [Katedre za mehatroniku, robotiku i automatizaciju](https://mehatronika.ftn.uns.ac.rs/) na [Fakultetu tehničkih nauka](https://ftn.uns.ac.rs/). Kod otvorenog koda grupe je na [github.com/robotics-ftn](https://github.com/robotics-ftn).
-      announcement:
-        badge:
-          text: FTN
-          color: primary
-        text: "Katedra za mehatroniku, robotiku i automatizaciju"
-        link:
-          text: Pridružite se grupi
-          url: /join/
+      text: "Razvijamo humanoidne platforme, okretne ruke, robotsku manipulaciju i mobilnu robotiku — od primitiva bipedalne lokomocije do interakcije čovek–robot vođene pogledom — testirane na hardveru Fakulteta tehničkih nauka. Istraživačka grupa za robotiku na FTN-u deo je [Katedre za mehatroniku, robotiku i automatizaciju](https://mehatronika.ftn.uns.ac.rs/) na [Fakultetu tehničkih nauka](https://ftn.uns.ac.rs/). Kod otvorenog koda grupe je na [github.com/robotics-ftn](https://github.com/robotics-ftn)."
       primary_action:
         text: Istraživanja
         url: /research/
