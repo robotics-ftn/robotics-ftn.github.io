@@ -38,7 +38,7 @@
   <p class="rl-research-lede">{{ partial "research/text.html" (dict "lang" $lang "obj" $theme.intro) }}</p>
   {{- end -}}
 
-  <div class="rl-status-h"><span>{{ i18n "research_ongoing" }}</span><span>{{ len $ongoing }}</span></div>
+  <h2 class="rl-pubs-year">{{ i18n "research_ongoing" }}</h2>
   {{- if $ongoing -}}
     {{- range $ongoing -}}
       {{ partial "research/work-row.html" (dict "work" . "lang" $lang "ctx" $tid) }}
@@ -47,7 +47,7 @@
     <p class="rl-work-empty">{{ i18n "research_empty_ongoing" }}</p>
   {{- end -}}
 
-  <div class="rl-status-h"><span>{{ i18n "research_completed" }}</span><span>{{ len $completed }}</span></div>
+  <h2 class="rl-pubs-year">{{ i18n "research_completed" }}</h2>
   {{- if $completed -}}
     {{- range $completed -}}
       {{ partial "research/work-row.html" (dict "work" . "lang" $lang "ctx" $tid) }}
@@ -57,7 +57,7 @@
   {{- end -}}
 
   {{- if $other -}}
-  <div class="rl-status-h"><span>{{ i18n "research_other_works" }}</span><span>{{ len $other }}</span></div>
+  <h2 class="rl-pubs-year">{{ i18n "research_other_works" }}</h2>
     {{- range $other -}}
       {{ partial "research/work-row.html" (dict "work" . "lang" $lang "ctx" $tid) }}
     {{- end -}}
