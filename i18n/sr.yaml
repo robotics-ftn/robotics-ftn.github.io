@@ -75,6 +75,12 @@
 - id: research_themes
   translation: Teme
 
+- id: research_projects
+  translation: Projekti
+
+- id: research_project_completed
+  translation: Završen
+
 - id: research_funded
   translation: Finansirani projekti
 

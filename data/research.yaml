@@ -488,60 +488,55 @@ extra_papers:
   perception-tactile-sensing:
     - embodied-visual-perception-2025
 
-grants:
+# Landing projects list — same seven CV entries as before the mockup rebuild.
+# Not linked to the work-row inventory.
+projects:
   - years: "2021–2022"
     title:
-      en: Meta-Cobots
-      sr: Meta-Cobots
+      en: "Meta-Cobots: Human-Robot Interaction in Synthetic Environment"
+      sr: "Meta-Cobots: interakcija čovek–robot u sintetičkom okruženju"
     funder:
-      en: Epic MegaGrant
-      sr: Epic MegaGrant
-    work: meta-cobots
+      en: Epic Megagrant
+      sr: Epic Megagrant
   - years: "2020–2021"
     title:
-      en: Voice-controlled logistics in meat production
-      sr: Glasovno upravljana logistika u proizvodnji mesa
+      en: Voice-controlled logistic system for automation in meat production
+      sr: Glasovno vođen logistički sistem za automatizaciju u proizvodnji mesa
     funder:
-      en: H2020 L4MS 767642
-      sr: H2020 L4MS 767642
-    work: voice-logistics
+      en: H2020 Smart Logistics for Manufacturing L4MS 767642
+      sr: H2020 Smart Logistics for Manufacturing L4MS 767642
   - years: "2019–2021"
     title:
       en: Three-Finger HRC Robotic Hand
       sr: Troprsta HRC robotska ruka
     funder:
-      en: Innovation Fund of Serbia
-      sr: Fond za inovacionu delatnost Republike Srbije
-    work: three-finger-hand
+      en: Innovation funds of Serbia grant
+      sr: Grant Fonda za inovacije Republike Srbije
   - years: "2018"
     title:
       en: Deep learning for 3D gaze estimation
       sr: Duboko učenje za 3D procenu pogleda
     funder:
-      en: NVIDIA GPU grant
-      sr: NVIDIA GPU grant
-    work: gaze-estimation-3d
+      en: NVidia GPU grant
+      sr: NVidia GPU grant
   - years: "2017–2018"
     title:
       en: "ACTICIPATE: Action Understanding in Human and Robot Dyadic Interaction"
       sr: "ACTICIPATE: razumevanje akcija u dijadnoj interakciji čovek–robot"
     funder:
-      en: "H2020-MSCA-IF-2016, 752611"
-      sr: "H2020-MSCA-IF-2016, 752611"
-    work: nonverbal-cues
+      en: "H2020-MSCA-IF-2016, Project ID 752611"
+      sr: "H2020-MSCA-IF-2016, Project ID 752611"
   - years: "2016–2017"
     title:
-      en: Control of bimanual physical HRI for rehabilitation and industrial services
-      sr: Upravljanje bimanuelnom fizičkom interakcijom čovek–robot za rehabilitaciju i industriju
+      en: Control of bimanual physical human-robot interaction for rehabilitation and industrial services
+      sr: Upravljanje bimanualnom fizičkom interakcijom čovek–robot za rehabilitaciju i industrijske usluge
     funder:
-      en: Bilateral UNS–JSI
-      sr: Bilateralni UNS–JSI
-    work: compliant-movement-primitives
+      en: PI on UNS side, bilateral UNS–JSI
+      sr: PI sa strane UNS, bilateralni projekat UNS–JSI
   - years: "2011–2020"
     title:
-      en: Robot as Assistive Technology for Children with Developmental Disorders
-      sr: Robot kao asistentna tehnologija za decu sa razvojnim poremećajima
+      en: Design of Robot as Assistive Technology in Treatment of Children with Developmental Disorders
+      sr: Projektovanje robota kao asistivne tehnologije u tretmanu dece sa smetnjama u razvoju
     funder:
-      en: Science Fund of Serbia, III44008
-      sr: Fond za nauku Republike Srbije, III44008
-    work: robot-marko
+      en: Scientific fund of Serbia, Project III44008
+      sr: Scientific fund of Serbia, projekat III44008

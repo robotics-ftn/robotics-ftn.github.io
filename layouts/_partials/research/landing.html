@@ -1,30 +1,8 @@
 {{- $lang := .Lang -}}
 {{- $data := site.Data.research -}}
 <div class="rl-research">
-  <h1 class="rl-research-h">{{ .Title }}</h1>
+  <h1 class="sr-only">{{ .Title }}</h1>
   <p class="rl-research-lede">{{ partial "research/text.html" (dict "lang" $lang "obj" $data.lede) | markdownify }}</p>
-
-  {{- $ongoing := slice -}}
-  {{- range $data.works -}}
-    {{- if eq .status "ongoing" -}}{{ $ongoing = $ongoing | append . }}{{- end -}}
-  {{- end -}}
-
-  <h2 class="rl-research-sec">{{ i18n "research_ongoing_highlights" }} <small>{{ i18n "research_n_works" (dict "Count" (len $ongoing)) }}</small></h2>
-  <div class="rl-hl-strip">
-    {{- range $ongoing -}}
-      {{- $w := . -}}
-      {{- $theme := partial "research/find-theme.html" (index $w.themes 0) -}}
-      {{- $theme_name := partial "research/text.html" (dict "lang" $lang "obj" $theme.name) -}}
-      {{- $href := partial "research/work-href.html" (dict "work" $w) -}}
-      <a class="rl-hl" href="{{ $href }}">
-        {{ partial "research/media.html" (dict "work" $w "lang" $lang "variant" "highlight") }}
-        <span>
-          <h3>{{ partial "research/text.html" (dict "lang" $lang "obj" $w.title) }}</h3>
-          <p>{{ $theme_name }}</p>
-        </span>
-      </a>
-    {{- end -}}
-  </div>
 
   <h2 class="rl-research-sec">{{ i18n "research_themes" }}</h2>
   <div class="rl-theme-cards">
@@ -64,24 +42,18 @@
     {{- end -}}
   </div>
 
-  <h2 class="rl-research-sec" id="projects">{{ i18n "research_funded" }} <small>{{ i18n "research_funded_note" }}</small></h2>
-  <ol class="rl-grant-tl">
-    {{- range $data.grants -}}
-      {{- $g := . -}}
-      {{- $w := partial "research/find-work.html" $g.work -}}
-      {{- $href := "" -}}
-      {{- $wtitle := "" -}}
-      {{- if $w -}}
-        {{- $href = partial "research/work-href.html" (dict "work" $w) -}}
-        {{- $wtitle = partial "research/text.html" (dict "lang" $lang "obj" $w.title) -}}
-      {{- end -}}
+  <h2 class="rl-research-sec" id="projects">{{ i18n "research_projects" }}</h2>
+  <div class="rl-projects">
+    <ol class="rl-project-list">
+      {{- range $data.projects -}}
       <li>
-        <span class="rl-grant-yr">{{ $g.years }}</span>
-        <span>
-          <div class="rl-grant-name">{{ partial "research/text.html" (dict "lang" $lang "obj" $g.title) }}</div>
-          <div class="rl-grant-work">{{ partial "research/text.html" (dict "lang" $lang "obj" $g.funder) }}{{ if $href }} · <a href="{{ $href }}">{{ $wtitle }}</a>{{ end }}</div>
-        </span>
+        <span class="rl-project-years">{{ .years }} <span class="rl-project-status">{{ i18n "research_project_completed" }}</span></span>
+        <div>
+          <h3 class="rl-project-title">{{ partial "research/text.html" (dict "lang" $lang "obj" .title) }}</h3>
+          <p class="rl-project-meta">{{ partial "research/text.html" (dict "lang" $lang "obj" .funder) }}</p>
+        </div>
       </li>
-    {{- end -}}
-  </ol>
+      {{- end -}}
+    </ol>
+  </div>
 </div>

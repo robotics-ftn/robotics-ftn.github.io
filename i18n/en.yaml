@@ -16,6 +16,12 @@
 - id: research_themes
   translation: Themes
 
+- id: research_projects
+  translation: Projects
+
+- id: research_project_completed
+  translation: Completed
+
 - id: research_funded
   translation: Funded projects
 

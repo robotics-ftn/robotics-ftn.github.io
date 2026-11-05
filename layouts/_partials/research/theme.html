@@ -33,14 +33,7 @@
 {{- $paper_pages = sort $paper_pages "Date" "desc" -}}
 
 <div class="rl-research">
-  <nav class="rl-crumbs" aria-label="Breadcrumb">
-    {{- with site.GetPage "/research" -}}
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    {{- end -}}
-    <span>/</span>
-    <span>{{ .Title }}</span>
-  </nav>
-  <h1 class="rl-research-h">{{ .Title }}</h1>
+  <h1 class="sr-only">{{ .Title }}</h1>
   {{- if $theme -}}
   <p class="rl-research-lede">{{ partial "research/text.html" (dict "lang" $lang "obj" $theme.intro) }}</p>
   {{- end -}}

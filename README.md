@@ -13,7 +13,7 @@ Built with [Hugo](https://gohugo.io/) + [Hugo Blox Academic](https://hugoblox.co
 | Route | Content |
 | --- | --- |
 | `/` or `/sr/` | Cinematic hero, research pillars, featured publications |
-| `…/research/` | Theme cards, ongoing highlights, and a funded-project timeline; each theme lists works as media\|text rows (ongoing / completed). One full work page: bimanual catching |
+| `…/research/` | Theme cards and the seven funded PI projects (years, Completed, funder). Theme pages list works as media\|text rows. One full work page: bimanual catching |
 | `…/publications/` | Compact year-grouped list (Intent Lab style) with one still photo per paper, `paper | pdf | cite` (publisher, hosted PDF when present, BibTeX) |
 | `…/people/` | Founder, faculty, teaching assistants, students, staff, alumni |
 | `…/lab/` | MARKO, FTN hand, industrial cells |
